@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+
+tools:context="anoop.myprojects.gec_sfi.Home">
+
+<!-- TODO: Update blank fragment layout -->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabLayout"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:layout_gravity="bottom"
+        app:tabTextAppearance="@style/MyTabStyle"
+
+        android:background="@color/colorPrimaryDark" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewPager"
+
+        />
+
+</LinearLayout>
+<!--
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/DigitalDiary"
+    android:id="@+id/textView"
+    android:textAlignment="center"
+    android:textColor="@android:color/white"
+    android:textSize="35sp"
+    android:layout_marginTop="40dp"
+    android:textStyle="bold" />
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/BusTime"
+    android:textSize="25sp"
+    android:id="@+id/btnBusTime"
+    android:layout_marginTop="140dp"
+    android:textAlignment="center"
+    android:textColor="#14f51f"
+    android:textStyle="bold"
+    android:background="?attr/colorControlHighlight" />
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/LocalNumbers"
+    android:textSize="25sp"
+    android:id="@+id/btnLocalNumbers"
+    android:layout_marginTop="200dp"
+    android:textAlignment="center"
+    android:textColor="#14f51f"
+    android:textStyle="bold"
+    android:background="?attr/colorControlHighlight"
+    />
+
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/train"
+    android:textSize="25sp"
+    android:id="@+id/btnTraintime"
+    android:layout_marginTop="260dp"
+    android:textAlignment="center"
+    android:textColor="#14f51f"
+    android:textStyle="bold"
+    android:background="?attr/colorControlHighlight" />
+-->
+</FrameLayout>
+

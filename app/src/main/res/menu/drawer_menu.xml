@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/info"
+
+            android:title="@string/info"/>
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/users"
+            android:title="@string/aboutus"/>
+        <item
+            android:id="@+id/nav_facilities"
+            android:icon="@drawable/facilities"
+            android:title="Facilities"/>
+
+        <item
+            android:id="@+id/nav"
+            android:checkable="false"
+            android:enabled="false"
+            android:title="Department Labs"/>
+
+        <item
+            android:id="@+id/nav_cse"
+            android:icon="@drawable/cslab"
+            android:title="CSE"/>
+        <item
+            android:id="@+id/nav_ece"
+            android:icon="@drawable/ece"
+            android:title="ECE"/>
+        <item
+            android:id="@+id/nav_eee"
+            android:icon="@drawable/electric"
+            android:title="EEE"/>
+        <item
+            android:id="@+id/nav_it"
+            android:icon="@drawable/it"
+            android:title="IT"/>
+        <item
+            android:id="@+id/nav_me"
+            android:icon="@drawable/mech"
+            android:title="MECH"/>
+
+    </group>
+
+
+    <!--item
+        android:id="@+id/nav_civil"
+        android:icon="@drawable/civil"
+        android:title="Civil" />
+    <item
+        android:id="@+id/nav_che"
+        android:icon="@drawable/che"
+        android:title="Chemistry" />
+    <item
+        android:id="@+id/nav_phy"
+        android:icon="@drawable/phy"
+        android:title="Physics" /-->
+
+
+
+    <item android:title="KTU">
+        <menu>
+            <item
+                android:id="@+id/nav_syllabus"
+                android:icon="@drawable/syl"
+                android:title="KTU Syllabus" />
+            <item
+                android:id="@+id/nav_Ktu_portal"
+                android:icon="@drawable/ktuweb"
+                android:title="KTU Login" />
+            <item
+                android:id="@+id/nav_Ktu_clg_portal"
+                android:icon="@drawable/login"
+                android:title="KTU College Login" />
+
+
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="College">
+        <menu>
+            <item
+                android:id="@+id/nav_collegeweb"
+                android:icon="@drawable/domain"
+                android:title="@string/CollegeWebsite" />
+            <item
+                android:id="@+id/nav_collegemagazine"
+                android:icon="@drawable/news"
+                android:title="@string/CollegeMagazine" />
+            <item
+                android:id="@+id/nav_invento"
+                android:icon="@drawable/teq"
+                android:title="Invento" />
+        </menu>
+    </item>
+
+
+
+    <item android:title="Request">
+        <menu>
+            <item
+                android:id="@+id/nav_formats"
+                android:icon="@drawable/req"
+                android:title="Request Formats" />
+        </menu>
+    </item>
+    <item android:title="SFI Unit">
+        <menu>
+            <item
+                android:id="@+id/nav_sfiunit"
+                android:icon="@drawable/sfiico"
+                android:title="SFI Unit" />
+            <item
+                android:id="@+id/nav_joinus"
+                android:icon="@drawable/wtappng"
+                android:title="Join Us Now" />
+        </menu>
+    </item>
+
+
+    <item android:title="Communicate">
+         <menu>
+             <item
+                 android:id="@+id/nav_watsapp"
+                 android:icon="@drawable/message"
+                 android:title="Whatsapp Me" />
+             <item
+                 android:id="@+id/nav_Facebook"
+                 android:icon="@drawable/ic_menu_send"
+                 android:title="@string/feedback" />
+         </menu>
+     </item>
+
+
+
+</menu>
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/info"
+            android:title="@string/info" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/users"
+            android:title="@string/aboutus" />
+    </group>
+    <item android:title="College">
+        <menu>
+            <item
+                android:id="@+id/nav_collegeweb"
+                android:icon="@drawable/domain"
+                android:title="@string/CollegeWebsite" />
+            <item
+                android:id="@+id/nav_collegemagazine"
+                android:icon="@drawable/news"
+                android:title="@string/CollegeMagazine" />
+        </menu>
+    </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Facebook"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/feedback" />
+
+        </menu>
+    </item>
+
+
+</menu>
+-->
