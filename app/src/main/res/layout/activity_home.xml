@@ -5,85 +5,103 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/activity_home"
+    android:background="#ffffff"
     tools:context="anoop.myprojects.gec_sfi.HomeActivity">
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="180dp"
-        android:src="@drawable/logos"
-        android:id="@+id/imageView9"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="0dp" />
 
 
-    <ImageView
-        android:layout_width="230dp"
-        android:layout_height="230dp"
-        android:src="@drawable/bg"
-        android:id="@+id/imageView8"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="60dp"
-        android:layout_marginBottom="-50dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
         android:orientation="vertical"
-        android:layout_marginTop="170dp"
-        android:layout_alignParentTop="true"
-        android:gravity="center_horizontal"
-        >
+        android:layout_marginTop="150dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_height="match_parent">
+
 
         <Button
-            android:text="Enquiry"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:id="@+id/enquiry"
-            android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:textColor="#03e9f5"
+            android:layout_width="252dp"
+            android:layout_height="50dp"
+            android:text="Events"
+            android:textSize="20sp"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:fontFamily="@font/robotoregular"
             android:textAllCaps="false"
             android:onClick="Enquiry"
-            android:background="@drawable/button1"/>
+            android:background="@drawable/btnbackcse"
+            android:drawableLeft="@drawable/ic_events"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_events"/>
         <Button
+            android:layout_width="252dp"
+            android:layout_height="50dp"
+            android:text="Enquiry"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="20sp"
+            android:gravity="left|center"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:background="@drawable/btnbackcse"
+            android:drawableLeft="@drawable/ic_enquiry"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_enquiry"/>
+        <Button
+            android:layout_width="252dp"
+            android:layout_height="50dp"
             android:text="Facilities"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:id="@+id/facilities"
-            android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:textColor="#9c28b1"
-            android:onClick="Facilities"
+            android:fontFamily="@font/robotoregular"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:gravity="left|center"
+            android:padding="10dp"
             android:textAllCaps="false"
-            android:background="@drawable/button2"/>
+            android:background="@drawable/btnbackcse"
+            android:drawableLeft="@drawable/ic_facilities"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_facilities"/>
         <Button
+            android:layout_width="252dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
             android:text="Union"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:id="@+id/union"
-            android:textStyle="bold"
-            android:layout_marginTop="10dp"
-            android:onClick="Union"
-            android:textColor="#e51c23"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="20sp"
+            android:gravity="left|center"
+            android:padding="10dp"
             android:textAllCaps="false"
-            android:background="@drawable/button3"/>
-        <Button
-            android:text="Credits"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:id="@+id/credits"
-            android:layout_marginTop="10dp"
-            android:textStyle="bold"
-            android:onClick="Credit"
-            android:textColor="#fe5722"
-            android:textAllCaps="false"
-            android:background="@drawable/button4"
+            android:background="@drawable/btnbackcse"
+            android:drawableLeft="@drawable/ic_union"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_union"/>
 
-            />
+        <Button
+            android:layout_width="252dp"
+            android:layout_height="50dp"
+            android:text="Credits"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/robotoregular"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:background="@drawable/btnbackcse"
+            android:drawableLeft="@drawable/ic_credits"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="9dp"
+            android:drawableStart="@drawable/ic_credits"/>
+
+
+
+
+
+
 
     </LinearLayout>
+
+
+
+
 
 </RelativeLayout>

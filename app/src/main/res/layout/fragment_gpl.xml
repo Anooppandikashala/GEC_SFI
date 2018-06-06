@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="anoop.myprojects.gec_sfi.Gpl">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="200dp"
+            android:layout_margin="40dp"
+            android:src="@drawable/logos" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:fontFamily="@font/robotoregular"
+            android:textStyle="bold"
+            android:text="GPL '17"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:fontFamily="@font/robotoregular"
+            android:textStyle="normal"
+            android:text="Venue: Covernment Engineering College\n        Sreekrishnapuram,   Palakkad"/>
+        <TextView
+            android:layout_width="256dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:fontFamily="@font/robotoregular"
+            android:textStyle="normal"
+            android:background="@drawable/btnbackcseyellow"
+            android:text="Explore"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

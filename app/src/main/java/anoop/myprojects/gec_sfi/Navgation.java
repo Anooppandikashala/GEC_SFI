@@ -35,8 +35,8 @@ public class Navgation extends AppCompatActivity {
 
         toolbar=(Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        //String mTitle="HOME";
-        // getSupportActionBar().setTitle(mTitle);
+        String mTitle=" ";
+         getSupportActionBar().setTitle(mTitle);
 
         drawerLayout=(DrawerLayout)findViewById(R.id.activity_navgation);
 
@@ -47,7 +47,7 @@ public class Navgation extends AppCompatActivity {
             System.out.println("Super Macha");
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-            Home ldf = new Home();
+            Events ldf = new Events();
             Bundle args = new Bundle();
             args.putString("message", "enquery");
             ldf.setArguments(args);
@@ -55,7 +55,7 @@ public class Navgation extends AppCompatActivity {
 
             fragmentTransaction.add(R.id.main_container,ldf);
             fragmentTransaction.commit();
-            getSupportActionBar().setTitle("Enquiry");
+            //getSupportActionBar().setTitle("Enquiry");
 
         }
 

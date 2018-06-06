@@ -25,42 +25,12 @@ public class HomeActivity extends AppCompatActivity {
 
     }
 
-    public void Enquiry(View view){
+    public void Enquiry(View view) {
         /*Intent i = new Intent(this, Palakkad.class);
         startActivity(i);*/
-        msg="enq";
+        msg = "enq";
         System.out.println("hello");
-        Intent intent=new Intent(HomeActivity.this,Navgation.class);
-        intent.putExtra("message", msg);
-
-        startActivity(intent);
-    }
-    public void Facilities(View view){
-        /*Intent i = new Intent(this, Palakkad.class);
-        startActivity(i);*/
-        msg="fac";
-        System.out.println("hello");
-        Intent intent=new Intent(HomeActivity.this,Navgation.class);
-        intent.putExtra("message", msg);
-
-        startActivity(intent);
-    }
-    public void Union(View view){
-        /*Intent i = new Intent(this, Palakkad.class);
-        startActivity(i);*/
-        msg="uni";
-        System.out.println("hello");
-        Intent intent=new Intent(HomeActivity.this,Navgation.class);
-        intent.putExtra("message", msg);
-
-        startActivity(intent);
-    }
-    public void Credit(View view){
-        /*Intent i = new Intent(this, Palakkad.class);
-        startActivity(i);*/
-        msg="crd";
-        System.out.println("hello");
-        Intent intent=new Intent(HomeActivity.this,Navgation.class);
+        Intent intent = new Intent(HomeActivity.this, Navgation.class);
         intent.putExtra("message", msg);
 
         startActivity(intent);
