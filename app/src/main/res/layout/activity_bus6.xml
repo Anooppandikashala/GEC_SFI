@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="anoop.myprojects.gec_sfi.Bus3">
+    tools:context="anoop.myprojects.gec_sfi.Bus6">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             android:fontFamily="@font/robotoregular"
             android:textStyle="bold"
             android:textSize="25sp"
-            android:text="College Bus 3"/>
+            android:text="College Bus 6"/>
         <Spinner
             android:layout_width="match_parent"
             android:layout_marginLeft="50dp"
@@ -31,7 +31,7 @@
             android:layout_gravity="center"
             android:textAlignment="center"
             android:gravity="center"
-            android:id="@+id/spinnerbus3"
+            android:id="@+id/spinnerbus6"
             style="@style/Widget.AppCompat.DropDownItem.Spinner"
             android:layout_height="wrap_content"/>
 
@@ -39,7 +39,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/main_container_bus3"/>
+            android:id="@+id/main_container_bus6"/>
 
 
 

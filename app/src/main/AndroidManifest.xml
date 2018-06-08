@@ -24,7 +24,11 @@
         <activity android:name=".CollegeBus" />
         <activity android:name=".Bus1" />
         <activity android:name=".Bus2" />
-        <activity android:name=".Bus3"></activity>
+        <activity android:name=".Bus3" />
+        <activity android:name=".Bus4" />
+        <activity android:name=".Bus5" />
+        <activity android:name=".Bus6" />
+        <activity android:name=".Linebuses"></activity>
     </application>
 
 </manifest>

@@ -11,7 +11,7 @@ import android.widget.Spinner;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Bus2 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class Bus4 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     Spinner spinnerbus1;
     FragmentTransaction fragmentTransaction;
@@ -19,18 +19,18 @@ public class Bus2 extends AppCompatActivity implements AdapterView.OnItemSelecte
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bus2);
+        setContentView(R.layout.activity_bus4);
 
 
 
 
 
-        spinnerbus1 = (Spinner) findViewById(R.id.spinnerbus2);
-        spinnerbus1.setOnItemSelectedListener(Bus2.this);
+        spinnerbus1 = (Spinner) findViewById(R.id.spinnerbus4);
+        spinnerbus1.setOnItemSelectedListener(Bus4.this);
 
         List<String> categories = new ArrayList<String>();
         categories.add("Towards College");
-        categories.add("Towards Kadambazhipuram");
+        categories.add("Towards Palakkad");
 
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
 
@@ -49,18 +49,18 @@ public class Bus2 extends AppCompatActivity implements AdapterView.OnItemSelecte
             case 0 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-                KTP_to_clg ldf = new KTP_to_clg();
+                PKD_to_clg ldf = new PKD_to_clg();
 
-                fragmentTransaction.replace(R.id.main_container_bus2,ldf);
+                fragmentTransaction.replace(R.id.main_container_bus4,ldf);
                 fragmentTransaction.commit();
                 break;
 
             case 1 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-                KTP_to_clg ldf1 = new KTP_to_clg();
+                PKD_to_clg ldf1 = new PKD_to_clg();
 
-                fragmentTransaction.replace(R.id.main_container_bus2,ldf1);
+                fragmentTransaction.replace(R.id.main_container_bus4,ldf1);
                 fragmentTransaction.commit();
 
                 break;
@@ -75,9 +75,9 @@ public class Bus2 extends AppCompatActivity implements AdapterView.OnItemSelecte
 
         fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-        KTP_to_clg ldf = new KTP_to_clg();
+        PKD_to_clg ldf = new PKD_to_clg();
 
-        fragmentTransaction.add(R.id.main_container_bus2,ldf);
+        fragmentTransaction.add(R.id.main_container_bus4,ldf);
         fragmentTransaction.commit();
 
     }

@@ -56,7 +56,7 @@
                             android:layout_width="match_parent"
                             android:layout_marginTop="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Towars Mannarkkad"
+                            android:text="Towards Mannarkkad"
                             android:paddingLeft="98dp"
                             android:gravity="left|center_vertical"
                             android:fontFamily="@font/robotoregular"
@@ -76,7 +76,7 @@
                 </LinearLayout>
                 <View
                     android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5"
                     />
@@ -117,7 +117,7 @@
                             android:layout_width="match_parent"
                             android:layout_marginTop="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Towars Kadambazhippuram"
+                            android:text="Towards Kadambazhippuram"
                             android:paddingLeft="98dp"
                             android:gravity="left|center_vertical"
                             android:fontFamily="@font/robotoregular"
@@ -137,7 +137,7 @@
                 </LinearLayout>
                 <View
                     android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5"
                     />
@@ -178,7 +178,7 @@
                             android:layout_width="match_parent"
                             android:layout_marginTop="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Towars Palakkad(via Tharekkad)"
+                            android:text="Towards Palakkad(via Tharekkad)"
                             android:paddingLeft="98dp"
                             android:gravity="left|center_vertical"
                             android:fontFamily="@font/robotoregular"
@@ -198,7 +198,7 @@
                 </LinearLayout>
                 <View
                     android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5"
                     />
@@ -240,7 +240,7 @@
                             android:layout_width="match_parent"
                             android:layout_marginTop="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Towars Palakkad"
+                            android:text="Towards Palakkad"
                             android:paddingLeft="98dp"
                             android:gravity="left|center_vertical"
                             android:fontFamily="@font/robotoregular"
@@ -260,7 +260,7 @@
                 </LinearLayout>
                 <View
                     android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5"
                     />
@@ -301,7 +301,7 @@
                             android:layout_width="match_parent"
                             android:layout_marginTop="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Towars Cherpulassery"
+                            android:text="Towards Cherpulassery"
                             android:paddingLeft="98dp"
                             android:gravity="left|center_vertical"
                             android:fontFamily="@font/robotoregular"
@@ -321,7 +321,7 @@
                 </LinearLayout>
                 <View
                     android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5"
                     />
@@ -362,7 +362,7 @@
                             android:layout_width="match_parent"
                             android:layout_marginTop="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Towars Shornur"
+                            android:text="Towards Shornur"
                             android:paddingLeft="98dp"
                             android:gravity="left|center_vertical"
                             android:fontFamily="@font/robotoregular"
@@ -382,7 +382,7 @@
                 </LinearLayout>
                 <View
                     android:layout_height="2dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5"
                     />

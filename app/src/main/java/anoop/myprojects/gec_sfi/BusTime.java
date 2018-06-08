@@ -45,7 +45,7 @@ public class BusTime extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getContext(),CollegeBus.class);
+                Intent intent = new Intent(getContext(),Linebuses.class);
                 startActivity(intent);
 
 

@@ -30,7 +30,7 @@ public class CollegeBus extends AppCompatActivity {
     }
     public void busThree(View view){
 
-        Intent intent = new Intent(CollegeBus.this,Bus1.class);
+        Intent intent = new Intent(CollegeBus.this,Bus3.class);
         startActivity(intent);
 
 
@@ -38,7 +38,7 @@ public class CollegeBus extends AppCompatActivity {
     }
     public void busFour(View view){
 
-        Intent intent = new Intent(CollegeBus.this,Bus1.class);
+        Intent intent = new Intent(CollegeBus.this,Bus4.class);
         startActivity(intent);
 
 
@@ -46,7 +46,7 @@ public class CollegeBus extends AppCompatActivity {
     }
     public void busFive(View view){
 
-        Intent intent = new Intent(CollegeBus.this,Bus1.class);
+        Intent intent = new Intent(CollegeBus.this,Bus5.class);
         startActivity(intent);
 
 
@@ -54,7 +54,7 @@ public class CollegeBus extends AppCompatActivity {
     }
     public void busSix(View view){
 
-        Intent intent = new Intent(CollegeBus.this,Bus1.class);
+        Intent intent = new Intent(CollegeBus.this,Bus6.class);
         startActivity(intent);
 
 
