@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anoop.myprojects.gec_sfi.CollegeBus">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/bustimecoverbg"
+                android:layout_height="150dp">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:onClick="busOne"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="0.9"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="College Bus 1"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="25dp"
+                            android:drawablePadding="20dp"
+                            android:drawableLeft="@drawable/ic_bus_1"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Towars Mannarkkad"
+                            android:paddingLeft="98dp"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"
+                        android:src="@drawable/ic_chevron_right_black_24dp" />
+                </LinearLayout>
+                <View
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:onClick="busTwo"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="0.9"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="College Bus 2"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="25dp"
+                            android:drawablePadding="20dp"
+                            android:drawableLeft="@drawable/ic_bus_2"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Towars Kadambazhippuram"
+                            android:paddingLeft="98dp"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"
+                        android:src="@drawable/ic_chevron_right_black_24dp" />
+                </LinearLayout>
+                <View
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:onClick="busThree"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="0.9"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="College Bus 3"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="25dp"
+                            android:drawablePadding="20dp"
+                            android:drawableLeft="@drawable/ic_bus_3"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Towars Palakkad(via Tharekkad)"
+                            android:paddingLeft="98dp"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"
+                        android:src="@drawable/ic_chevron_right_black_24dp" />
+                </LinearLayout>
+                <View
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:onClick="busFour"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="0.9"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="College Bus 4"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="25dp"
+                            android:drawablePadding="20dp"
+                            android:drawableLeft="@drawable/ic_bus_4"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Towars Palakkad"
+                            android:paddingLeft="98dp"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"
+                        android:src="@drawable/ic_chevron_right_black_24dp" />
+                </LinearLayout>
+                <View
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:onClick="busFive"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="0.9"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="College Bus 5"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="25dp"
+                            android:drawablePadding="20dp"
+                            android:drawableLeft="@drawable/ic_bus_5"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Towars Cherpulassery"
+                            android:paddingLeft="98dp"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"
+                        android:src="@drawable/ic_chevron_right_black_24dp" />
+                </LinearLayout>
+                <View
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:onClick="busSix"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="0.9"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="College Bus 6"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="25dp"
+                            android:drawablePadding="20dp"
+                            android:drawableLeft="@drawable/ic_bus_6"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Towars Shornur"
+                            android:paddingLeft="98dp"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"
+                        android:src="@drawable/ic_chevron_right_black_24dp" />
+                </LinearLayout>
+                <View
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

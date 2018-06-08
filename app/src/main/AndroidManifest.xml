@@ -20,7 +20,11 @@
         <activity android:name=".HomeActivity" />
         <activity android:name=".pdfview" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".GPL_Explore"></activity>
+        <activity android:name=".GPL_Explore" />
+        <activity android:name=".CollegeBus" />
+        <activity android:name=".Bus1" />
+        <activity android:name=".Bus2" />
+        <activity android:name=".Bus3"></activity>
     </application>
 
 </manifest>
