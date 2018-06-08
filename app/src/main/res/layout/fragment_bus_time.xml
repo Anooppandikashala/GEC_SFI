@@ -1,0 +1,218 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="anoop.myprojects.gec_sfi.BusTime">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/bustimeoptimised"
+            android:layout_height="410dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_height="410dp"
+                android:id="@+id/imageView3"
+                />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignBottom="@+id/imageView3"
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+                android:layout_marginBottom="159dp"
+                android:src="@drawable/ic_slider_icon_right_enq"
+                />
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignBottom="@+id/imageView3"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                android:layout_marginBottom="159dp"
+                android:src="@drawable/ic_slider_left_icon_hos"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="3"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Hospitals"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="8sp"
+                        android:textColor="#CCffffff"
+                        android:textStyle="bold"
+
+
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bus Time"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="12sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+
+
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="General Enquiry"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="8sp"
+                        android:textColor="#CCffffff"
+                        android:textStyle="bold"
+
+
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+                <!--GridLayout
+                    android:layout_width="match_parent"
+                    android:columnCount="3"
+                    android:rowCount="1"
+                    android:layout_weight="3"
+                    android:padding="2dp"
+                    android:layout_gravity="top"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bus Time"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="12sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+
+
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="General Enquiry"
+                        android:layout_columnWeight="1"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="16sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+
+
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Train Time"
+                        android:layout_columnWeight="1"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="12sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+
+
+                        />
+
+                </GridLayout-->
+                <View
+                    android:layout_width="match_parent"
+                    android:padding="3.5dp"
+                    android:layout_height="20dp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:fontFamily="@font/robotoregular"
+                android:textStyle="normal"
+                android:background="@drawable/btnbackcseblue"
+                android:text="College Bus"/>
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:fontFamily="@font/robotoregular"
+                android:textStyle="normal"
+                android:background="@drawable/btnbackcseblue"
+                android:text="Line Bus"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

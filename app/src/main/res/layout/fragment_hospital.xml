@@ -1,0 +1,261 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        tools:context="anoop.myprojects.gec_sfi.Hospital">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/hospitalenquiryoptimised"
+                android:layout_height="410dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_height="410dp"
+                    android:id="@+id/imageView3"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_alignBottom="@+id/imageView3"
+
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginBottom="159dp"
+                    android:src="@drawable/ic_slider_right_icon_bus"
+                    />
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_alignBottom="@+id/imageView3"
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_marginBottom="159dp"
+                    android:src="@drawable/ic_slider_left_icon_train"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:weightSum="3"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="Train Time"
+                            android:gravity="center"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="8sp"
+                            android:textColor="#CCffffff"
+                            android:textStyle="bold"
+
+
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="Hospitals"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="12sp"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold"
+
+
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="Bus Time"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="8sp"
+                            android:textColor="#CCffffff"
+                            android:textStyle="bold"
+
+
+                            />
+
+
+
+
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:padding="3.5dp"
+                        android:layout_height="20dp"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="Medical college Mangode"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="25dp"
+                            android:drawablePadding="20dp"
+                            android:drawableLeft="@drawable/ic_hospital"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="0466-2344601"
+                            android:paddingLeft="98dp"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+
+                            />
+                        <View
+                            android:layout_height="2dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:background="#b0bec5"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sreekrishnapuram Hospital"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="25dp"
+                            android:drawablePadding="20dp"
+                            android:drawableLeft="@drawable/ic_hospital"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="0466-2260198"
+                            android:paddingLeft="98dp"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+
+                            />
+                        <View
+                            android:layout_height="2dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:background="#b0bec5"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="PKM Ayurveda Hospital"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="25dp"
+                            android:drawablePadding="20dp"
+                            android:drawableLeft="@drawable/ic_hospital"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="0466-2260193"
+                            android:paddingLeft="98dp"
+                            android:gravity="left|center_vertical"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+
+                            />
+                        <View
+                            android:layout_height="2dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:background="#b0bec5"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+
+</FrameLayout>

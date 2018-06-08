@@ -43,11 +43,27 @@ public class Navgation extends AppCompatActivity {
         actionBarDrawerToggle=new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close);
         drawerLayout.setDrawerListener(actionBarDrawerToggle);
 
-        if(msg.equals("enq")){
+        if(msg.equals("event")){
             System.out.println("Super Macha");
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
             Events ldf = new Events();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.add(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+            //getSupportActionBar().setTitle("Enquiry");
+
+        }
+
+        if(msg.equals("enq")){
+            System.out.println("Super Macha");
+            fragmentTransaction=getSupportFragmentManager().beginTransaction();
+
+            Enquiry ldf = new Enquiry();
             Bundle args = new Bundle();
             args.putString("message", "enquery");
             ldf.setArguments(args);

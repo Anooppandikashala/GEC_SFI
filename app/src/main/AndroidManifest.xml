@@ -19,7 +19,8 @@
         <activity android:name=".Navgation" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".pdfview" />
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".GPL_Explore"></activity>
     </application>
 
 </manifest>

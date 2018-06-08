@@ -11,7 +11,9 @@ import java.util.ArrayList;
  * Created by anoop on 25/11/16.
  */
 
-public class ViewPagerAdapterNew extends FragmentPagerAdapter{
+public class ViewPagerAdapterInfinity extends FragmentPagerAdapter{
+
+    public static int LOOPS_COUNT = 100;
 
 
     ArrayList<Fragment> fragments = new ArrayList<>();
@@ -25,20 +27,52 @@ public class ViewPagerAdapterNew extends FragmentPagerAdapter{
     }
 
 
-     public ViewPagerAdapterNew(FragmentManager fm){
+     public ViewPagerAdapterInfinity(FragmentManager fm){
 
         super(fm);
 
     }
     @Override
     public Fragment getItem(int position) {
+
+         System.out.println("Fragment Pos ="+position);
+
+        if (fragments != null && fragments.size() > 0)
+        {
+            position = position % fragments.size(); // use modulo for infinite cycling
+
+        }
+
         return fragments.get(position);
+
+
+         //return fragments.get(position);
     }
 
     @Override
     public int getCount() {
-        return fragments.size();
+
+        if (fragments!= null && fragments.size() > 0)
+        {
+            return fragments.size()*LOOPS_COUNT; // simulate infinite by big number of products
+        }
+        else
+        {
+            return 1;
+        }
+
     }
+
+    /*@Override
+    public int getCount() {
+        return Integer.MAX_VALUE;
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        String title = mTitleList.get(position % mActualTitleListSize);
+        return title;
+    }*/
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
