@@ -120,7 +120,7 @@
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:src="@drawable/ic_instagram"
+                        android:src="@drawable/instagrams"
                         android:layout_height="wrap_content" />
 
                     <ImageView

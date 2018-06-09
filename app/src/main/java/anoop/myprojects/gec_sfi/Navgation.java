@@ -45,6 +45,7 @@ public class Navgation extends AppCompatActivity {
 
         if(msg.equals("event")){
             System.out.println("Super Macha");
+            actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.black));
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
             Events ldf = new Events();

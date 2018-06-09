@@ -6,6 +6,15 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/WhiteDrawerIconStyle</item>
+    </style>
+
+    <style name="AppThemeDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/WhiteDrawerIconStyleDemo</item>
     </style>
 
     <!--style name="MyTabStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title"-->
@@ -14,8 +23,19 @@
 
         <item name="android:textSize">20dp</item>
         <item name="android:color">#000000</item>
+        <item name="drawerArrowStyle">@style/WhiteDrawerIconStyle</item>
 
 
+    </style>
+
+    <style name="WhiteDrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="WhiteDrawerIconStyleDemo" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">#000000</item>
     </style>
 </resources>
 
