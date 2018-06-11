@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="anoop.myprojects.gec_sfi.General_enq">
+    tools:context="anoop.myprojects.gec_sfi.Achievements">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -14,40 +14,18 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="@drawable/enquirybgoptimised"
+            android:background="#ff3399"
             android:layout_height="410dp">
 
             <View
                 android:layout_width="match_parent"
                 android:layout_alignParentTop="true"
+
                 android:layout_height="410dp"
                 android:id="@+id/imageView3"
                 />
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="200dp"
-                android:layout_alignBottom="@+id/imageView3"
 
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-
-                android:layout_marginBottom="159dp"
-                android:src="@drawable/ic_slider_icon_trin"
-                />
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="wrap_content"
-                android:layout_height="200dp"
-                android:layout_alignBottom="@+id/imageView3"
-
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-
-                android:layout_marginBottom="159dp"
-                android:src="@drawable/ic_slider_left_icon_bus"
-                />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -66,7 +44,7 @@
                         android:layout_weight="1"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Bus Time"
+                        android:text="Staffs"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
                         android:textSize="8sp"
@@ -80,7 +58,7 @@
                         android:layout_width="0dp"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="General Enquiry"
+                        android:text="Achievements"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
@@ -94,7 +72,7 @@
                         android:layout_width="0dp"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Train Time"
+                        android:text="Union"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
@@ -164,7 +142,7 @@
 
                         />
 
-                </GridLayout    android:src="@drawable/ic_element"-->
+                </GridLayout-->
                 <View
                     android:layout_width="match_parent"
                     android:padding="3.5dp"
@@ -179,62 +157,33 @@
 
         </RelativeLayout>
 
-        <GridLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:columnCount="1"
-
-            android:rowCount="4">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_marginTop="5dp"
-                android:layout_height="wrap_content"
-                android:text="Office Enquiry"
-                android:gravity="left|center_vertical"
-                android:fontFamily="@font/robotoregular"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:paddingLeft="40dp"
-                android:drawablePadding="20dp"
-                android:drawableLeft="@drawable/ic_office_enquies"
-                />
-
-            <View
-                android:layout_height="1dp"
-                android:layout_marginTop="5dp"
-                android:layout_width="match_parent"
-                android:background="#b0bec5"
-                />
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_marginTop="5dp"
-                android:layout_height="wrap_content"
-                android:text="Scholarship Enquiry"
-                android:gravity="left|center_vertical"
-                android:fontFamily="@font/robotoregular"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:paddingLeft="40dp"
-                android:drawablePadding="20dp"
-                android:drawableLeft="@drawable/ic_scholarship"
-                />
-
-            <View
-                android:layout_height="1dp"
-                android:layout_marginTop="5dp"
-                android:layout_width="match_parent"
-                android:background="#b0bec5"
-                />
+                android:gravity="center"
+                android:fontFamily="@font/robotoregular"
+                android:textStyle="normal"
+                android:background="@drawable/btnbackcsegreen"
+                android:text="Check it Now"/>
 
 
 
-        </GridLayout>
+
+
+
+
+
+        </LinearLayout>
 
 
     </LinearLayout>
-
-
 
 </FrameLayout>

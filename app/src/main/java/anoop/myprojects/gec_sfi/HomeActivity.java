@@ -47,6 +47,18 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void unions(View view) {
+        /*Intent i = new Intent(this, Palakkad.class);
+        startActivity(i);*/
+        msg = "union";
+        System.out.println("hello");
+        Intent intent = new Intent(HomeActivity.this, Navgation.class);
+        intent.putExtra("message", msg);
+
+        startActivity(intent);
+    }
+
+
 
 
     @Override

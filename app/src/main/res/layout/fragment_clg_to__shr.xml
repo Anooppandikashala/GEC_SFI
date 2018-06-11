@@ -1,0 +1,336 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anoop.myprojects.gec_sfi.Clg_to_SHR">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="8 : 00"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="8 : 01"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="8 : 02"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="8 : 05"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="8 : 10"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="8 : 12"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="8 : 14"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="8 : 16"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="8 : 20"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="8 : 25"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="8 : 40"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/robotoregular"
+                    android:gravity="center"
+                    android:text="8 : 42"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="8 : 45"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="8 : 47"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/robotoregular"
+                    android:gravity="center"
+                    android:text="8 : 50"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="9 : 00"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="9 : 25"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.005"
+                android:background="#b0bec5"
+                android:layout_height="match_parent"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.595"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="College"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Cherpulassery"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Kuttikkode"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Trikkadeeri"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Kizhur"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Cherampatta"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Kothakurssi"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Ottapalam"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Valluvanad"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text="Manissery"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text="Thrikkangode"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Vaniyamkulam"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/robotoregular"
+                    android:gravity="left"
+                    android:text="Koonathara"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Kulappully"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text="Shornur Stand"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text="Railway Station"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text="SMP Junction, Shornur"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</FrameLayout>

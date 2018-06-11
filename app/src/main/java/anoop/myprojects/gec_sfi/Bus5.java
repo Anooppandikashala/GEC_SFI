@@ -58,7 +58,7 @@ public class Bus5 extends AppCompatActivity implements AdapterView.OnItemSelecte
             case 1 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-                CPY_to_clg ldf1 = new CPY_to_clg();
+                Clg_to_CPY ldf1 = new Clg_to_CPY();
 
                 fragmentTransaction.replace(R.id.main_container_bus5,ldf1);
                 fragmentTransaction.commit();

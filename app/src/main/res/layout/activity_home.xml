@@ -70,6 +70,8 @@
             android:fontFamily="@font/robotoregular"
             android:textSize="20sp"
             android:gravity="left|center"
+
+            android:onClick="unions"
             android:padding="10dp"
             android:textAllCaps="false"
             android:background="@drawable/btnbackcse"

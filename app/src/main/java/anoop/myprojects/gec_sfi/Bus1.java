@@ -58,7 +58,7 @@ public class Bus1 extends AppCompatActivity implements AdapterView.OnItemSelecte
             case 1 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-                Mkd_to_Clg ldf1 = new Mkd_to_Clg();
+                Clg_to_MKD ldf1 = new Clg_to_MKD();
 
                 fragmentTransaction.replace(R.id.main_container_bus1,ldf1);
                 fragmentTransaction.commit();

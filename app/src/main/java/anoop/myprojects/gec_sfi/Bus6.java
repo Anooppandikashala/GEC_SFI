@@ -58,7 +58,7 @@ public class Bus6 extends AppCompatActivity  implements AdapterView.OnItemSelect
             case 1 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-                SHR_to_clg ldf1 = new SHR_to_clg();
+                Clg_to_SHR ldf1 = new Clg_to_SHR();
 
                 fragmentTransaction.replace(R.id.main_container_bus6,ldf1);
                 fragmentTransaction.commit();

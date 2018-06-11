@@ -58,7 +58,7 @@ public class Bus3 extends AppCompatActivity implements AdapterView.OnItemSelecte
             case 1 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-                PKD_to_clg_tharekkad ldf1 = new PKD_to_clg_tharekkad();
+                Clg_to_PKD_tharekkad ldf1 = new Clg_to_PKD_tharekkad();
 
                 fragmentTransaction.replace(R.id.main_container_bus3,ldf1);
                 fragmentTransaction.commit();

@@ -58,7 +58,7 @@ public class Bus2 extends AppCompatActivity implements AdapterView.OnItemSelecte
             case 1 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-                KTP_to_clg ldf1 = new KTP_to_clg();
+                Clg_to_KTP ldf1 = new Clg_to_KTP();
 
                 fragmentTransaction.replace(R.id.main_container_bus2,ldf1);
                 fragmentTransaction.commit();

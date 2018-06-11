@@ -76,6 +76,22 @@ public class Navgation extends AppCompatActivity {
 
         }
 
+        if(msg.equals("union")){
+            System.out.println("Super Macha");
+            fragmentTransaction=getSupportFragmentManager().beginTransaction();
+
+            Union ldf = new Union();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.add(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+            //getSupportActionBar().setTitle("Enquiry");
+
+        }
+
         /*if(msg=="enq"){
             System.out.println(msg);
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
