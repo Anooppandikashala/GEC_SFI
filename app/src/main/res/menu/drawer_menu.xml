@@ -20,56 +20,9 @@
             android:id="@+id/nav_aboutus"
             android:icon="@drawable/users"
             android:title="@string/aboutus"/>
-        <item
-            android:id="@+id/nav_facilities"
-            android:icon="@drawable/facilities"
-            android:title="Facilities"/>
 
-        <item
-            android:id="@+id/nav"
-            android:checkable="false"
-            android:enabled="false"
-            android:title="Department Labs"/>
-
-        <item
-            android:id="@+id/nav_cse"
-            android:icon="@drawable/cslab"
-            android:title="CSE"/>
-        <item
-            android:id="@+id/nav_ece"
-            android:icon="@drawable/ece"
-            android:title="ECE"/>
-        <item
-            android:id="@+id/nav_eee"
-            android:icon="@drawable/electric"
-            android:title="EEE"/>
-        <item
-            android:id="@+id/nav_it"
-            android:icon="@drawable/it"
-            android:title="IT"/>
-        <item
-            android:id="@+id/nav_me"
-            android:icon="@drawable/mech"
-            android:title="MECH"/>
 
     </group>
-
-
-    <!--item
-        android:id="@+id/nav_civil"
-        android:icon="@drawable/civil"
-        android:title="Civil" />
-    <item
-        android:id="@+id/nav_che"
-        android:icon="@drawable/che"
-        android:title="Chemistry" />
-    <item
-        android:id="@+id/nav_phy"
-        android:icon="@drawable/phy"
-        android:title="Physics" /-->
-
-
-
     <item android:title="KTU">
         <menu>
             <item
@@ -135,10 +88,6 @@
 
     <item android:title="Communicate">
          <menu>
-             <item
-                 android:id="@+id/nav_watsapp"
-                 android:icon="@drawable/message"
-                 android:title="Whatsapp Me" />
              <item
                  android:id="@+id/nav_Facebook"
                  android:icon="@drawable/ic_menu_send"

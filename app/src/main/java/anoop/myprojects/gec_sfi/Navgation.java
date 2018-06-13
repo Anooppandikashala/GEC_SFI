@@ -91,6 +91,21 @@ public class Navgation extends AppCompatActivity {
             //getSupportActionBar().setTitle("Enquiry");
 
         }
+        if(msg.equals("fac")){
+            System.out.println("Super Macha");
+            fragmentTransaction=getSupportFragmentManager().beginTransaction();
+
+            Facilities ldf = new Facilities();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.add(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+            //getSupportActionBar().setTitle("Enquiry");
+
+        }
 
         /*if(msg=="enq"){
             System.out.println(msg);
@@ -99,7 +114,7 @@ public class Navgation extends AppCompatActivity {
             fragmentTransaction.commit();
             getSupportActionBar().setTitle("Enquiry");
         }*/
-        if(msg.equals("fac")){
+        if(msg.equals("faci")){
             System.out.println(msg);
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
@@ -207,88 +222,6 @@ public class Navgation extends AppCompatActivity {
 
                         break;
 
-                    case R.id.nav_facilities :
-                        navigationView.setCheckedItem(R.id.nav_facilities);
-                        fragmentTransaction=getSupportFragmentManager().beginTransaction();
-                        //getFragmentManager().popBackStack();
-                        fragmentTransaction.replace(R.id.main_container,new Facility());
-                        fragmentTransaction.commit();
-                        getSupportActionBar().setTitle("Facilities");
-                        drawerLayout.closeDrawers();
-
-                        //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
-
-                        break;
-
-                    case R.id.nav_cse :
-                        navigationView.setCheckedItem(R.id.nav_cse);
-                        //item.setChecked(true);
-                        fragmentTransaction=getSupportFragmentManager().beginTransaction();
-                        //getFragmentManager().popBackStack();
-                        fragmentTransaction.replace(R.id.main_container,new Cselab());
-                        fragmentTransaction.commit();
-                        getSupportActionBar().setTitle("Computer Science");
-                        drawerLayout.closeDrawers();
-
-                        //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
-
-                        break;
-                    case R.id.nav_it :
-                        navigationView.setCheckedItem(R.id.nav_it);
-                        //item.setChecked(true);
-                        fragmentTransaction=getSupportFragmentManager().beginTransaction();
-                        //getFragmentManager().popBackStack();
-                        fragmentTransaction.replace(R.id.main_container,new Itlab());
-                        fragmentTransaction.commit();
-                        getSupportActionBar().setTitle("Information Technology");
-                        drawerLayout.closeDrawers();
-
-                        //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
-
-                        break;
-                    case R.id.nav_ece :
-                        navigationView.setCheckedItem(R.id.nav_ece);
-
-                        fragmentTransaction=getSupportFragmentManager().beginTransaction();
-                        //getFragmentManager().popBackStack();
-                        fragmentTransaction.replace(R.id.main_container,new Ecelab());
-                        fragmentTransaction.commit();
-                        getSupportActionBar().setTitle("Electronics & Communication");
-                        drawerLayout.closeDrawers();
-
-                        //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
-
-                        break;
-                    case R.id.nav_eee :
-                        navigationView.setCheckedItem(R.id.nav_eee);
-                        fragmentTransaction=getSupportFragmentManager().beginTransaction();
-                        //getFragmentManager().popBackStack();
-                        fragmentTransaction.replace(R.id.main_container,new Eeelab());
-                        fragmentTransaction.commit();
-                        getSupportActionBar().setTitle("Electrical & Electronics Engineering");
-                        drawerLayout.closeDrawers();
-
-                        //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
-
-                        break;
-                    case R.id.nav_me :
-                        navigationView.setCheckedItem(R.id.nav_me);
-                        fragmentTransaction=getSupportFragmentManager().beginTransaction();
-                        //getFragmentManager().popBackStack();
-                        fragmentTransaction.replace(R.id.main_container,new Mechlab());
-                        fragmentTransaction.commit();
-                        getSupportActionBar().setTitle("Mechanical Engineering");
-                        drawerLayout.closeDrawers();
-
-                        //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
-
-                        break;
                     case R.id.nav_Facebook :
                         navigationView.setCheckedItem(R.id.nav_Facebook);
 
@@ -322,14 +255,14 @@ public class Navgation extends AppCompatActivity {
 
                         goToUrl( "http://www.inventogec.in/home/");
                         break;
-                    case R.id.nav_watsapp :
+                    /*case R.id.nav_watsapp :
                         navigationView.setCheckedItem(R.id.nav_watsapp);
                         String number ="+919745244240";
                         Uri uri = Uri.parse("smsto:" + number);
                         Intent ii = new Intent(Intent.ACTION_SENDTO, uri);
                         ii.setPackage("com.whatsapp");
                         startActivity(Intent.createChooser(ii, ""));
-                        break;
+                        break;*/
                     case R.id.nav_collegemagazine :
                         navigationView.setCheckedItem(R.id.nav_collegemagazine);
                         goToUrl( "http://www.gecpkdmagz.in/");

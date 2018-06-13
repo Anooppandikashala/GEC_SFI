@@ -165,7 +165,7 @@
 
                             />
                         <View
-                            android:layout_height="2dp"
+                            android:layout_height="1dp"
                             android:layout_marginTop="5dp"
                             android:layout_width="match_parent"
                             android:background="#b0bec5"
@@ -203,7 +203,7 @@
 
                             />
                         <View
-                            android:layout_height="2dp"
+                            android:layout_height="1dp"
                             android:layout_marginTop="5dp"
                             android:layout_width="match_parent"
                             android:background="#b0bec5"
@@ -241,7 +241,7 @@
 
                             />
                         <View
-                            android:layout_height="2dp"
+                            android:layout_height="1dp"
                             android:layout_marginTop="5dp"
                             android:layout_width="match_parent"
                             android:background="#b0bec5"

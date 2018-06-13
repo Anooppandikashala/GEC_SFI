@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="anoop.myprojects.gec_sfi.Achievements">
+    tools:context="anoop.myprojects.gec_sfi.Dormetry">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -14,7 +14,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="@drawable/achievementsoptimised"
+            android:background="#995511"
             android:layout_height="410dp">
 
             <View
@@ -24,6 +24,7 @@
                 android:layout_height="410dp"
                 android:id="@+id/imageView3"
                 />
+
 
 
 
@@ -44,7 +45,7 @@
                         android:layout_weight="1"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Staffs"
+                        android:text="General Store"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
                         android:textSize="8sp"
@@ -58,7 +59,7 @@
                         android:layout_width="0dp"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Achievements"
+                        android:text="Dormetry"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
@@ -72,7 +73,7 @@
                         android:layout_width="0dp"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Union"
+                        android:text="Clubs"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
@@ -89,60 +90,7 @@
 
                 </LinearLayout>
 
-                <!--GridLayout
-                    android:layout_width="match_parent"
-                    android:columnCount="3"
-                    android:rowCount="1"
-                    android:layout_weight="3"
-                    android:padding="2dp"
-                    android:layout_gravity="top"
-                    android:layout_height="wrap_content">
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_columnWeight="1"
-                        android:layout_marginTop="5dp"
-                        android:layout_height="wrap_content"
-                        android:text="Bus Time"
-                        android:gravity="center"
-                        android:fontFamily="@font/robotoregular"
-                        android:textSize="12sp"
-                        android:textColor="#ffffff"
-                        android:textStyle="bold"
-
-
-                        />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_height="wrap_content"
-                        android:text="General Enquiry"
-                        android:layout_columnWeight="1"
-                        android:gravity="center"
-                        android:fontFamily="@font/robotoregular"
-                        android:textSize="16sp"
-                        android:textColor="#ffffff"
-                        android:textStyle="bold"
-
-
-                        />
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_height="wrap_content"
-                        android:text="Train Time"
-                        android:layout_columnWeight="1"
-                        android:gravity="center"
-                        android:fontFamily="@font/robotoregular"
-                        android:textSize="12sp"
-                        android:textColor="#ffffff"
-                        android:textStyle="bold"
-
-
-                        />
-
-                </GridLayout-->
                 <View
                     android:layout_width="match_parent"
                     android:padding="3.5dp"
@@ -163,27 +111,29 @@
             android:gravity="center"
             android:layout_height="wrap_content">
 
-
             <TextView
-                android:layout_width="240dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:textSize="20sp"
                 android:gravity="center"
+                android:textColor="#000000"
                 android:fontFamily="@font/robotoregular"
                 android:textStyle="normal"
-                android:text="Milestones covered by\nGecians."/>
+                android:text="Dormetry Gec Palakkad"/>
+
 
             <TextView
                 android:layout_width="240dp"
                 android:layout_height="50dp"
+                android:id="@+id/train"
                 android:layout_marginTop="20dp"
                 android:textSize="20sp"
                 android:gravity="center"
                 android:fontFamily="@font/robotoregular"
                 android:textStyle="normal"
                 android:background="@drawable/btnbackcseyellow"
-                android:text="Explore"/>
+                android:text="Show More"/>
 
 
 

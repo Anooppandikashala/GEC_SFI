@@ -28,7 +28,8 @@
         <activity android:name=".Bus4" />
         <activity android:name=".Bus5" />
         <activity android:name=".Bus6" />
-        <activity android:name=".Linebuses"></activity>
+        <activity android:name=".Linebuses" />
+        <activity android:name=".Music_Show_More"></activity>
     </application>
 
 </manifest>

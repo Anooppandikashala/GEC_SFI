@@ -1,0 +1,314 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context="anoop.myprojects.gec_sfi.Clubs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/clubsoptimised"
+            android:layout_height="410dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_height="410dp"
+                android:id="@+id/imageView3"
+                />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="3"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Dormetry"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="8sp"
+                        android:textColor="#CCffffff"
+                        android:textStyle="bold"
+
+
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Clubs"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="12sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+
+
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Labs"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="8sp"
+                        android:textColor="#CCffffff"
+                        android:textStyle="bold"
+
+
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:padding="3.5dp"
+                    android:layout_height="20dp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Music Club"
+                        android:id="@+id/music"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_music_club"
+                        />
+
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Dance Club"
+                        android:id="@+id/dance"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_dance_club"
+                        />
+
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Drama Club"
+                        android:id="@+id/drama"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_dance_club"
+                        />
+
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Media Team"
+                        android:id="@+id/media"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_media_club"
+                        />
+
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Design Team"
+                        android:id="@+id/design"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_design_team"
+                        />
+
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sports Club"
+                        android:id="@+id/sports"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_sports_club"
+                        />
+
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Beautification Team"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:id="@+id/butification"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_beautification_team"
+                        />
+
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

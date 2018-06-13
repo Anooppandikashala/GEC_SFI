@@ -57,6 +57,16 @@ public class HomeActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+    public void facilities(View view) {
+        /*Intent i = new Intent(this, Palakkad.class);
+        startActivity(i);*/
+        msg = "fac";
+        System.out.println("hello");
+        Intent intent = new Intent(HomeActivity.this, Navgation.class);
+        intent.putExtra("message", msg);
+
+        startActivity(intent);
+    }
 
 
 

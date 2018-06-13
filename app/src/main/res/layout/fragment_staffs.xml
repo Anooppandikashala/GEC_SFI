@@ -14,7 +14,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="#5577dd"
+            android:background="@drawable/staffsbgoptimised"
             android:layout_height="410dp">
 
             <View

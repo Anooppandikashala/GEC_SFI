@@ -75,7 +75,7 @@
                         android:src="@drawable/ic_chevron_right_black_24dp" />
                 </LinearLayout>
                 <View
-                    android:layout_height="2dp"
+                    android:layout_height="1dp"
                     android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5"
@@ -136,7 +136,7 @@
                         android:src="@drawable/ic_chevron_right_black_24dp" />
                 </LinearLayout>
                 <View
-                    android:layout_height="2dp"
+                    android:layout_height="1dp"
                     android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5"
@@ -197,7 +197,7 @@
                         android:src="@drawable/ic_chevron_right_black_24dp" />
                 </LinearLayout>
                 <View
-                    android:layout_height="2dp"
+                    android:layout_height="1dp"
                     android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5"
@@ -259,7 +259,7 @@
                         android:src="@drawable/ic_chevron_right_black_24dp" />
                 </LinearLayout>
                 <View
-                    android:layout_height="2dp"
+                    android:layout_height="1dp"
                     android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5"
@@ -320,7 +320,7 @@
                         android:src="@drawable/ic_chevron_right_black_24dp" />
                 </LinearLayout>
                 <View
-                    android:layout_height="2dp"
+                    android:layout_height="1dp"
                     android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5"
@@ -381,7 +381,7 @@
                         android:src="@drawable/ic_chevron_right_black_24dp" />
                 </LinearLayout>
                 <View
-                    android:layout_height="2dp"
+                    android:layout_height="1dp"
                     android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5"

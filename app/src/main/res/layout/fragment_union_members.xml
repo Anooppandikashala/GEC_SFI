@@ -14,7 +14,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/unionbgoptimised"
             android:layout_height="410dp">
 
             <View
