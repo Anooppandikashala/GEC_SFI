@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    tools:context="anoop.myprojects.gec_sfi.Music_Show_More">
+    tools:context="anoop.myprojects.gec_sfi.Dance_show_more">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,7 +31,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_marginTop="25dp"
-                    android:text="Music Club"
+                    android:text="Dance Club"
                     android:textSize="25sp"
                     android:fontFamily="@font/robotoregular"
                     android:textStyle="bold"
@@ -52,7 +51,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
-                    android:text="@string/music_desc"
+                    android:text="@string/dance_desc"
                     android:textSize="12sp"
                     android:fontFamily="@font/robotoregular"
                     android:gravity="center"
@@ -89,7 +88,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_marginTop="5dp"
-                            android:text="Jovin Thomas (S7 ME)\n+91 854761208"
+                            android:text="Manikandan (S7 CSE)\n+91 9544506013"
                             android:textSize="12sp"
                             android:fontFamily="@font/robotoregular"
                             android:gravity="center"
@@ -117,7 +116,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_marginTop="5dp"
-                            android:text="Shiniya Shameem(S5 CSE)\n+91 8281870445"
+                            android:text="Akshaya Nair (S7 CSE)\n+91 9971694935"
                             android:textSize="12sp"
                             android:fontFamily="@font/robotoregular"
                             android:gravity="center"
@@ -139,7 +138,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_marginTop="45dp"
+                    android:layout_marginTop="35dp"
                     android:orientation="horizontal"
                     android:layout_gravity="bottom"
                     android:gravity="center_horizontal"

@@ -160,7 +160,7 @@
                                 android:layout_width="0dp"
                                 android:layout_marginTop="10dp"
                                 android:layout_weight="0.5"
-                                android:text="9742583510"
+                                android:text="7907069259"
                                 android:fontFamily="@font/robotoregular"
                                 android:textSize="15dp"
                                 android:layout_height="match_parent" />
@@ -209,7 +209,7 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:text="Position"
+                            android:text="Vice Chairperson"
                             android:fontFamily="@font/robotoregular"
                             android:textSize="20dp"
                             android:layout_height="wrap_content" />
@@ -223,7 +223,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_weight="0.5"
-                                android:text="Sarath Ravi"
+                                android:text="Subisha T"
                                 android:fontFamily="@font/robotoregular"
                                 android:textSize="15dp"
                                 android:layout_height="match_parent" />
@@ -246,6 +246,842 @@
                     android:layout_marginTop="0dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="General Secretary"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Ranjith R"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="9605799688"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="General Captain"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Minhaj"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="9895347246"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Joint Secretary"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Reshma R"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="9544519864"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Fine Arts"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Dhilraj Soza"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="7736118919"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Chief Editor"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Muhammad Sajid"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="7907140627"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="EC Association"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Vinayan K"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="9447968952"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="ME Association"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Arjun VR"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="8113067549"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="CSE Association"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Angith Jayan"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="8593858494"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="IT Association"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Swathy Kripa"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="7034994977"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="EEE Association"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Sabin Munavir KV"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="9744560260"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="First Year Rep"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Amal Manoharan"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="9947208919"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Second Year Rep"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Arjun"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="9947614935"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Third Year Rep"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Sachin"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="9744763706"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:padding="15dp"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/user"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="M-Tech Rep"
+                            android:fontFamily="@font/robotoregular"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="Varsha"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:text="9495542243"
+                                android:fontFamily="@font/robotoregular"
+                                android:textSize="15dp"
+                                android:layout_height="match_parent" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
 
             </LinearLayout>
 

@@ -44,6 +44,33 @@
     <string name="Toskp">To \n Sreekrishnapuram</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_navgation">Navgation</string>
+
+
+    <string name="music_desc">Organized for the students with an exemplary talent and
+        interest for music, the music club has proven to be a platform for showcasing
+        the sound and vibe of the college through music
+        shows and an extra ordinary band.</string>
+
+    <string name="dance_desc">With a noticeable number of talented
+        members, the dance club has never failed to define the beat
+        and rhythm of the college with its incredible dance crew.</string>
+    <string name="beuaty_desc">The beautification crew serves its
+        purpose by furbishing the campus with never before
+        seen ideas and innovations.</string>
+    <string name="drama_desc">The drama club was organized for
+        the students with similar interests and passion to express
+        themselves in various fields of drama, and the members have
+        excelled themselves with constant practice and perfection.</string>
+    <string name="media_desc">The media team has strived to express the heart and
+        soul of our college to the world and thereby open a portal of opportunities
+        for the students.</string>
+    <string name="design_desc">With a wide range of
+        innovative designs and creations, the design team holds
+        the biggest number of extremely talented members to support
+        its cause.</string>
+    <string name="sports_desc"></string>
+
+
 </resources>
 
 

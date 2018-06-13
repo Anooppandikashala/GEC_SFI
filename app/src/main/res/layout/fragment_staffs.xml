@@ -146,7 +146,7 @@
                                 android:layout_marginTop="10dp"
                                 android:fontFamily="@font/robotoregular"
                                 android:text="Principal"
-                                android:textSize="20dp"
+                                android:textSize="20sp"
                                 android:layout_height="wrap_content" />
 
                             <LinearLayout
@@ -161,14 +161,14 @@
                                     android:layout_weight="0.5"
                                     android:text="Dr.P C Reghuraj"
                                     android:fontFamily="@font/robotoregular"
-                                    android:textSize="15dp"
+                                    android:textSize="15sp"
                                     android:layout_height="match_parent" />
                                 <TextView
                                     android:layout_width="0dp"
                                     android:layout_weight="0.5"
                                     android:text="0466-2260350"
                                     android:fontFamily="@font/robotoregular"
-                                    android:textSize="15dp"
+                                    android:textSize="15sp"
                                     android:layout_height="match_parent" />
 
 
@@ -177,7 +177,7 @@
                                 android:layout_marginTop="10dp"
                                 android:layout_width="wrap_content"
                                 android:text="Professor"
-                                android:textSize="15dp"
+                                android:textSize="15sp"
                                 android:fontFamily="@font/robotoregular"
                                 android:layout_height="wrap_content" />
 
@@ -226,7 +226,7 @@
                                 android:layout_marginTop="10dp"
                                 android:fontFamily="@font/robotoregular"
                                 android:text="HOD - EC"
-                                android:textSize="20dp"
+                                android:textSize="20sp"
                                 android:layout_height="wrap_content" />
 
                             <LinearLayout
@@ -239,16 +239,16 @@
                                 <TextView
                                     android:layout_width="0dp"
                                     android:layout_weight="0.5"
-                                    android:text="Anwar Hussain"
+                                    android:text="Prof.Anwar Hussain"
                                     android:fontFamily="@font/robotoregular"
-                                    android:textSize="15dp"
+                                    android:textSize="15sp"
                                     android:layout_height="match_parent" />
                                 <TextView
                                     android:layout_width="0dp"
                                     android:layout_weight="0.5"
-                                    android:text="9742583510"
+                                    android:text="9495822605"
                                     android:fontFamily="@font/robotoregular"
-                                    android:textSize="15dp"
+                                    android:textSize="15sp"
                                     android:layout_height="match_parent" />
 
 
@@ -257,7 +257,7 @@
                                 android:layout_marginTop="10dp"
                                 android:layout_width="wrap_content"
                                 android:text="Asst.Professor"
-                                android:textSize="15dp"
+                                android:textSize="15sp"
                                 android:fontFamily="@font/robotoregular"
                                 android:layout_height="wrap_content" />
 
@@ -273,6 +273,553 @@
                     android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:weightSum="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:padding="15dp"
+                            android:layout_weight="0.3"
+                            android:src="@drawable/user"
+                            android:layout_height="match_parent" />
+
+                        <LinearLayout
+                            android:layout_weight="0.7"
+                            android:layout_width="0dp"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/robotoregular"
+                                android:text="HOD - IT"
+                                android:textSize="20sp"
+                                android:layout_height="wrap_content" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal"
+                                android:weightSum="1"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="Prof.Anjana K R"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15dp"
+                                    android:layout_height="match_parent" />
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="9746475534"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15sp"
+                                    android:layout_height="match_parent" />
+
+
+                            </LinearLayout>
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:text="Associate Professor"
+                                android:textSize="15sp"
+                                android:fontFamily="@font/robotoregular"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:weightSum="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:padding="15dp"
+                            android:layout_weight="0.3"
+                            android:src="@drawable/user"
+                            android:layout_height="match_parent" />
+
+                        <LinearLayout
+                            android:layout_weight="0.7"
+                            android:layout_width="0dp"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/robotoregular"
+                                android:text="HOD - CSE"
+                                android:textSize="20sp"
+                                android:layout_height="wrap_content" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal"
+                                android:weightSum="1"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="Prof.Rafeek P C"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15sp"
+                                    android:layout_height="match_parent" />
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="9495785370"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15sp"
+                                    android:layout_height="match_parent" />
+
+
+                            </LinearLayout>
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:text="Associate Professor"
+                                android:textSize="15sp"
+                                android:fontFamily="@font/robotoregular"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:weightSum="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:padding="15dp"
+                            android:layout_weight="0.3"
+                            android:src="@drawable/user"
+                            android:layout_height="match_parent" />
+
+                        <LinearLayout
+                            android:layout_weight="0.7"
+                            android:layout_width="0dp"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/robotoregular"
+                                android:text="HOD - EEE"
+                                android:textSize="20sp"
+                                android:layout_height="wrap_content" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal"
+                                android:weightSum="1"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="Dr.Vincent G"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15sp"
+                                    android:layout_height="match_parent" />
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="9495508617"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15sp"
+                                    android:layout_height="match_parent" />
+
+
+                            </LinearLayout>
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:text="Associate Professor"
+                                android:textSize="15sp"
+                                android:fontFamily="@font/robotoregular"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:weightSum="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:padding="15dp"
+                            android:layout_weight="0.3"
+                            android:src="@drawable/user"
+                            android:layout_height="match_parent" />
+
+                        <LinearLayout
+                            android:layout_weight="0.7"
+                            android:layout_width="0dp"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/robotoregular"
+                                android:text="HOD - ME"
+                                android:textSize="20dp"
+                                android:layout_height="wrap_content" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal"
+                                android:weightSum="1"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="Dr.K R Jayadevan"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15sp"
+                                    android:layout_height="match_parent" />
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="9447236580"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15sp"
+                                    android:layout_height="match_parent" />
+
+
+                            </LinearLayout>
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:text="Associate Professor"
+                                android:textSize="15sp"
+                                android:fontFamily="@font/robotoregular"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:weightSum="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:padding="15dp"
+                            android:layout_weight="0.3"
+                            android:src="@drawable/user"
+                            android:layout_height="match_parent" />
+
+                        <LinearLayout
+                            android:layout_weight="0.7"
+                            android:layout_width="0dp"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/robotoregular"
+                                android:text="Physics Dept"
+                                android:textSize="20sp"
+                                android:layout_height="wrap_content" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal"
+                                android:weightSum="1"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="Prof.Jamshidali"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15sp"
+                                    android:layout_height="match_parent" />
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="9846272290"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15sp"
+                                    android:layout_height="match_parent" />
+
+
+                            </LinearLayout>
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:text="Assistant Professor"
+                                android:textSize="15sp"
+                                android:fontFamily="@font/robotoregular"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:weightSum="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:padding="15dp"
+                            android:layout_weight="0.3"
+                            android:src="@drawable/user"
+                            android:layout_height="match_parent" />
+
+                        <LinearLayout
+                            android:layout_weight="0.7"
+                            android:layout_width="0dp"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/robotoregular"
+                                android:text="Mathematics Dept"
+                                android:textSize="20sp"
+                                android:layout_height="wrap_content" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal"
+                                android:weightSum="1"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="Prof.Ranju V Sankar"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15sp"
+                                    android:layout_height="match_parent" />
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="9037189624"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15sp"
+                                    android:layout_height="match_parent" />
+
+
+                            </LinearLayout>
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:text="Assistant Professor"
+                                android:textSize="15sp"
+                                android:fontFamily="@font/robotoregular"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:weightSum="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:padding="15dp"
+                            android:layout_weight="0.3"
+                            android:src="@drawable/user"
+                            android:layout_height="match_parent" />
+
+                        <LinearLayout
+                            android:layout_weight="0.7"
+                            android:layout_width="0dp"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/robotoregular"
+                                android:text="Civil Dept"
+                                android:textSize="20sp"
+                                android:layout_height="wrap_content" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal"
+                                android:weightSum="1"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="Prof.Aneesh"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15dp"
+                                    android:layout_height="match_parent" />
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.5"
+                                    android:text="9446148112"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:textSize="15sp"
+                                    android:layout_height="match_parent" />
+
+
+                            </LinearLayout>
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:text="Assistant Professor"
+                                android:textSize="15sp"
+                                android:fontFamily="@font/robotoregular"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:background="#b0bec5" />
+
+
 
 
 

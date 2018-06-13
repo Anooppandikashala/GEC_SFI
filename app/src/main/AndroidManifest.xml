@@ -29,7 +29,13 @@
         <activity android:name=".Bus5" />
         <activity android:name=".Bus6" />
         <activity android:name=".Linebuses" />
-        <activity android:name=".Music_Show_More"></activity>
+        <activity android:name=".Music_Show_More" />
+        <activity android:name=".Dance_show_more" />
+        <activity android:name=".Drama_show_more" />
+        <activity android:name=".Media_show_more" />
+        <activity android:name=".Design_show_more" />
+        <activity android:name=".Beutification" />
+        <activity android:name=".Sports_show_more"></activity>
     </application>
 
 </manifest>
