@@ -68,8 +68,14 @@
         innovative designs and creations, the design team holds
         the biggest number of extremely talented members to support
         its cause.</string>
-    <string name="sports_desc"></string>
-
+    <string name="dormitory_desc">The Mens Hostel is a dormitory providing comfortable accommodation near the campus</string>
+    <string name="general_store_desc">General Store provides the 
+        students with record books\nand other supplies necessary for their course.</string>
+    <string name="canteen_desc">A place in college where food and
+        meals are sold,\n often at a lower than usual price.</string>
+    <string name="ccf_desc">Super fast internet facility is available from
+        9:00 AM \nto 4:30 PM, for all students and staff for free at \nall working days.</string>
+    <string name="mens_hostel">Where male wards could take admission \nfor and accommodation.</string>
 
 </resources>
 

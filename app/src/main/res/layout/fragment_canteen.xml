@@ -2,8 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    tools:context="anoop.myprojects.gec_sfi.Dormetry">
+    tools:context="anoop.myprojects.gec_sfi.Canteen">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -14,7 +13,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="@drawable/dormetryoptimised"
+            android:background="@drawable/canteenbgoptimised"
             android:layout_height="410dp">
 
             <View
@@ -59,7 +58,7 @@
                         android:layout_width="0dp"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Dormitory"
+                        android:text="Canteen"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
@@ -73,7 +72,7 @@
                         android:layout_width="0dp"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Clubs"
+                        android:text="Student Activities"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
@@ -124,28 +123,19 @@
                 android:textColor="#000000"
                 android:fontFamily="@font/robotoregular"
                 android:textStyle="normal"
-                android:text="Dormitory"/>
+                android:text="Canteen"/>
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:id="@+id/train"
+                android:layout_marginTop="20dp"
                 android:textSize="12sp"
                 android:gravity="center"
                 android:fontFamily="@font/robotoregular"
                 android:textStyle="normal"
-                android:text="@string/dormitory_desc"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="12sp"
-                android:gravity="center"
-                android:fontFamily="@font/robotoregular"
-                android:textStyle="normal"
-                android:text="Warden :Prof.Vinayachandran K K\nAsst.Professor Department of Information Technology\n+91 9446051125"/>
+                android:text="@string/canteen_desc"/>
 
 
 

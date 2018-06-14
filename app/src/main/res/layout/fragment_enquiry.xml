@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#567788"
     tools:context="anoop.myprojects.gec_sfi.Enquiry">
 
     <!-- TODO: Update blank fragment layout
@@ -26,14 +27,14 @@
         <android.support.design.widget.TabLayout
             android:id="@+id/tabLayout"
             android:layout_width="match_parent"
-            android:layout_height="16dp"
+            android:layout_height="13dp"
             android:layout_gravity="center"
             android:layout_marginTop="390dp"
             android:background="@drawable/ic_element"
             app:tabGravity="center"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginBottom="10dp"
             app:tabMode="fixed"
             app:tabTextAppearance="@style/MyTabStyle" />
 

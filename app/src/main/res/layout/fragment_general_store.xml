@@ -14,7 +14,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="#222222"
+            android:background="@drawable/generalstorebgoptimised"
             android:layout_height="410dp">
 
             <View
@@ -73,7 +73,7 @@
                         android:layout_width="0dp"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Dormetry"
+                        android:text="Canteen"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
@@ -108,6 +108,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
             android:gravity="center"
             android:layout_height="wrap_content">
 
@@ -120,20 +124,19 @@
                 android:textColor="#000000"
                 android:fontFamily="@font/robotoregular"
                 android:textStyle="normal"
-                android:text="General Store Gec Palakkad"/>
+                android:text="General Store"/>
 
 
             <TextView
-                android:layout_width="240dp"
-                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/train"
                 android:layout_marginTop="20dp"
-                android:textSize="20sp"
+                android:textSize="12sp"
                 android:gravity="center"
                 android:fontFamily="@font/robotoregular"
                 android:textStyle="normal"
-                android:background="@drawable/btnbackcseyellow"
-                android:text="Show More"/>
+                android:text="@string/general_store_desc"/>
 
 
 

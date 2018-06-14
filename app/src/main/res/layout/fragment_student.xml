@@ -2,8 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    tools:context="anoop.myprojects.gec_sfi.Dormetry">
+    tools:context="anoop.myprojects.gec_sfi.StudentActivity">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -14,13 +13,12 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="@drawable/dormetryoptimised"
+            android:background="@drawable/studentactivitiesbgoptimised"
             android:layout_height="410dp">
 
             <View
                 android:layout_width="match_parent"
                 android:layout_alignParentTop="true"
-
                 android:layout_height="410dp"
                 android:id="@+id/imageView3"
                 />
@@ -45,7 +43,7 @@
                         android:layout_weight="1"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="General Store"
+                        android:text="Canteen"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
                         android:textSize="8sp"
@@ -59,7 +57,7 @@
                         android:layout_width="0dp"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Dormitory"
+                        android:text="Student Activities"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
@@ -73,7 +71,7 @@
                         android:layout_width="0dp"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Clubs"
+                        android:text="Dormitory"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
@@ -104,58 +102,74 @@
 
 
         </RelativeLayout>
-
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:orientation="vertical"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginEnd="20dp"
-            android:gravity="center"
             android:layout_height="wrap_content">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:textSize="20sp"
-                android:gravity="center"
-                android:textColor="#000000"
-                android:fontFamily="@font/robotoregular"
-                android:textStyle="normal"
-                android:text="Dormitory"/>
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="NSS"
+                        android:id="@+id/nss"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_music_club"
+                        />
+
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="IEEE"
+                        android:id="@+id/iee"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_dance_club"
+                        />
+
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
 
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="12sp"
-                android:gravity="center"
-                android:fontFamily="@font/robotoregular"
-                android:textStyle="normal"
-                android:text="@string/dormitory_desc"/>
+            </LinearLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="12sp"
-                android:gravity="center"
-                android:fontFamily="@font/robotoregular"
-                android:textStyle="normal"
-                android:text="Warden :Prof.Vinayachandran K K\nAsst.Professor Department of Information Technology\n+91 9446051125"/>
-
-
-
-
-
-
-
-
-        </LinearLayout>
-
+        </ScrollView>
 
     </LinearLayout>
 

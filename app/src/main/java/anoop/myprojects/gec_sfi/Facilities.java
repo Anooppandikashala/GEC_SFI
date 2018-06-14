@@ -51,6 +51,8 @@ public class Facilities extends Fragment {
             viewPagerAdapter.addFragments(new MensHostel());
             viewPagerAdapter.addFragments(new CCF());
             viewPagerAdapter.addFragments(new GeneralStore());
+            viewPagerAdapter.addFragments(new Canteen());
+            viewPagerAdapter.addFragments(new StudentActivity());
 
 
         }

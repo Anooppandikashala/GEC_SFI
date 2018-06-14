@@ -14,7 +14,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="#aa8822"
+            android:background="@drawable/privatemenshostelbgoptimised"
             android:layout_height="410dp">
 
             <View
@@ -105,35 +105,53 @@
 
         </RelativeLayout>
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:textSize="20sp"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
                 android:gravity="center"
-                android:textColor="#000000"
-                android:fontFamily="@font/robotoregular"
-                android:textStyle="normal"
-                android:text="Mens Hostel (MH) Gec Palakkad"/>
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="normal"
+                    android:text="Private Mens Hostel"/>
 
 
-            <TextView
-                android:layout_width="240dp"
-                android:layout_height="50dp"
-                android:id="@+id/train"
-                android:layout_marginTop="20dp"
-                android:textSize="20sp"
-                android:gravity="center"
-                android:fontFamily="@font/robotoregular"
-                android:textStyle="normal"
-                android:background="@drawable/btnbackcseyellow"
-                android:text="Show More"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="normal"
+                    android:text="@string/mens_hostel"/>
+
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/menshostel"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="normal"
+                    android:background="@drawable/btnbackcseyellow"
+                    android:text="Show More"/>
 
 
 
@@ -142,7 +160,10 @@
 
 
 
-        </LinearLayout>
+            </LinearLayout>
+
+
+        </ScrollView>
 
 
     </LinearLayout>

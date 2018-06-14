@@ -119,12 +119,13 @@
                     android:layout_width="match_parent"
                     android:orientation="horizontal"
                     android:gravity="center"
+                    android:id="@+id/chairman"
                     android:weightSum="1"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -138,7 +139,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:text="Chairman"
-                            android:textSize="20dp"
+                            android:textSize="20sp"
                             android:fontFamily="@font/robotoregular"
                             android:layout_height="wrap_content" />
 
@@ -191,12 +192,13 @@
                     android:layout_width="match_parent"
                     android:orientation="horizontal"
                     android:gravity="center"
+                    android:id="@+id/lvc"
                     android:weightSum="1"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -251,12 +253,13 @@
                     android:layout_width="match_parent"
                     android:orientation="horizontal"
                     android:gravity="center"
+                    android:id="@+id/ranjith"
                     android:weightSum="1"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -311,12 +314,13 @@
                     android:layout_width="match_parent"
                     android:orientation="horizontal"
                     android:gravity="center"
+                    android:id="@+id/minhaj"
                     android:weightSum="1"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -371,12 +375,13 @@
                     android:layout_width="match_parent"
                     android:orientation="horizontal"
                     android:gravity="center"
+                    android:id="@+id/jointsecretary"
                     android:weightSum="1"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -431,12 +436,13 @@
                     android:layout_width="match_parent"
                     android:orientation="horizontal"
                     android:gravity="center"
+                    android:id="@+id/finearts"
                     android:weightSum="1"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -492,11 +498,12 @@
                     android:orientation="horizontal"
                     android:gravity="center"
                     android:weightSum="1"
+                    android:id="@+id/editor"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -551,12 +558,13 @@
                     android:layout_width="match_parent"
                     android:orientation="horizontal"
                     android:gravity="center"
+                    android:id="@+id/ec"
                     android:weightSum="1"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -611,12 +619,13 @@
                     android:layout_width="match_parent"
                     android:orientation="horizontal"
                     android:gravity="center"
+                    android:id="@+id/me"
                     android:weightSum="1"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -672,11 +681,12 @@
                     android:orientation="horizontal"
                     android:gravity="center"
                     android:weightSum="1"
+                    android:id="@+id/cse"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -732,11 +742,12 @@
                     android:orientation="horizontal"
                     android:gravity="center"
                     android:weightSum="1"
+                    android:id="@+id/it"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -792,11 +803,12 @@
                     android:orientation="horizontal"
                     android:gravity="center"
                     android:weightSum="1"
+                    android:id="@+id/eee"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -852,11 +864,12 @@
                     android:orientation="horizontal"
                     android:gravity="center"
                     android:weightSum="1"
+                    android:id="@+id/first"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -911,12 +924,13 @@
                     android:layout_width="match_parent"
                     android:orientation="horizontal"
                     android:gravity="center"
+                    android:id="@+id/second"
                     android:weightSum="1"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
@@ -972,13 +986,15 @@
                     android:orientation="horizontal"
                     android:gravity="center"
                     android:weightSum="1"
+                    android:id="@+id/third"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
+
                         android:layout_height="match_parent" />
 
                     <LinearLayout
@@ -1032,11 +1048,12 @@
                     android:orientation="horizontal"
                     android:gravity="center"
                     android:weightSum="1"
+                    android:id="@+id/mtech"
                     android:layout_height="100dp">
 
                     <ImageView
                         android:layout_width="0dp"
-                        android:padding="15dp"
+                        android:padding="20dp"
                         android:layout_weight="0.3"
                         android:src="@drawable/user"
                         android:layout_height="match_parent" />
