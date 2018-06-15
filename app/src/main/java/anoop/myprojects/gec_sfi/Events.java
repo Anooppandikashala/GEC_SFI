@@ -54,7 +54,7 @@ public class Events extends Fragment {
         //viewPagerAdapter.addFragments(new WhatsNew(),"");
         if(value.equals("facility")) {
             viewPagerAdapter.addFragments(new Gpl());
-            viewPagerAdapter.addFragments(new Gpl());
+            viewPagerAdapter.addFragments(new EventList());
             viewPagerAdapter.addFragments(new Gpl());
         }
 
