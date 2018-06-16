@@ -92,17 +92,18 @@ public class EventList extends Fragment {
             int selectedItemPosition = recyclerView.getChildPosition(v);
             RecyclerView.ViewHolder viewHolder
                     = recyclerView.findViewHolderForPosition(selectedItemPosition);
-            TextView textViewName
-                    = (TextView) viewHolder.itemView.findViewById(R.id.textViewName);
-            String selectedName = (String) textViewName.getText();
-            int selectedItemId = -1;
-            for (int i = 0; i < MyData.nameArray.length; i++) {
+            TextView textViewid
+                    = (TextView) viewHolder.itemView.findViewById(R.id.textViewid);
+            int selectedid = Integer.valueOf(textViewid.getText().toString());
+            /*int selectedItemId = -1;
+            for (int i = 0; i < MyData.id_.length; i++) {
                 if (selectedName.equals(MyData.nameArray[i])) {
                     selectedItemId = MyData.id_[i];
                 }
-            }
+            }*/
 
-            Toast.makeText(context,MyData.nameArray[selectedItemId],Toast.LENGTH_SHORT).show();
+            //Toast.makeText(context,MyData.nameArray[selectedid],Toast.LENGTH_SHORT).show();
+            Toast.makeText(context,String.valueOf(selectedid),Toast.LENGTH_SHORT).show();
 
 
 

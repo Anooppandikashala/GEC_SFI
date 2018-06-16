@@ -39,7 +39,7 @@
         <activity android:name=".Beutification" />
         <activity android:name=".Sports_show_more" />
         <activity android:name=".NSS" />
-        <activity android:name=".Ieee"></activity>
+        <activity android:name=".Ieee"/>
     </application>
 
 </manifest>

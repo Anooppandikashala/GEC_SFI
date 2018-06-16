@@ -130,23 +130,13 @@ public class Linebuses extends AppCompatActivity implements AdapterView.OnItemSe
 
         switch (key){
 
-            case 0 :
+            case 1 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
                 LineBus_Palakkad ldf = new LineBus_Palakkad();
 
                 fragmentTransaction.replace(R.id.main_container_line,ldf);
                 fragmentTransaction.commit();
-                break;
-
-            case 1 :
-                fragmentTransaction=getSupportFragmentManager().beginTransaction();
-
-                LineBus_skp ldf1 = new LineBus_skp();
-
-                fragmentTransaction.replace(R.id.main_container_line,ldf1);
-                fragmentTransaction.commit();
-
                 break;
 
             case 2 :
@@ -214,7 +204,7 @@ public class Linebuses extends AppCompatActivity implements AdapterView.OnItemSe
             case 8 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-                LineBus_skp ldf8 = new LineBus_skp();
+                Ottapalam ldf8 = new Ottapalam();
 
                 fragmentTransaction.replace(R.id.main_container_line,ldf8);
                 fragmentTransaction.commit();
@@ -223,7 +213,7 @@ public class Linebuses extends AppCompatActivity implements AdapterView.OnItemSe
             case 9 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-                LineBus_skp ldf9 = new LineBus_skp();
+                Cherpulassery ldf9 = new Cherpulassery();
 
                 fragmentTransaction.replace(R.id.main_container_line,ldf9);
                 fragmentTransaction.commit();
@@ -232,7 +222,7 @@ public class Linebuses extends AppCompatActivity implements AdapterView.OnItemSe
             case 10 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-                LineBus_skp ldf10 = new LineBus_skp();
+                Mannarkkad ldf10 = new Mannarkkad();
 
                 fragmentTransaction.replace(R.id.main_container_line,ldf10);
                 fragmentTransaction.commit();

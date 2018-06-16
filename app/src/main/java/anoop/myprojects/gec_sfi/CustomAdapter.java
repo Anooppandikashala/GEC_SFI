@@ -20,12 +20,14 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
         TextView textViewName;
+        TextView textViewid;
         TextView textViewVersion;
         ImageView imageViewIcon;
 
         public MyViewHolder(View itemView) {
             super(itemView);
             this.textViewName = (TextView) itemView.findViewById(R.id.textViewName);
+            this.textViewid = (TextView) itemView.findViewById(R.id.textViewid);
             this.textViewVersion = (TextView) itemView.findViewById(R.id.textViewVersion);
             this.imageViewIcon = (ImageView) itemView.findViewById(R.id.imageView);
         }
@@ -51,10 +53,12 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     public void onBindViewHolder(final MyViewHolder holder, final int listPosition) {
 
         TextView textViewName = holder.textViewName;
+        TextView textViewid = holder.textViewid;
         TextView textViewVersion = holder.textViewVersion;
         ImageView imageView = holder.imageViewIcon;
 
         textViewName.setText(dataSet.get(listPosition).getName());
+        textViewid.setText(String.valueOf(dataSet.get(listPosition).getId()));
         textViewVersion.setText(dataSet.get(listPosition).getVersion());
         imageView.setImageResource(dataSet.get(listPosition).getImage());
     }
