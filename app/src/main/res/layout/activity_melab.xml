@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    tools:context="anoop.myprojects.gec_sfi.ECELab">
+    tools:context="anoop.myprojects.gec_sfi.MELab">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +20,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_marginTop="20dp"
-            android:text="Electronics &amp; Communicaton Engineering "
+            android:text="Mechanical Engineering "
             android:textSize="25sp"
             android:fontFamily="@font/robotoregular"
             android:textStyle="bold"

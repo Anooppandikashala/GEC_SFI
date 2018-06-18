@@ -52,6 +52,34 @@ public class Labs extends Fragment {
                 startActivity(intent);
             }
         });
+        eee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(),EEELab.class);
+                startActivity(intent);
+            }
+        });
+        it.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(),ITLab.class);
+                startActivity(intent);
+            }
+        });
+        me.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(),MELab.class);
+                startActivity(intent);
+            }
+        });
+        general.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(),GeneralLab.class);
+                startActivity(intent);
+            }
+        });
 
 
 

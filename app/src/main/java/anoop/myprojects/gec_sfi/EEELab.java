@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class CSELab extends AppCompatActivity {
+public class EEELab extends AppCompatActivity {
 
     private ExpandableListView listView1,listView2,listView3,listView4;
     private ExpandableListAdapter listAdapter1,listAdapter2,listAdapter3,listAdapter4;
@@ -18,7 +18,7 @@ public class CSELab extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cselab);
+        setContentView(R.layout.activity_eeelab);
 
 
         listView1 = (ExpandableListView)findViewById(R.id.lvExpnet);

@@ -53,30 +53,14 @@
                     <ExpandableListView
                         android:layout_width="match_parent"
                         android:layout_marginTop="20dp"
-                        android:background="@drawable/btnbackcsewhite"
+                        android:childDivider="#ffffff"
+                        android:groupIndicator="@null"
+                        android:listSelector="@android:color/transparent"
+                        android:headerDividersEnabled="false"
+                        android:footerDividersEnabled="false"
+                        android:divider="#ffffff"
                         android:layout_height="wrap_content"
                         android:id="@+id/lvExpnet" />
-
-                    <ExpandableListView
-                        android:layout_width="match_parent"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/btnbackcsewhite"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/lvExpproject" />
-
-                    <ExpandableListView
-                        android:layout_width="match_parent"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/btnbackcsewhite"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/lvExpsoft" />
-
-                    <ExpandableListView
-                        android:layout_width="match_parent"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/btnbackcsewhite"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/lvExphard" />
 
 
                 </LinearLayout>

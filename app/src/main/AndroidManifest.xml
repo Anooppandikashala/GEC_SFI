@@ -42,7 +42,12 @@
         <activity android:name=".NSS" />
         <activity android:name=".Ieee" />
         <activity android:name=".CSELab" />
-        <activity android:name=".ECELab"></activity>
+        <activity android:name=".ECELab" />
+        <activity android:name=".MELab" />
+        <activity android:name=".ITLab" />
+        <activity android:name=".EEELab" />
+        <activity android:name=".GeneralLab" />
+        <activity android:name=".Demo"></activity>
     </application>
 
 </manifest>
