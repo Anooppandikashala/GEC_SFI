@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <!--lower portion-->
+
+    <TextView
+        android:id="@+id/lblListItem"
+        android:textSize="12sp"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#021f25"
+        android:background="@drawable/btnbackcsewhite"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/robotoregular"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"/>
+
+</LinearLayout>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="anoop.myprojects.gec_sfi">
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -39,7 +40,9 @@
         <activity android:name=".Beutification" />
         <activity android:name=".Sports_show_more" />
         <activity android:name=".NSS" />
-        <activity android:name=".Ieee"/>
+        <activity android:name=".Ieee" />
+        <activity android:name=".CSELab" />
+        <activity android:name=".ECELab"></activity>
     </application>
 
 </manifest>
