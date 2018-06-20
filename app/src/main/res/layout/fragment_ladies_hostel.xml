@@ -73,7 +73,7 @@
                         android:layout_width="0dp"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Private Mens Hostel"
+                        android:text="Private Ladies Hostel"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
@@ -137,7 +137,7 @@
             <TextView
                 android:layout_width="240dp"
                 android:layout_height="50dp"
-                android:id="@+id/train"
+                android:id="@+id/lh"
                 android:layout_marginTop="20dp"
                 android:textSize="20sp"
                 android:gravity="center"

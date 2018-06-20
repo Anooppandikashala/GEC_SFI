@@ -38,6 +38,11 @@
                 android:icon="@drawable/login"
                 android:title="KTU College Login" />
 
+            <item
+                android:id="@+id/noti"
+                android:icon="@drawable/login"
+                android:title="Notifications" />
+
 
         </menu>
     </item>

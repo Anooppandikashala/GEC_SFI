@@ -9,12 +9,15 @@ import android.widget.Button;
 public class HomeActivity extends AppCompatActivity {
 
     Button enquiry,union,credits,facilities;
+    //public static boolean badge=false;
     String msg="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+
 
 
 

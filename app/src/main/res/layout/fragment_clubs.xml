@@ -183,7 +183,7 @@
                         android:textStyle="bold"
                         android:paddingLeft="25dp"
                         android:drawablePadding="20dp"
-                        android:drawableLeft="@drawable/ic_dance_club"
+                        android:drawableLeft="@drawable/ic_drama_club"
                         />
 
                     <View

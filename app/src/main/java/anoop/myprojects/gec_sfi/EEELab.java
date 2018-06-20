@@ -2,7 +2,9 @@ package anoop.myprojects.gec_sfi;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ExpandableListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,10 +12,18 @@ import java.util.List;
 
 public class EEELab extends AppCompatActivity {
 
-    private ExpandableListView listView1,listView2,listView3,listView4;
-    private ExpandableListAdapter listAdapter1,listAdapter2,listAdapter3,listAdapter4;
-    private List<String> listDataHeader1,listDataHeader2,listDataHeader3,listDataHeader4;
-    private HashMap<String,List<String>> listHash1,listHash2,listHash3,listHash4;
+    TextView t1,t2;
+    TextView t3,t4;
+
+    View view1;
+    View view2;
+
+
+    boolean c1=false;
+    boolean c2=false;
+
+
+    private List<String> listDataHeader;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,54 +31,73 @@ public class EEELab extends AppCompatActivity {
         setContentView(R.layout.activity_eeelab);
 
 
-        listView1 = (ExpandableListView)findViewById(R.id.lvExpnet);
-        initData();
-        listAdapter1 = new ExpandableListAdapter(this,listDataHeader1,listHash1);
-        listView1.setAdapter(listAdapter1);
+        listDataHeader = new ArrayList<>();
 
+        listDataHeader.add("Programming Lab");
+        listDataHeader.add("Electronic Circuit Lab");
 
-
-
-
-
-    }
-
-    private void initData() {
-        listDataHeader1 = new ArrayList<>();
-        listHash1 = new HashMap<>();
-
-
-        listDataHeader1.add("Network Lab");
-        listDataHeader1.add("Project Lab");
-        listDataHeader1.add("Software Lab");
-        listDataHeader1.add("Hardware Lab");
 
         //listDataHeader.add("CERD");
 
-        List<String> network = new ArrayList<>();
-        network.add("To conduct labs based on networking.\n" +
-                "Lab in-charge:Mr. Sasikumar");
-
-        List<String> project = new ArrayList<>();
-        project.add("For students to work on their project implementations\n" +
-                "Lab in-charge: Mr. Sasikumar");
-
-        List<String> soft = new ArrayList<>();
-        soft.add("To practice and conduct labs on programming languages. \n" +
-                "Lab in-charge: Mr. Pradeep");
-        List<String> hard = new ArrayList<>();
-        hard.add("To practice and work on hardware equipment and machine language " +
-                "programming including 8086 microprocessor and MASM assembler.\n" +
-                "Lab in-charge: Mr. Ajith");
+        List<String> pgm = new ArrayList<>();
+        pgm.add("To impart knowledge and Develop skills in programming\n" +
+                "Lab in charge:\n" +
+                "Dr.Vineetha");
+        List<String> elc = new ArrayList<>();
+        elc.add("To design and develop various electronics circuits using discrete components and OPAMPs\n" +
+                "Lab in charge:\n" +
+                "Mr.Sreejith");
 
 
 
 
+        //listDataHeader.add("CERD");
 
-        listHash1.put(listDataHeader1.get(0),network);
-        listHash1.put(listDataHeader1.get(1),project);
-        listHash1.put(listDataHeader1.get(2),soft);
-        listHash1.put(listDataHeader1.get(3),hard);
+        t1= findViewById(R.id.lblListHeader);
+        t1.setText(listDataHeader.get(0));
+        t2= findViewById(R.id.lblListItem);
+        t2.setText(pgm.get(0));
+        view1 =findViewById(R.id.edd);
+
+        t3= findViewById(R.id.lblListHeader1);
+        t3.setText(listDataHeader.get(1));
+        t4= findViewById(R.id.lblListItem1);
+        t4.setText(elc.get(0));
+        view2 =findViewById(R.id.edd1);
+
+
+
 
     }
+
+
+
+    public void headerClick(View view) {
+
+        if(c1 == false){
+            c1=true;
+            t2.setVisibility(TextView.VISIBLE);
+            view1.setVisibility(View.VISIBLE);
+        }
+        else {
+            c1=false;
+            t2.setVisibility(TextView.GONE);
+            view1.setVisibility(View.GONE);
+        }
+    }
+
+    public void headerClick1(View view) {
+
+        if(c2 == false){
+            c2=true;
+            t4.setVisibility(TextView.VISIBLE);
+            view2.setVisibility(View.VISIBLE);
+        }
+        else {
+            c2=false;
+            t4.setVisibility(TextView.GONE);
+            view2.setVisibility(View.GONE);
+        }
+    }
+
 }

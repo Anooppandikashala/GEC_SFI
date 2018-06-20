@@ -6,7 +6,8 @@ package anoop.myprojects.gec_sfi;
 
 public class MyData {
 
-    static String[] nameArray = {"Cupcake",
+    static String[] nameArray = {
+            "Sarang Memorial Runner Up",
             "Donut",
             "Eclair",
             "Froyo",
@@ -17,7 +18,8 @@ public class MyData {
             "Kitkat",
             "Lollipop",
             "Marshmallow"};
-    static String[] versionArray = {"1.5",
+    static String[] versionArray = {
+            "Venue : Government Engineering College\nSreekrishnapuram, Palakkad",
             "1.6",
             "2.0-2.1",
             "2.2-2.2.3",
@@ -29,7 +31,8 @@ public class MyData {
             "5.0-5.1.1",
             "6.0-6.0.1"};
 
-    static Integer[] drawableArray = {R.drawable.ic_bus_1,
+    static Integer[] drawableArray = {
+            R.drawable.back,
             R.drawable.ic_bus_1,
             R.drawable.ic_bus_1,
             R.drawable.ic_bus_1,

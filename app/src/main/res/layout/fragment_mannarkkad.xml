@@ -22,12 +22,13 @@
                 android:orientation="vertical"
                 android:layout_height="match_parent">
 
+
                 <TextView
                     android:layout_width="match_parent"
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="05 : 45 AM"
+                    android:text="07 : 27 AM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -35,23 +36,17 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="06 : 30 AM"
+                    android:text="07 : 53 AM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
+
+
                 <TextView
                     android:layout_width="match_parent"
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="06 : 55 AM"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:fontFamily="@font/robotoregular"
-                    android:layout_marginTop="20dp"
-                    android:gravity="center"
-                    android:text="07 : 10 AM"
+                    android:text="08 : 35 AM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
 
@@ -60,7 +55,16 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="08 : 10 AM"
+                    android:text="09 : 20 AM"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="09 : 35 AM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -68,7 +72,16 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="08 : 45 AM"
+                    android:text="10 : 15 AM"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="11 : 25 AM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -76,7 +89,16 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="09 : 00 AM"
+                    android:text="11 : 55 AM"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="12 : 20 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -84,7 +106,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="09 : 10 AM"
+                    android:text="12 : 35 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -92,7 +114,16 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="09 : 50 AM"
+                    android:text="12 : 50 PM"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="01 : 10 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -100,7 +131,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="10 : 30 AM"
+                    android:text="01 : 23 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -108,7 +139,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="11 : 10 AM"
+                    android:text="02 : 03 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -116,7 +147,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="11 : 20 AM"
+                    android:text="02 : 40 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -124,7 +155,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="11 : 30 AM"
+                    android:text="02 : 55 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -132,7 +163,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="12 : 15 PM"
+                    android:text="04 : 43 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -140,7 +171,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="12 : 45 PM"
+                    android:text="05 : 15 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -148,7 +179,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="01 : 50 PM"
+                    android:text="05 : 30 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -156,7 +187,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="03 : 00 PM"
+                    android:text="05 : 55 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -164,7 +195,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="03 : 10 PM"
+                    android:text="06 : 03 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -172,7 +203,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="03 : 40 PM"
+                    android:text="06 : 05 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -180,7 +211,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="04 : 30 PM"
+                    android:text="06 : 23 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -188,7 +219,25 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="04 : 50 PM"
+                    android:text="06 : 35 PM"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="07 : 10 PM"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="07 : 38 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -196,7 +245,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="05 : 25 PM"
+                    android:text="07 : 50 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -204,7 +253,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="05 : 45 PM"
+                    android:text="08 : 25 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -212,15 +261,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="06 : 10 PM"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:fontFamily="@font/robotoregular"
-                    android:layout_marginTop="20dp"
-                    android:gravity="center"
-                    android:text="06 : 30 PM"
+                    android:text="10 : 00 PM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
 
@@ -249,7 +290,7 @@
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
                     android:gravity="left"
-                    android:text="NASHA"
+                    android:text="MARYMATHA"
                     android:fontFamily="@font/robotoregular"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
@@ -257,15 +298,53 @@
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
                     android:gravity="left"
-                    android:text="PARIJATHAM"
+                    android:text="SAROJAM"
                     android:fontFamily="@font/robotoregular"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
+
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
                     android:gravity="left"
-                    android:text="VINOD"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="UDAYA"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="AMBADATH"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/robotoregular"
+                    android:gravity="left"
+                    android:text="PREETHA"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="SS BROTHERS"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text="ST SAVIER"
                     android:fontFamily="@font/robotoregular"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
@@ -275,143 +354,19 @@
                     android:layout_marginTop="20dp"
                     android:gravity="left"
                     android:fontFamily="@font/robotoregular"
-                    android:text="SARADHA"
+                    android:text="KARUNYAM"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:fontFamily="@font/robotoregular"
-                    android:gravity="left"
-                    android:text="PAVITHRAM"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:fontFamily="@font/robotoregular"
-                    android:text="NASHA"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
+
+
+
+
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
                     android:gravity="left"
-                    android:text="PAVIZHAM"
-                    android:fontFamily="@font/robotoregular"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:text="F R L"
-                    android:fontFamily="@font/robotoregular"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:fontFamily="@font/robotoregular"
-                    android:text="NASHA"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:fontFamily="@font/robotoregular"
-                    android:text="SREELAKSHMI"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:fontFamily="@font/robotoregular"
-                    android:text="SARADHA"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:fontFamily="@font/robotoregular"
-                    android:text="T M R"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:fontFamily="@font/robotoregular"
-                    android:text="PARIJATHAM"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:text="F R L"
-                    android:fontFamily="@font/robotoregular"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:text="PAVIZHAM"
-                    android:fontFamily="@font/robotoregular"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:fontFamily="@font/robotoregular"
-                    android:text="NASHA"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:fontFamily="@font/robotoregular"
-                    android:text="SUBHAGA"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:fontFamily="@font/robotoregular"
-                    android:text="SARADHA"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:fontFamily="@font/robotoregular"
-                    android:text="SREELAKSHMI"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:fontFamily="@font/robotoregular"
-                    android:text="PARIJATHAM"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:text="PAVITHRAM"
+                    android:text="SAROJAM"
                     android:fontFamily="@font/robotoregular"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
@@ -420,24 +375,8 @@
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
                     android:gravity="left"
-                    android:text="F R L"
                     android:fontFamily="@font/robotoregular"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:text="T M R"
-                    android:fontFamily="@font/robotoregular"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="left"
-                    android:text="NASHA"
-                    android:fontFamily="@font/robotoregular"
+                    android:text="MARYMATHA"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -445,7 +384,171 @@
                     android:layout_marginTop="20dp"
                     android:gravity="left"
                     android:fontFamily="@font/robotoregular"
-                    android:text="SREELAKSHMI"
+                    android:text="MARYMATHA"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="UDAYA"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="MARYMATHA"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text="CITY STAR"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="PREETHA"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="UDAYA"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text="SS BROTHERS"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text="SAROJAM"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text="KARUNYAM"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="MARYMATHA"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="MARYMATHA"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="KSRTC"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="CITY STAR"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="UDAYA"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="UDAYA"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="PREETHA"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="KSRTC"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="ST SAVIER"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="KSRTC"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
 

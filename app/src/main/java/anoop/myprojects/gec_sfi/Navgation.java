@@ -9,6 +9,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.graphics.drawable.DrawerArrowDrawable;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -31,8 +32,6 @@ public class Navgation extends AppCompatActivity {
         msg = bundle.getString("message").toLowerCase();
 
 
-
-
         toolbar=(Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         String mTitle=" ";
@@ -45,6 +44,7 @@ public class Navgation extends AppCompatActivity {
 
         if(msg.equals("event")){
             System.out.println("Super Macha");
+            //actionBarDrawerToggle.setDrawerArrowDrawable(new DrawerArrowDrawable(R.drawable.home_icon));
             actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.black));
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
@@ -92,10 +92,12 @@ public class Navgation extends AppCompatActivity {
 
         }
         if(msg.equals("fac")){
+
+            actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.black));
             System.out.println("Super Macha");
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-            Facilities ldf = new Facilities();
+            FacilityHome ldf = new FacilityHome();
             Bundle args = new Bundle();
             args.putString("message", "enquery");
             ldf.setArguments(args);
@@ -191,6 +193,24 @@ public class Navgation extends AppCompatActivity {
 
                         Intent intent = new Intent(Navgation.this, HomeActivity.class);
                         startActivity(intent);
+
+                        //int x=checkNavigationMenuItem();
+                        //System.out.println("x="+x);
+
+                        break;
+
+                    case R.id.noti:
+                        /*navigationView.setCheckedItem(R.id.nav_home);
+
+                        fragmentTransaction=getSupportFragmentManager().beginTransaction();
+                        //getFragmentManager().popBackStack();
+                        fragmentTransaction.replace(R.id.main_container,new HomFragment());
+                        fragmentTransaction.commit();
+                        getSupportActionBar().setTitle("Home");
+                        drawerLayout.closeDrawers();*/
+
+                        Intent intent1 = new Intent(Navgation.this, Notifications.class);
+                        startActivity(intent1);
 
                         //int x=checkNavigationMenuItem();
                         //System.out.println("x="+x);
@@ -375,7 +395,7 @@ public class Navgation extends AppCompatActivity {
 */
    /* @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+        // Inflate the menu; this adds items to the action bar if itcover is present.
         getMenuInflater().inflate(R.menu.drawer_menu, menu);
         return true;
     }*/

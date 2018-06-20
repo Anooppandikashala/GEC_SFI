@@ -156,7 +156,7 @@
                         android:textStyle="bold"
                         android:paddingLeft="25dp"
                         android:drawablePadding="20dp"
-                        android:drawableLeft="@drawable/ic_credits"
+                        android:drawableLeft="@drawable/ic_cse"
                         />
 
                     <View

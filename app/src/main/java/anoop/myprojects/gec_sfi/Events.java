@@ -36,13 +36,15 @@ public class Events extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_events, container, false);
-        toolbar=(Toolbar)view.findViewById(R.id.toolbar);
+        toolbar=getActivity().findViewById(R.id.toolbar);
+
 
         //actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorPrimary));
-        drawerLayout=(DrawerLayout)view.findViewById(R.id.activity_navgation);
+        drawerLayout=getActivity().findViewById(R.id.activity_navgation);
 
         actionBarDrawerToggle=new ActionBarDrawerToggle(getActivity(),drawerLayout,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close);
         actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorPrimary));
+
 
 
         tabLayout=(TabLayout)view.findViewById(R.id.tabLayout);

@@ -34,6 +34,9 @@ public class Facilities extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_facilities, container, false);
 
+        value = getArguments().getString("message").toLowerCase();
+        System.out.println("Value  = "+value);
+
         tabLayout=(TabLayout)view.findViewById(R.id.tabLayout);
         viewPager=(ViewPager)view.findViewById(R.id.viewPager);
 
@@ -43,16 +46,169 @@ public class Facilities extends Fragment {
 
 
         //viewPagerAdapter.addFragments(new WhatsNew(),"");
-        if(value.equals("facility")) {
+        if(value.equals("ccf")) {
+
+            viewPagerAdapter.addFragments(new CCF());
+            viewPagerAdapter.addFragments(new GeneralStore());
+            viewPagerAdapter.addFragments(new Canteen());
+            viewPagerAdapter.addFragments(new StudentActivity());
             viewPagerAdapter.addFragments(new Dormetry());
             viewPagerAdapter.addFragments(new Clubs());
             viewPagerAdapter.addFragments(new Labs());
             viewPagerAdapter.addFragments(new LadiesHostel());
+            viewPagerAdapter.addFragments(new PrivateWomensHostel());
+            viewPagerAdapter.addFragments(new MensHostel());
+
+
+        }
+        if(value.equals("gnl")) {
+
+
+            viewPagerAdapter.addFragments(new GeneralStore());
+            viewPagerAdapter.addFragments(new Canteen());
+            viewPagerAdapter.addFragments(new StudentActivity());
+            viewPagerAdapter.addFragments(new Dormetry());
+            viewPagerAdapter.addFragments(new Clubs());
+            viewPagerAdapter.addFragments(new Labs());
+            viewPagerAdapter.addFragments(new LadiesHostel());
+            viewPagerAdapter.addFragments(new PrivateWomensHostel());
+            viewPagerAdapter.addFragments(new MensHostel());
+            viewPagerAdapter.addFragments(new CCF());
+
+
+        }
+        if(value.equals("can")) {
+
+
+
+            viewPagerAdapter.addFragments(new Canteen());
+            viewPagerAdapter.addFragments(new StudentActivity());
+            viewPagerAdapter.addFragments(new Dormetry());
+            viewPagerAdapter.addFragments(new Clubs());
+            viewPagerAdapter.addFragments(new Labs());
+            viewPagerAdapter.addFragments(new LadiesHostel());
+            viewPagerAdapter.addFragments(new PrivateWomensHostel());
+            viewPagerAdapter.addFragments(new MensHostel());
+            viewPagerAdapter.addFragments(new CCF());
+            viewPagerAdapter.addFragments(new GeneralStore());
+
+
+        }
+        if(value.equals("sa")) {
+
+
+            viewPagerAdapter.addFragments(new StudentActivity());
+            viewPagerAdapter.addFragments(new Dormetry());
+            viewPagerAdapter.addFragments(new Clubs());
+            viewPagerAdapter.addFragments(new Labs());
+            viewPagerAdapter.addFragments(new LadiesHostel());
+            viewPagerAdapter.addFragments(new PrivateWomensHostel());
+            viewPagerAdapter.addFragments(new MensHostel());
+            viewPagerAdapter.addFragments(new CCF());
+            viewPagerAdapter.addFragments(new GeneralStore());
+            viewPagerAdapter.addFragments(new Canteen());
+
+
+        }
+        if(value.equals("dm")) {
+
+
+            viewPagerAdapter.addFragments(new Dormetry());
+            viewPagerAdapter.addFragments(new Clubs());
+            viewPagerAdapter.addFragments(new Labs());
+            viewPagerAdapter.addFragments(new LadiesHostel());
+            viewPagerAdapter.addFragments(new PrivateWomensHostel());
             viewPagerAdapter.addFragments(new MensHostel());
             viewPagerAdapter.addFragments(new CCF());
             viewPagerAdapter.addFragments(new GeneralStore());
             viewPagerAdapter.addFragments(new Canteen());
             viewPagerAdapter.addFragments(new StudentActivity());
+
+
+        }
+        if(value.equals("clb")) {
+
+
+            viewPagerAdapter.addFragments(new Clubs());
+            viewPagerAdapter.addFragments(new Labs());
+            viewPagerAdapter.addFragments(new LadiesHostel());
+            viewPagerAdapter.addFragments(new PrivateWomensHostel());
+            viewPagerAdapter.addFragments(new MensHostel());
+            viewPagerAdapter.addFragments(new CCF());
+            viewPagerAdapter.addFragments(new GeneralStore());
+            viewPagerAdapter.addFragments(new Canteen());
+            viewPagerAdapter.addFragments(new StudentActivity());
+            viewPagerAdapter.addFragments(new Dormetry());
+
+
+        }
+        if(value.equals("lab")) {
+
+
+
+
+            viewPagerAdapter.addFragments(new Labs());
+            viewPagerAdapter.addFragments(new LadiesHostel());
+            viewPagerAdapter.addFragments(new PrivateWomensHostel());
+            viewPagerAdapter.addFragments(new MensHostel());
+            viewPagerAdapter.addFragments(new CCF());
+            viewPagerAdapter.addFragments(new GeneralStore());
+            viewPagerAdapter.addFragments(new Canteen());
+            viewPagerAdapter.addFragments(new StudentActivity());
+            viewPagerAdapter.addFragments(new Dormetry());
+            viewPagerAdapter.addFragments(new Clubs());
+
+
+        }
+        if(value.equals("lh")) {
+
+
+
+
+
+            viewPagerAdapter.addFragments(new LadiesHostel());
+            viewPagerAdapter.addFragments(new PrivateWomensHostel());
+            viewPagerAdapter.addFragments(new MensHostel());
+            viewPagerAdapter.addFragments(new CCF());
+            viewPagerAdapter.addFragments(new GeneralStore());
+            viewPagerAdapter.addFragments(new Canteen());
+            viewPagerAdapter.addFragments(new StudentActivity());
+            viewPagerAdapter.addFragments(new Dormetry());
+            viewPagerAdapter.addFragments(new Clubs());
+            viewPagerAdapter.addFragments(new Labs());
+
+
+        }
+        if(value.equals("plh")) {
+
+
+            viewPagerAdapter.addFragments(new PrivateWomensHostel());
+            viewPagerAdapter.addFragments(new MensHostel());
+            viewPagerAdapter.addFragments(new CCF());
+            viewPagerAdapter.addFragments(new GeneralStore());
+            viewPagerAdapter.addFragments(new Canteen());
+            viewPagerAdapter.addFragments(new StudentActivity());
+            viewPagerAdapter.addFragments(new Dormetry());
+            viewPagerAdapter.addFragments(new Clubs());
+            viewPagerAdapter.addFragments(new Labs());
+            viewPagerAdapter.addFragments(new LadiesHostel());
+
+
+        }
+        if(value.equals("mh")) {
+
+
+
+            viewPagerAdapter.addFragments(new MensHostel());
+            viewPagerAdapter.addFragments(new CCF());
+            viewPagerAdapter.addFragments(new GeneralStore());
+            viewPagerAdapter.addFragments(new Canteen());
+            viewPagerAdapter.addFragments(new StudentActivity());
+            viewPagerAdapter.addFragments(new Dormetry());
+            viewPagerAdapter.addFragments(new Clubs());
+            viewPagerAdapter.addFragments(new Labs());
+            viewPagerAdapter.addFragments(new LadiesHostel());
+            viewPagerAdapter.addFragments(new PrivateWomensHostel());
 
 
         }

@@ -1,0 +1,192 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="anoop.myprojects.gec_sfi.FacilityHome">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="252dp"
+                android:id="@+id/student"
+                android:layout_height="50dp"
+                android:background="@drawable/btnbackcse"
+                android:drawableLeft="@drawable/ic_student_activities"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_student_activities"
+                android:fontFamily="@font/robotoregular"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:singleLine="false"
+                android:text="Student Activities"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+            <Button
+                android:layout_width="252dp"
+                android:id="@+id/club"
+                android:layout_height="50dp"
+                android:text="Clubs"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="20sp"
+                android:gravity="left|center"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/btnbackcse"
+                android:drawableLeft="@drawable/ic_clubs"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_clubs"/>
+            <Button
+                android:layout_width="252dp"
+                android:layout_height="50dp"
+                android:text="Labs"
+                android:id="@+id/lab"
+                android:fontFamily="@font/robotoregular"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/btnbackcse"
+                android:drawableLeft="@drawable/ic_labs"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_labs"/>
+            <Button
+                android:layout_width="252dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="CCF"
+                android:id="@+id/ccf"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="20sp"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/btnbackcse"
+                android:drawableLeft="@drawable/ic_ccf"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_ccf"/>
+
+            <Button
+                android:layout_width="252dp"
+                android:layout_height="50dp"
+                android:text="General Store"
+                android:id="@+id/general"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/robotoregular"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/btnbackcse"
+                android:drawableLeft="@drawable/ic_general_store"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="9dp"
+                android:drawableStart="@drawable/ic_general_store"/>
+
+            <Button
+                android:layout_width="252dp"
+                android:layout_height="50dp"
+                android:text="Canteen"
+                android:id="@+id/canteen"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/robotoregular"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/btnbackcse"
+                android:drawableLeft="@drawable/ic_canteen"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="9dp"
+                android:drawableStart="@drawable/ic_canteen"/>
+            <Button
+                android:layout_width="252dp"
+                android:layout_height="50dp"
+                android:text="Ladies Hostel"
+                android:id="@+id/lh"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/robotoregular"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/btnbackcse"
+                android:drawableLeft="@drawable/ic_ladies_hostel"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="9dp"
+                android:drawableStart="@drawable/ic_ladies_hostel"/>
+
+            <Button
+                android:layout_width="252dp"
+                android:layout_height="50dp"
+                android:text="Private Ladies Hostel"
+                android:id="@+id/plh"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/robotoregular"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/btnbackcse"
+                android:drawableLeft="@drawable/ic_private_hostel_ladies"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="9dp"
+                android:drawableStart="@drawable/ic_private_hostel_ladies"/>
+
+            <Button
+                android:layout_width="252dp"
+                android:layout_height="50dp"
+                android:text="Private Mens Hostel"
+                android:id="@+id/pmh"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/robotoregular"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/btnbackcse"
+                android:drawableLeft="@drawable/ic_private_hostel_mens"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="9dp"
+                android:drawableStart="@drawable/ic_private_hostel_mens"/>
+            <Button
+                android:layout_width="252dp"
+                android:layout_height="50dp"
+                android:text="Dormitory"
+                android:id="@+id/dormitory"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/robotoregular"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/btnbackcse"
+                android:drawableLeft="@drawable/ic_dormetry"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="9dp"
+                android:drawableStart="@drawable/ic_dormetry"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

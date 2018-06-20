@@ -152,7 +152,7 @@ public class InfinitDemo extends Fragment {
                 throw new IllegalArgumentException("Did you forget initialize PagerAdapter?");
             }
             if ((pagerAdapter instanceof FragmentPagerAdapter || pagerAdapter instanceof FragmentStatePagerAdapter) && pagerAdapter.getCount() < 3) {
-                throw new IllegalArgumentException("When you use FragmentPagerAdapter or FragmentStatePagerAdapter, it only supports >= 3 pages.");
+                throw new IllegalArgumentException("When you use FragmentPagerAdapter or FragmentStatePagerAdapter, itcover only supports >= 3 pages.");
             }
             mPagerAdapter = pagerAdapter;
         }

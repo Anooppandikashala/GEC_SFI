@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context="anoop.myprojects.gec_sfi.GeneralLab">
 
     <LinearLayout
@@ -20,7 +21,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_marginTop="20dp"
-            android:text="Information Technology"
+            android:text="General Labs"
             android:textSize="25sp"
             android:fontFamily="@font/robotoregular"
             android:textStyle="bold"
@@ -31,6 +32,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
+            android:padding="10dp"
             android:layout_height="match_parent">
 
             <LinearLayout
@@ -66,7 +68,7 @@
                             android:layout_height="50dp" />
                         <View
                             android:layout_width="match_parent"
-                            android:background="#000000"
+                            android:background="@color/line"
                             android:id="@+id/edd"
                             android:visibility="gone"
                             android:layout_height="1dp"/>
@@ -111,7 +113,7 @@
                         android:layout_height="50dp" />
                     <View
                         android:layout_width="match_parent"
-                        android:background="#000000"
+                        android:background="@color/line"
                         android:id="@+id/edd1"
                         android:visibility="gone"
                         android:layout_height="1dp"/>
@@ -159,7 +161,7 @@
                         android:layout_height="50dp" />
                     <View
                         android:layout_width="match_parent"
-                        android:background="#000000"
+                        android:background="@color/line"
                         android:id="@+id/edd2"
                         android:visibility="gone"
                         android:layout_height="1dp"/>
@@ -206,7 +208,7 @@
                         android:layout_height="50dp" />
                     <View
                         android:layout_width="match_parent"
-                        android:background="#000000"
+                        android:background="@color/line"
                         android:id="@+id/edd3"
                         android:visibility="gone"
                         android:layout_height="1dp"/>

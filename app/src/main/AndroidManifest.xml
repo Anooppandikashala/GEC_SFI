@@ -47,7 +47,11 @@
         <activity android:name=".ITLab" />
         <activity android:name=".EEELab" />
         <activity android:name=".GeneralLab" />
-        <activity android:name=".Demo"></activity>
+        <activity android:name=".Demo" />
+        <activity android:name=".PrivateMensHostelShowMore" />
+        <activity android:name=".PrivateWomensHostelShowMore" />
+        <activity android:name=".LHShowMore" />
+        <activity android:name=".Notifications"></activity>
     </application>
 
 </manifest>
