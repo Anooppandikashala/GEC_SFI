@@ -2,9 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    android:id="@+id/containers_gpl"
-    tools:context="anoop.myprojects.gec_sfi.Gpl">
+    android:background="@color/colorAccent"
+    tools:context="anoop.myprojects.gec_sfi.Invento">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -26,12 +25,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30sp"
+            android:gravity="center"
             android:layout_marginTop="20dp"
             android:textColor="@color/black"
-            android:gravity="center"
             android:fontFamily="@font/robotoregular"
             android:textStyle="bold"
-            android:text="GPL '17"/>
+            android:text="INVENTO 2K18"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,7 +45,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="30dp"
             android:textSize="25sp"
-            android:id="@+id/exploreme"
+            android:id="@+id/exploreinvento"
             android:gravity="center"
             android:fontFamily="@font/robotoregular"
             android:textStyle="normal"
@@ -57,7 +56,5 @@
 
 
     </LinearLayout>
-
-
 
 </FrameLayout>

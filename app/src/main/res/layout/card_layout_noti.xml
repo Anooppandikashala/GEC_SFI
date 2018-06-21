@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:tag="cards main container">
+
+    <!--card_view:cardBackgroundColor="@color/colorAccent"-->
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnbackcsewhitecard"
+
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="3dp"
+        card_view:cardUseCompatPadding="true">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/textViewid"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="1dp"
+                android:textColor="@color/colorAccent"
+                android:visibility="invisible"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-1dp"
+                android:text="-"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:text="Heading"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#80b0bec5"
+                    android:layout_height="1dp"/>
+
+                <TextView
+                    android:id="@+id/textViewVersion"
+                    android:layout_width="match_parent"
+                    android:minHeight="75dp"
+                    android:gravity="center"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:text="Description"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

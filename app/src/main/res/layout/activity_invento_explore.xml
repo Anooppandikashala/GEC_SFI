@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    tools:context="anoop.myprojects.gec_sfi.GPL_Explore">
+    android:background="@color/colorAccent"
+    tools:context="anoop.myprojects.gec_sfi.InventoExplore">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="25dp"
-                        android:text="GPL '17"
+                        android:text="INVENTO 2K18"
                         android:textSize="25sp"
                         android:fontFamily="@font/robotoregular"
                         android:textStyle="bold"
@@ -59,7 +59,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="20dp"
-                        android:text="An annual football league conducting by Government Engineering College Sreekrishnapuram, Palakkad."
+                        android:text="Invento 18 is our annual multifest conducted each\n year with 1000s of students participation Nationally"
                         android:textSize="12sp"
                         android:fontFamily="@font/robotoregular"
                         android:gravity="center"
@@ -67,7 +67,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="20dp"
-                        android:text="Event Coordinators"
+                        android:text="Event Co-ordinators"
                         android:textSize="20sp"
                         android:textColor="#000000"
                         android:textStyle="bold"
@@ -96,7 +96,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_marginTop="5dp"
-                                android:text="Minhaj M"
+                                android:text="Muhammed Sajid\nMusiliyar\nChief Student Coordinator"
                                 android:textSize="12sp"
                                 android:fontFamily="@font/robotoregular"
                                 android:gravity="center"
@@ -124,7 +124,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_marginTop="5dp"
-                                android:text="Sufiyan"
+                                android:text="Dhilraj\nSoza\nProgramme Convener"
                                 android:textSize="12sp"
                                 android:fontFamily="@font/robotoregular"
                                 android:gravity="center"
@@ -152,7 +152,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_marginTop="5dp"
-                                android:text="Ramshad"
+                                android:text="Arathi Menon\n\nSecretary"
                                 android:textSize="12sp"
                                 android:fontFamily="@font/robotoregular"
                                 android:gravity="center"
@@ -177,34 +177,159 @@
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_marginTop="20dp"
-                        android:text="Event Details"
-                        android:textSize="20sp"
-                        android:textColor="#000000"
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:fontFamily="@font/robotoregular"
-                        android:layout_height="wrap_content" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_marginTop="20dp"
-                        android:fontFamily="@font/robotoregular"
-                        android:text="Venue : Government Engineering College Sreekrishnapuram, Palakkad."
-                        android:textSize="12sp"
-                        android:gravity="center"
-                        android:layout_height="wrap_content" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_marginTop="20dp"
-                        android:text="Date : 12 feb 2018"
+                        android:layout_marginTop="10dp"
+                        android:text="Dr. Vinitha Chellappan\nStaff Co-ordinator"
                         android:textSize="12sp"
                         android:fontFamily="@font/robotoregular"
                         android:gravity="center"
                         android:layout_height="wrap_content" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Jeswin Chacko\nFinance Coordinator"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Hemanth\nSponsorship Convener"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Sinshad\nFinance Joint Convener"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Afsal Ibn\nMechanical Dept.Coordinator"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Soumya Raj\nComputer Science Dept.Coordinator"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Mahesh Nair\nInformation Technology Dept.Coordinator"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Sabik  T K\nElectronics Dept.Coordinator"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Sabin Munavir\nElectrical Dept.Coordinator"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Jithu Krishna\nIEDC  Cell Coordinator"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Bishwas\nTechnical Team Head"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Maneesh\nBeautification Heads"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Varsha  Margrette,\nSabith Bin Salam\nPubilicity/(PR)  Team Heads"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Abiramesh\nDocumentation Head"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Sukanya,\nJanifa\nRegistration Heads"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Rajath K\nReshmi\nDesign Team Coordinators"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Ajay Dev\nMedia Team Coordinator"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Rakshith Sathish\nSanjivini Social Initiative"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
 
                 </LinearLayout>
 
@@ -219,10 +344,12 @@
 
 
         </ScrollView>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"
             android:gravity="center_horizontal"
+            android:layout_gravity="bottom"
             android:layout_weight="0.1"
             android:layout_height="0dp">
 
@@ -254,12 +381,8 @@
 
 
 
+
     </LinearLayout>
-
-
-
-
-
 
 
 

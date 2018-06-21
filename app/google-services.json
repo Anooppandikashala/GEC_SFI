@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "78609381503",
+    "firebase_url": "https://gecapp-e3c7f.firebaseio.com",
+    "project_id": "gecapp-e3c7f",
+    "storage_bucket": "gecapp-e3c7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78609381503:android:33f960cad01f657b",
+        "android_client_info": {
+          "package_name": "anoop.myprojects.gec_sfi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78609381503-7dpbh5h3jmrrksh5qq1g3coesf1j533b.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "78609381503-7dpbh5h3jmrrksh5qq1g3coesf1j533b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-bL06cg8129bmwxrpfg_YpMqkFP5pTB0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

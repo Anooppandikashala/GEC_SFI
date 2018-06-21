@@ -7,12 +7,16 @@
 
     <application
         android:allowBackup="true"
+        android:name=".FireLearn"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,7 +55,8 @@
         <activity android:name=".PrivateMensHostelShowMore" />
         <activity android:name=".PrivateWomensHostelShowMore" />
         <activity android:name=".LHShowMore" />
-        <activity android:name=".Notifications"></activity>
+        <activity android:name=".Notifications" />
+        <activity android:name=".InventoExplore"></activity>
     </application>
 
 </manifest>
