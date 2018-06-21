@@ -20,6 +20,10 @@
             android:id="@+id/nav_aboutus"
             android:icon="@drawable/users"
             android:title="@string/aboutus"/>
+        <item
+            android:id="@+id/noti"
+            android:icon="@drawable/login"
+            android:title="Notifications" />
 
 
     </group>
@@ -38,10 +42,7 @@
                 android:icon="@drawable/login"
                 android:title="KTU College Login" />
 
-            <item
-                android:id="@+id/noti"
-                android:icon="@drawable/login"
-                android:title="Notifications" />
+
 
 
         </menu>

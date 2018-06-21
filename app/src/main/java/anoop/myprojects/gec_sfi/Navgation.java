@@ -20,7 +20,8 @@ public class Navgation extends AppCompatActivity {
     DrawerLayout drawerLayout;
     Toolbar toolbar;
     String msg="";
-    ActionBarDrawerToggle actionBarDrawerToggle;
+    public static ActionBarDrawerToggle actionBarDrawerToggle;
+    public  static MenuItem gmitem;
     FragmentTransaction fragmentTransaction;
 
     @Override
@@ -37,9 +38,24 @@ public class Navgation extends AppCompatActivity {
         String mTitle=" ";
          getSupportActionBar().setTitle(mTitle);
 
+        navigationView = (NavigationView) findViewById(R.id.navgation_view);
+        Menu menu = navigationView.getMenu();
+        MenuItem mitem;
+        for (int i = 0; i < menu.size(); i++) {
+            if ((mitem =menu.getItem(i)).getItemId() == R.id.noti){
+
+                gmitem=mitem;
+
+                mitem.setIcon(R.drawable.wtappng);
+            }
+            // return i;
+        }
+
         drawerLayout=(DrawerLayout)findViewById(R.id.activity_navgation);
 
         actionBarDrawerToggle=new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close);
+
+
         drawerLayout.setDrawerListener(actionBarDrawerToggle);
 
         if(msg.equals("event")){
@@ -167,7 +183,10 @@ public class Navgation extends AppCompatActivity {
         //item.setChecked(true);
 
 
-        navigationView = (NavigationView) findViewById(R.id.navgation_view);
+
+
+
+
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
 
 

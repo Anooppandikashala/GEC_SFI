@@ -5,7 +5,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -16,6 +18,8 @@ public class FacilityHome extends Fragment {
     Button ccf,general,lab,club,plh,pmh,lh,dormitory,sa,canteen;
 
     FragmentTransaction fragmentTransaction;
+    ActionBarDrawerToggle actionBarDrawerToggle;
+    MenuItem menuItem;
 
 
     public FacilityHome() {
@@ -28,6 +32,15 @@ public class FacilityHome extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_facility_home, container, false);
+
+        actionBarDrawerToggle = Navgation.actionBarDrawerToggle;
+        menuItem =Navgation.gmitem;
+
+        menuItem.setIcon(R.drawable.info);
+
+        //actionBarDrawerToggle=new ActionBarDrawerToggle(this.getActivity(),drawerLayout,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close);
+
+        actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.black));
 
         ccf=view.findViewById(R.id.ccf);
         general=view.findViewById(R.id.general);
