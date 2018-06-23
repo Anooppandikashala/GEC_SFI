@@ -218,7 +218,7 @@ public class Facilities extends Fragment {
 
 
         }
-        if(value.equals("mh")) {
+        if(value.equals("pmh")) {
 
 
 

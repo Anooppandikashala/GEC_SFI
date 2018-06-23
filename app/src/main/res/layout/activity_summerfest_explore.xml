@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anoop.myprojects.gec_sfi.SummerfestExplore">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_weight="0.9"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/summerfestcricketcoverpic"
+                    android:layout_height="150dp">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="25dp"
+                        android:text="SUMMERFEST CRICKET TOURNAMENT 2K18"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:text="Event Description"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:text="Invento 18 is our annual multifest conducted each\n year with 1000s of students participation Nationally"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:text="Event Co-ordinators"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="1.5"
+                        android:gravity="center_horizontal"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/user"
+                                android:layout_height="80dp" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:text="Arjun N\nCoordinator"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/robotoregular"
+                                android:gravity="center"
+                                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/user"
+                                android:layout_height="80dp" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:text="Arun\nCoordinator"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/robotoregular"
+                                android:gravity="center"
+                                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/user"
+                                android:layout_height="80dp" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:text="Akhil pv\nCoordinator"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/robotoregular"
+                                android:gravity="center"
+                                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:text="Albin pulical\nCoordinator"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:text="Mohammed Minhaj\nGeneral Captain"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.1"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_facebook"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_twitter"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/instagrams"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_youtube"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -35,6 +35,7 @@
         android:layout_height="match_parent"
         android:id="@+id/navgation_view"
         android:layout_gravity="start"
+        android:background="@color/colorAccent"
 
         app:menu="@menu/drawer_menu"
         app:headerLayout="@layout/nav_header_navigation">

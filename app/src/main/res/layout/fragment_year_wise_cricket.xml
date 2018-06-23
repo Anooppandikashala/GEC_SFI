@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="anoop.myprojects.gec_sfi.YearWiseCricket">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/yctpropic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/robotoregular"
+            android:textStyle="bold"
+            android:text="YEARWISE CRICKET"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="normal"
+                    android:text="Venue: Covernment Engineering College\n        Sreekrishnapuram,   Palakkad"/>
+                <TextView
+                    android:layout_width="256dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="25sp"
+                    android:id="@+id/exploreinvento"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="normal"
+                    android:background="@drawable/btnbackcseyellow"
+                    android:text="Explore"/>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

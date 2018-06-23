@@ -37,6 +37,11 @@ public class Notifications extends AppCompatActivity {
 
         error =findViewById(R.id.error);
 
+        if(Global.badge ==true){
+
+            Global.badge=false;
+        }
+
         final ProgressDialog progressDialog =new ProgressDialog(this);
         progressDialog.setMessage("Loading Notifications....");
         progressDialog.show();

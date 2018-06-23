@@ -36,7 +36,7 @@ public class FacilityHome extends Fragment {
         actionBarDrawerToggle = Navgation.actionBarDrawerToggle;
         menuItem =Navgation.gmitem;
 
-        menuItem.setIcon(R.drawable.info);
+        //menuItem.setIcon(R.drawable.info);
 
         //actionBarDrawerToggle=new ActionBarDrawerToggle(this.getActivity(),drawerLayout,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close);
 

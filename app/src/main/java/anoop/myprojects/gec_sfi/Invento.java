@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 
@@ -15,7 +16,7 @@ import android.widget.TextView;
  */
 public class Invento extends Fragment {
 
-    TextView tv_explore;
+
 
 
     public Invento() {
@@ -26,8 +27,11 @@ public class Invento extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_invento, container, false);
+
+        TextView tv_explore;
 
         tv_explore = view.findViewById(R.id.exploreinvento);
 
@@ -39,6 +43,8 @@ public class Invento extends Fragment {
                 startActivity(intent);
             }
         });
+
+        //Events.left1.setVisibility(ImageView.GONE);
 
         return  view;
     }

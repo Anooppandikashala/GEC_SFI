@@ -6,11 +6,13 @@
     tools:context="anoop.myprojects.gec_sfi.Events">
 
     <!-- TODO: Update blank fragment layout -->
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
+
+
         <android.support.v4.view.ViewPager
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -18,6 +20,25 @@
 
             />
 
-    </LinearLayout>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="180dp"
+            android:id="@+id/right1"
+            android:src="@drawable/ic_chevron_right_black_24dp" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/left1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="180dp"
+            android:src="@drawable/ic_chevron_left_black_24dp" />
+
+
+
+    </RelativeLayout>
 
 </FrameLayout>

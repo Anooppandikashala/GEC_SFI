@@ -1,6 +1,7 @@
 package anoop.myprojects.gec_sfi;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -14,6 +15,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 
 public class Events extends Fragment {
@@ -25,6 +28,7 @@ public class Events extends Fragment {
     String value="facility";
     ActionBarDrawerToggle actionBarDrawerToggle;
     Toolbar toolbar;
+    public static ImageView left1,right1;
 
     public Events() {
         // Required empty public constructor
@@ -37,14 +41,12 @@ public class Events extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_events, container, false);
         toolbar=getActivity().findViewById(R.id.toolbar);
+        left1 =view.findViewById(R.id.left1);
+        right1 =view.findViewById(R.id.right1);
 
 
         //actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorPrimary));
         drawerLayout=getActivity().findViewById(R.id.activity_navgation);
-
-        actionBarDrawerToggle=new ActionBarDrawerToggle(getActivity(),drawerLayout,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close);
-        actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorPrimary));
-
 
 
         tabLayout=(TabLayout)view.findViewById(R.id.tabLayout);
@@ -55,9 +57,19 @@ public class Events extends Fragment {
 
         //viewPagerAdapter.addFragments(new WhatsNew(),"");
         if(value.equals("facility")) {
-            viewPagerAdapter.addFragments(new Gpl());
+
             viewPagerAdapter.addFragments(new Invento());
-            viewPagerAdapter.addFragments(new EventList());
+            viewPagerAdapter.addFragments(new Daksha());
+            viewPagerAdapter.addFragments(new Gpl());
+            viewPagerAdapter.addFragments(new GCL());
+            viewPagerAdapter.addFragments(new Sarang());
+            viewPagerAdapter.addFragments(new pme());
+            viewPagerAdapter.addFragments(new YearWiseCricket());
+            viewPagerAdapter.addFragments(new YearWiseFootball());
+            viewPagerAdapter.addFragments(new SummerFestCricket());
+            viewPagerAdapter.addFragments(new AnnualSportsMeet());
+
+           // viewPagerAdapter.addFragments(new EventList());
 
         }
 
@@ -66,10 +78,33 @@ public class Events extends Fragment {
 
         //tabLayout.setupWithViewPager(viewPager);
         //setupTabIcons();
+        /*try {
+            Thread.sleep(5000);
+            right1.setVisibility(ImageView.GONE);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        /*Thread myThread = new Thread() {
+            @Override
+            public void run() {
+
+                try {
+                    sleep(5000);
+
+
+
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        };*/
+
+        //myThread.start();
 
 
         return view;
     }
+
 
 
 }

@@ -41,15 +41,33 @@ public class Navgation extends AppCompatActivity {
         navigationView = (NavigationView) findViewById(R.id.navgation_view);
         Menu menu = navigationView.getMenu();
         MenuItem mitem;
-        for (int i = 0; i < menu.size(); i++) {
-            if ((mitem =menu.getItem(i)).getItemId() == R.id.noti){
+        if(Global.badge==true) {
+            for (int i = 0; i < menu.size(); i++) {
+                if ((mitem = menu.getItem(i)).getItemId() == R.id.noti) {
 
-                gmitem=mitem;
+                    gmitem = mitem;
 
-                mitem.setIcon(R.drawable.wtappng);
+                    mitem.setIcon(R.drawable.ic_notifications_colorful);
+                }
+                // return i;
             }
-            // return i;
         }
+        else {
+
+            for (int i = 0; i < menu.size(); i++) {
+                if ((mitem = menu.getItem(i)).getItemId() == R.id.noti) {
+
+                    gmitem = mitem;
+
+                    mitem.setIcon(R.drawable.ic_notifications);
+                }
+                // return i;
+            }
+
+
+        }
+
+        navigationView.setItemIconTintList(null);
 
         drawerLayout=(DrawerLayout)findViewById(R.id.activity_navgation);
 
@@ -132,47 +150,18 @@ public class Navgation extends AppCompatActivity {
             fragmentTransaction.commit();
             getSupportActionBar().setTitle("Enquiry");
         }*/
-        if(msg.equals("faci")){
-            System.out.println(msg);
-            fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-            Home ldf = new Home();
-            Bundle args = new Bundle();
-            args.putString("message", "facility");
-            ldf.setArguments(args);
-
-
-
-
-
-            fragmentTransaction.add(R.id.main_container,ldf);
-            fragmentTransaction.commit();
-            getSupportActionBar().setTitle("Facilities");
-        }
-        if(msg.equals("uni")){
-            System.out.println(msg);
-            fragmentTransaction=getSupportFragmentManager().beginTransaction();
-
-            Home ldf = new Home();
-            Bundle args = new Bundle();
-            args.putString("message", "union");
-            ldf.setArguments(args);
-
-            fragmentTransaction.add(R.id.main_container,ldf);
-            fragmentTransaction.commit();
-            getSupportActionBar().setTitle("Union");
-        }
         if(msg.equals("crd")){
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-            Home ldf = new Home();
+            Credit ldf = new Credit();
             Bundle args = new Bundle();
             args.putString("message", "credit");
             ldf.setArguments(args);
 
             fragmentTransaction.add(R.id.main_container,ldf);
             fragmentTransaction.commit();
-            getSupportActionBar().setTitle("Credit");
+            //getSupportActionBar().setTitle("Credit");
         }
 
 
@@ -235,8 +224,8 @@ public class Navgation extends AppCompatActivity {
                         //System.out.println("x="+x);
 
                         break;
-                    case R.id.nav_aboutus :
-                        navigationView.setCheckedItem(R.id.nav_aboutus);
+                    case R.id.nav_rateus :
+                        navigationView.setCheckedItem(R.id.nav_rateus);
                         fragmentTransaction=getSupportFragmentManager().beginTransaction();
                         fragmentTransaction.replace(R.id.main_container,new AboutUsFragment());
                         fragmentTransaction.commit();
@@ -256,83 +245,13 @@ public class Navgation extends AppCompatActivity {
                         getSupportActionBar().setTitle("Information");
                         drawerLayout.closeDrawers();
 
-                        //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
-
-                        break;
-
-                    case R.id.nav_Facebook :
-                        navigationView.setCheckedItem(R.id.nav_Facebook);
+                    case R.id.nav_share :
+                        shareApp();
 
                         //x=checkNavigationMenuItem();
                         //System.out.println("x="+x);
 
-                        goToUrl( "https://www.facebook.com/anoop.pandikashala");
                         break;
-                    case R.id.nav_collegeweb :
-                        navigationView.setCheckedItem(R.id.nav_collegeweb);
-
-                        //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
-
-                        goToUrl( "http://www.gecskp.ac.in/");
-                        break;
-                    case R.id.nav_syllabus :
-                        navigationView.setCheckedItem(R.id.nav_syllabus);
-
-                        //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
-
-                        Intent i = new Intent(Navgation.this, pdfview.class);
-                        startActivity(i);
-                        break;
-                    case R.id.nav_invento :
-                        navigationView.setCheckedItem(R.id.nav_invento);
-
-                        //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
-
-                        goToUrl( "http://www.inventogec.in/home/");
-                        break;
-                    /*case R.id.nav_watsapp :
-                        navigationView.setCheckedItem(R.id.nav_watsapp);
-                        String number ="+919745244240";
-                        Uri uri = Uri.parse("smsto:" + number);
-                        Intent ii = new Intent(Intent.ACTION_SENDTO, uri);
-                        ii.setPackage("com.whatsapp");
-                        startActivity(Intent.createChooser(ii, ""));
-                        break;*/
-                    case R.id.nav_collegemagazine :
-                        navigationView.setCheckedItem(R.id.nav_collegemagazine);
-                        goToUrl( "http://www.gecpkdmagz.in/");
-                        break;
-
-                    case R.id.nav_sfiunit :
-                        navigationView.setCheckedItem(R.id.nav_sfiunit);
-                        goToUrl( "https://www.facebook.com/sfigecskp/");
-                        break;
-
-                    case R.id.nav_formats :
-                        navigationView.setCheckedItem(R.id.nav_formats);
-                        Toast.makeText(getApplicationContext(),"Coming Soon",Toast.LENGTH_SHORT).show();
-                        break;
-
-                    case R.id.nav_Ktu_clg_portal :
-                        navigationView.setCheckedItem(R.id.nav_Ktu_clg_portal);
-                        goToUrl( "https://gecskp.etlab.in/user/login");
-                        break;
-
-                    case R.id.nav_Ktu_portal :
-                        navigationView.setCheckedItem(R.id.nav_Ktu_portal);
-                        goToUrl( "https://app.ktu.edu.in/login.jsp;jsessionid=723955CF0F43D5770338AD2C3C2DF031.KTUApp1");
-                        break;
-
-                    case R.id.nav_joinus :
-                        navigationView.setCheckedItem(R.id.nav_joinus);
-                        goToUrl( "https://chat.whatsapp.com/BqqvINrLcX8Jdx6O09AXtx");
-                        break;
-
-
                     //https://gecskp.etlab.in/user/login
                     //https://app.ktu.edu.in/login.jsp;jsessionid=723955CF0F43D5770338AD2C3C2DF031.KTUApp1
                     //https://chat.whatsapp.com/BqqvINrLcX8Jdx6O09AXtx
@@ -344,6 +263,13 @@ public class Navgation extends AppCompatActivity {
             }
         });
 
+
+
+    }
+
+    private void shareApp(){
+
+        //Intent intent =new Intent(Intent.ACTION_SEND);
 
 
     }

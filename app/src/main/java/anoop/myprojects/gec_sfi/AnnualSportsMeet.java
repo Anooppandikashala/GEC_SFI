@@ -7,18 +7,17 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Achievements extends Fragment {
-
-    TextView t1;
+public class AnnualSportsMeet extends Fragment {
 
 
-    public Achievements() {
+    public AnnualSportsMeet() {
         // Required empty public constructor
     }
 
@@ -27,19 +26,21 @@ public class Achievements extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view= inflater.inflate(R.layout.fragment_achievements, container, false);
+        View view= inflater.inflate(R.layout.fragment_annual_sports_meet, container, false);
+        Events.right1.setVisibility(ImageView.GONE);
 
-        t1= view.findViewById(R.id.ach);
+        TextView tv_explore;
 
-        t1.setOnClickListener(new View.OnClickListener() {
+        tv_explore = view.findViewById(R.id.exploreinvento);
+
+        tv_explore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent intent =new Intent(getContext(),AchievementsShowMore.class);
+                //fragmentTransaction=getSupportFragmentManager().beginTransaction();
+                Intent intent = new Intent(getContext(),AnnualSportMeetExplore.class);
                 startActivity(intent);
             }
         });
-
 
 
         return view;

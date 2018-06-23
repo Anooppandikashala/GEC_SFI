@@ -70,6 +70,16 @@ public class HomeActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+    public void credits(View view) {
+        /*Intent i = new Intent(this, Palakkad.class);
+        startActivity(i);*/
+        msg = "crd";
+        System.out.println("hello");
+        Intent intent = new Intent(HomeActivity.this, Navgation.class);
+        intent.putExtra("message", msg);
+
+        startActivity(intent);
+    }
 
 
 

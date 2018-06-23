@@ -179,58 +179,182 @@
 
         </RelativeLayout>
 
-        <GridLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:columnCount="1"
+            android:layout_height="wrap_content">
 
-            android:rowCount="4">
-
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_marginTop="5dp"
-                android:layout_height="wrap_content"
-                android:text="Office Enquiry"
-                android:gravity="left|center_vertical"
-                android:fontFamily="@font/robotoregular"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:paddingLeft="40dp"
-                android:drawablePadding="20dp"
-                android:drawableLeft="@drawable/ic_office_enquies"
-                />
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
 
-            <View
-                android:layout_height="1dp"
-                android:layout_marginTop="5dp"
-                android:layout_width="match_parent"
-                android:background="#b0bec5"
-                />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Confidential Assistant(CA)"
+                        android:id="@+id/ca"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_icon_1"
+                        />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_marginTop="5dp"
-                android:layout_height="wrap_content"
-                android:text="Scholarship Enquiry"
-                android:gravity="left|center_vertical"
-                android:fontFamily="@font/robotoregular"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:paddingLeft="40dp"
-                android:drawablePadding="20dp"
-                android:drawableLeft="@drawable/ic_scholarship"
-                />
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="C1 Section"
+                        android:id="@+id/c1"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_icon_2"
+                        />
 
-            <View
-                android:layout_height="1dp"
-                android:layout_marginTop="5dp"
-                android:layout_width="match_parent"
-                android:background="#b0bec5"
-                />
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="C2 Section"
+                        android:id="@+id/c2"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_icon_3"
+                        />
 
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="C3 Section"
+                        android:id="@+id/c3"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_icon_4"
+                        />
 
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="C4 Section"
+                        android:id="@+id/c4"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_icon_5"
+                        />
 
-        </GridLayout>
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sergeant"
+                        android:id="@+id/sergeant"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_icon_6"
+                        />
+
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
 
 
     </LinearLayout>

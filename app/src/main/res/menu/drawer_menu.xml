@@ -9,144 +9,79 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/home_icon"
+            android:icon="@drawable/ic_home"
             android:title="@string/home" />
-        <item
-            android:id="@+id/nav_info"
-            android:icon="@drawable/info"
 
-            android:title="@string/info"/>
-        <item
-            android:id="@+id/nav_aboutus"
-            android:icon="@drawable/users"
-            android:title="@string/aboutus"/>
+
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+
         <item
             android:id="@+id/noti"
-            android:icon="@drawable/login"
+            android:icon="@drawable/ic_notifications"
             android:title="Notifications" />
 
 
+
     </group>
-    <item android:title="KTU">
-        <menu>
-            <item
-                android:id="@+id/nav_syllabus"
-                android:icon="@drawable/syl"
-                android:title="KTU Syllabus" />
-            <item
-                android:id="@+id/nav_Ktu_portal"
-                android:icon="@drawable/ktuweb"
-                android:title="KTU Login" />
-            <item
-                android:id="@+id/nav_Ktu_clg_portal"
-                android:icon="@drawable/login"
-                android:title="KTU College Login" />
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
 
-
-
-
-        </menu>
-    </item>
-
-
-
-
-    <item android:title="College">
-        <menu>
-            <item
-                android:id="@+id/nav_collegeweb"
-                android:icon="@drawable/domain"
-                android:title="@string/CollegeWebsite" />
-            <item
-                android:id="@+id/nav_collegemagazine"
-                android:icon="@drawable/news"
-                android:title="@string/CollegeMagazine" />
-            <item
-                android:id="@+id/nav_invento"
-                android:icon="@drawable/teq"
-                android:title="Invento" />
-        </menu>
-    </item>
-
-
-
-    <item android:title="Request">
-        <menu>
-            <item
-                android:id="@+id/nav_formats"
-                android:icon="@drawable/req"
-                android:title="Request Formats" />
-        </menu>
-    </item>
-    <item android:title="SFI Unit">
-        <menu>
-            <item
-                android:id="@+id/nav_sfiunit"
-                android:icon="@drawable/sfiico"
-                android:title="SFI Unit" />
-            <item
-                android:id="@+id/nav_joinus"
-                android:icon="@drawable/wtappng"
-                android:title="Join Us Now" />
-        </menu>
-    </item>
-
-
-    <item android:title="Communicate">
-         <menu>
-             <item
-                 android:id="@+id/nav_Facebook"
-                 android:icon="@drawable/ic_menu_send"
-                 android:title="@string/feedback" />
-         </menu>
-     </item>
-
-
-
-</menu>
-
-<!--<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-
-    <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/home_icon"
-            android:title="@string/home" />
+            android:id="@+id/nav_rateus"
+            android:icon="@drawable/ic_rate_us"
+            android:title="Rate us"/>
+
+
+    </group>
+
+
+    <group
+        android:id="@+id/group5"
+        android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_the_app"
+
+            android:title="Share"/>
+
+
+    </group>
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single">
+
         <item
             android:id="@+id/nav_info"
-            android:icon="@drawable/info"
-            android:title="@string/info" />
-        <item
-            android:id="@+id/nav_aboutus"
-            android:icon="@drawable/users"
-            android:title="@string/aboutus" />
+            android:icon="@drawable/ic_info"
+
+            android:title="@string/info"/>
+
+
+
     </group>
-    <item android:title="College">
-        <menu>
-            <item
-                android:id="@+id/nav_collegeweb"
-                android:icon="@drawable/domain"
-                android:title="@string/CollegeWebsite" />
-            <item
-                android:id="@+id/nav_collegemagazine"
-                android:icon="@drawable/news"
-                android:title="@string/CollegeMagazine" />
-        </menu>
-    </item>
+    <group
+        android:id="@+id/group8"
+        android:checkableBehavior="single">
+
+        <item
+            android:title=""
+            android:id="@+id/sc"/>
 
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_Facebook"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/feedback" />
+    </group>
 
-        </menu>
-    </item>
+
+
+
+
+
+
 
 
 </menu>
--->

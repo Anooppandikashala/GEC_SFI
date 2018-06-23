@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
-    tools:context="anoop.myprojects.gec_sfi.Invento">
+    tools:context="anoop.myprojects.gec_sfi.YearWiseFootball">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -19,7 +19,7 @@
             android:layout_gravity="center"
             android:layout_height="300dp"
             android:layout_marginTop="50dp"
-            android:src="@drawable/inventopropic" />
+            android:src="@drawable/yearwisefootballtournamenttpropic" />
 
         <TextView
             android:layout_width="match_parent"
@@ -30,7 +30,7 @@
             android:textColor="@color/black"
             android:fontFamily="@font/robotoregular"
             android:textStyle="bold"
-            android:text="INVENTO 2K18"/>
+            android:text="YEARWISE FOOTBALL"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
