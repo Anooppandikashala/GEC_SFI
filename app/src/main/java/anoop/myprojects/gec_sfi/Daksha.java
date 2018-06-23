@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 
@@ -38,6 +39,9 @@ public class Daksha extends Fragment {
                 startActivity(intent);
             }
         });
+
+        //Events.left1.setVisibility(ImageView.VISIBLE);
+        //Events.right1.setVisibility(ImageView.VISIBLE);
 
 
         return view;

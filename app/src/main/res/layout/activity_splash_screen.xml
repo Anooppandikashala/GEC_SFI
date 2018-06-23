@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context="anoop.myprojects.gec_sfi.SplashScreen">
 
+    <pl.droidsonroids.gif.GifTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/azadisplashscreen"
+        android:gravity="center" />
+
 </android.support.constraint.ConstraintLayout>

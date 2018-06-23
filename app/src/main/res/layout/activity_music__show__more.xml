@@ -139,37 +139,34 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_marginTop="45dp"
                     android:orientation="horizontal"
-                    android:layout_gravity="bottom"
                     android:gravity="center_horizontal"
-                    android:layout_height="wrap_content">
+                    android:layout_gravity="bottom"
+                    android:layout_weight="0.1"
+                    android:visibility="invisible"
+                    android:layout_height="0dp">
 
                     <ImageView
                         android:layout_width="wrap_content"
+                        android:id="@+id/fb"
                         android:src="@drawable/ic_facebook"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginStart="10dp"
                         android:layout_height="wrap_content" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:src="@drawable/ic_twitter"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginStart="10dp"
+                        android:id="@+id/tw"
                         android:layout_height="wrap_content" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:src="@drawable/instagrams"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginStart="10dp"
+                        android:id="@+id/insta"
                         android:layout_height="wrap_content" />
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginStart="10dp"
+                        android:id="@+id/you"
                         android:src="@drawable/ic_youtube"
                         android:layout_height="wrap_content" />
 

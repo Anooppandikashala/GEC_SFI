@@ -8,9 +8,9 @@
     <application
         android:name=".FireLearn"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/azadiogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/azadiogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -77,7 +77,8 @@
         <activity android:name=".YearWiseFootballExplore" />
         <activity android:name=".GCLExplore" />
         <activity android:name=".DakshaExplore" />
-        <activity android:name=".AnnualSportMeetExplore"></activity>
+        <activity android:name=".AnnualSportMeetExplore" />
+        <activity android:name=".LibraryShowMore"></activity>
     </application>
 
 </manifest>

@@ -14,12 +14,44 @@
         android:orientation="vertical">
 
 
-        <ImageView
-            android:layout_width="300dp"
-            android:layout_gravity="center"
-            android:layout_height="300dp"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="1"
             android:layout_marginTop="50dp"
-            android:src="@drawable/yearwisefootballtournamenttpropic" />
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+                android:layout_marginTop="40dp"
+                android:id="@+id/left1"
+                android:src="@drawable/ic_chevron_left_black_24dp" />
+
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="300dp"
+                android:layout_weight="0.7"
+                android:src="@drawable/yearwisefootballtournamenttpropic" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/right1"
+                android:layout_weight="0.15"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/ic_chevron_right_black_24dp" />
+
+
+
+
+
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"

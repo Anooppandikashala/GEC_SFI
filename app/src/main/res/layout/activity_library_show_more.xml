@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anoop.myprojects.gec_sfi.LibraryShowMore">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/coverpiclibrary"
+                android:layout_height="150dp">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:text="Central Library"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Services"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="normal"
+                    android:text="Book issue\nReference Service\nPhotocopy Service\nInternet Service\nNewspaper Service"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Loan Privileges"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="12sp"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="normal"
+                    android:text="Two books for B-Tech students(3 for final years)\nFive books for M-Tech students\nFaculty can borrow ten books\nThe users can keep the books for a period of two weeks and can renew twice.\nThe CD-ROM Collection contains 512 CD-ROMS.\n70-80 books are borrowed per day and 100 users visit the library on working days."/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="normal"
+                    android:text="\n\n\NB: All books are classified and catalogued according to international standards. It follows the open accesses system. It is open to all students, faculty and other staff members of the college from 9.30 AM to 4.30PM."/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

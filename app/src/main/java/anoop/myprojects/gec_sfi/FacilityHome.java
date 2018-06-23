@@ -15,7 +15,7 @@ import android.widget.Button;
 
 public class FacilityHome extends Fragment {
 
-    Button ccf,general,lab,club,plh,pmh,lh,dormitory,sa,canteen;
+    Button ccf,general,lab,club,plh,pmh,lh,dormitory,sa,canteen,library,gym;
 
     FragmentTransaction fragmentTransaction;
     ActionBarDrawerToggle actionBarDrawerToggle;
@@ -52,6 +52,9 @@ public class FacilityHome extends Fragment {
         dormitory=view.findViewById(R.id.dormitory);
         sa=view.findViewById(R.id.student);
         canteen=view.findViewById(R.id.canteen);
+        library=view.findViewById(R.id.library);
+        gym=view.findViewById(R.id.gym);
+
 
 
         ccf.setOnClickListener(new View.OnClickListener() {
@@ -71,6 +74,23 @@ public class FacilityHome extends Fragment {
 
             }
         });
+        library.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+
+                Facilities ldf = new Facilities();
+                Bundle args = new Bundle();
+                args.putString("message", "llb");
+                ldf.setArguments(args);
+
+
+                fragmentTransaction.replace(R.id.main_container,ldf);
+                fragmentTransaction.commit();
+
+            }
+        });
 
         general.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,6 +101,23 @@ public class FacilityHome extends Fragment {
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
                 args.putString("message", "gnl");
+                ldf.setArguments(args);
+
+
+                fragmentTransaction.replace(R.id.main_container,ldf);
+                fragmentTransaction.commit();
+
+            }
+        });
+        gym.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+
+                Facilities ldf = new Facilities();
+                Bundle args = new Bundle();
+                args.putString("message", "gym");
                 ldf.setArguments(args);
 
 

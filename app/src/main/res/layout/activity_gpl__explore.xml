@@ -59,7 +59,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="20dp"
-                        android:text="An annual football league conducting by Government Engineering College Sreekrishnapuram, Palakkad."
+                        android:text="The football fest in the campus never dies.. The league presents a fierce battle between 6 teams."
                         android:textSize="12sp"
                         android:fontFamily="@font/robotoregular"
                         android:gravity="center"
@@ -223,26 +223,33 @@
             android:layout_width="match_parent"
             android:orientation="horizontal"
             android:gravity="center_horizontal"
+            android:layout_gravity="bottom"
             android:layout_weight="0.1"
             android:layout_height="0dp">
 
             <ImageView
                 android:layout_width="wrap_content"
+                android:id="@+id/fb"
                 android:src="@drawable/ic_facebook"
                 android:layout_height="wrap_content" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:src="@drawable/ic_twitter"
+                android:id="@+id/tw"
+                android:visibility="invisible"
                 android:layout_height="wrap_content" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:src="@drawable/instagrams"
+                android:id="@+id/insta"
+                android:visibility="invisible"
                 android:layout_height="wrap_content" />
 
             <ImageView
                 android:layout_width="wrap_content"
+                android:id="@+id/you"
                 android:src="@drawable/ic_youtube"
                 android:layout_height="wrap_content" />
 

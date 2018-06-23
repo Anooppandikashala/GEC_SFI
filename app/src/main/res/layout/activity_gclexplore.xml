@@ -58,7 +58,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="20dp"
-                        android:text="Invento 18 is our annual multifest conducted each\n year with 1000s of students participation Nationally"
+                        android:text="A true test for all the cricket players in GEC. Six teams battle out league style.."
                         android:textSize="12sp"
                         android:fontFamily="@font/robotoregular"
                         android:gravity="center"
@@ -188,21 +188,28 @@
 
             <ImageView
                 android:layout_width="wrap_content"
+                android:id="@+id/fb"
+                android:visibility="gone"
                 android:src="@drawable/ic_facebook"
                 android:layout_height="wrap_content" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:src="@drawable/ic_twitter"
+                android:id="@+id/tw"
+                android:visibility="gone"
                 android:layout_height="wrap_content" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:src="@drawable/instagrams"
+                android:id="@+id/insta"
                 android:layout_height="wrap_content" />
 
             <ImageView
                 android:layout_width="wrap_content"
+                android:id="@+id/you"
+                android:visibility="gone"
                 android:src="@drawable/ic_youtube"
                 android:layout_height="wrap_content" />
 

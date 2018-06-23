@@ -1,5 +1,6 @@
 package anoop.myprojects.gec_sfi;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -21,6 +22,7 @@ import android.widget.TextView;
 
 public class Events extends Fragment {
 
+
     TabLayout tabLayout;
     DrawerLayout drawerLayout;
     ViewPager viewPager;
@@ -28,6 +30,7 @@ public class Events extends Fragment {
     String value="facility";
     ActionBarDrawerToggle actionBarDrawerToggle;
     Toolbar toolbar;
+    @SuppressLint("StaticFieldLeak")
     public static ImageView left1,right1;
 
     public Events() {
@@ -43,6 +46,8 @@ public class Events extends Fragment {
         toolbar=getActivity().findViewById(R.id.toolbar);
         left1 =view.findViewById(R.id.left1);
         right1 =view.findViewById(R.id.right1);
+
+
 
 
         //actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorPrimary));

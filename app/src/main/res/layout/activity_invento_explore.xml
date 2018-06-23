@@ -355,21 +355,26 @@
 
             <ImageView
                 android:layout_width="wrap_content"
+                android:id="@+id/fb"
                 android:src="@drawable/ic_facebook"
                 android:layout_height="wrap_content" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:src="@drawable/ic_twitter"
+                android:id="@+id/tw"
+                android:visibility="gone"
                 android:layout_height="wrap_content" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:src="@drawable/instagrams"
+                android:id="@+id/insta"
                 android:layout_height="wrap_content" />
 
             <ImageView
                 android:layout_width="wrap_content"
+                android:id="@+id/you"
                 android:src="@drawable/ic_youtube"
                 android:layout_height="wrap_content" />
 

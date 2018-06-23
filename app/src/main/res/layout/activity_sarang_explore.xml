@@ -58,7 +58,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="20dp"
-                        android:text="Invento 18 is our annual multifest conducted each\n year with 1000s of students participation Nationally"
+                        android:text="The inter college football tournament conducted each year with about 30 teams vying for the title, trophy and prize money"
                         android:textSize="12sp"
                         android:fontFamily="@font/robotoregular"
                         android:gravity="center"
@@ -161,25 +161,30 @@
             android:gravity="center_horizontal"
             android:layout_gravity="bottom"
             android:layout_weight="0.1"
+            android:visibility="invisible"
             android:layout_height="0dp">
 
             <ImageView
                 android:layout_width="wrap_content"
+                android:id="@+id/fb"
                 android:src="@drawable/ic_facebook"
                 android:layout_height="wrap_content" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:src="@drawable/ic_twitter"
+                android:id="@+id/tw"
                 android:layout_height="wrap_content" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:src="@drawable/instagrams"
+                android:id="@+id/insta"
                 android:layout_height="wrap_content" />
 
             <ImageView
                 android:layout_width="wrap_content"
+                android:id="@+id/you"
                 android:src="@drawable/ic_youtube"
                 android:layout_height="wrap_content" />
 

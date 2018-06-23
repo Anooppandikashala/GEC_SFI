@@ -31,6 +31,9 @@ public class Invento extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_invento, container, false);
 
+        //Events.left1.setVisibility(ImageView.GONE);
+        //Events.right1.setVisibility(ImageView.VISIBLE);
+
         TextView tv_explore;
 
         tv_explore = view.findViewById(R.id.exploreinvento);
@@ -44,7 +47,7 @@ public class Invento extends Fragment {
             }
         });
 
-        //Events.left1.setVisibility(ImageView.GONE);
+
 
         return  view;
     }

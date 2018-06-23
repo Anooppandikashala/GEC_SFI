@@ -27,7 +27,8 @@ public class AnnualSportsMeet extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_annual_sports_meet, container, false);
-        Events.right1.setVisibility(ImageView.GONE);
+        //Events.right1.setVisibility(ImageView.GONE);
+        //Events.left1.setVisibility(ImageView.VISIBLE);
 
         TextView tv_explore;
 
