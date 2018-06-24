@@ -100,7 +100,7 @@ public class FacilityHome extends Fragment {
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
-                args.putString("message", "gnl");
+                args.putString("message", "gs");
                 ldf.setArguments(args);
 
 

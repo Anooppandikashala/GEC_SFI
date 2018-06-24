@@ -2,14 +2,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context="anoop.myprojects.gec_sfi.InfoFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
+        android:orientation="vertical"
         android:gravity="center"
-        android:textSize="40sp"
-        android:layout_height="match_parent"
-        android:text="Info" />
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_azadi_logo_with_typo"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gymm"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:fontFamily="@font/robotoregular"
+            android:textStyle="normal"
+            android:background="@drawable/btnbackcseinfo"
+            android:text="To get updated on Gec news, Azadi provides you with all the information, latest updates, and contact details of the campus."/>
+
+
+
+    </LinearLayout>
 
 </FrameLayout>

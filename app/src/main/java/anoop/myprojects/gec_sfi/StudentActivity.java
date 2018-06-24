@@ -15,7 +15,7 @@ import android.widget.TextView;
  */
 public class StudentActivity extends Fragment {
 
-    TextView nss,ieee;
+    TextView nss,ieee,iedc;
 
 
     public StudentActivity() {
@@ -31,6 +31,7 @@ public class StudentActivity extends Fragment {
 
         nss= view.findViewById(R.id.nss);
         ieee=view.findViewById(R.id.iee);
+        iedc=view.findViewById(R.id.iedc);
 
         nss.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +44,13 @@ public class StudentActivity extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(),Ieee.class);
+                startActivity(intent);
+            }
+        });
+        iedc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(),Iedc.class);
                 startActivity(intent);
             }
         });

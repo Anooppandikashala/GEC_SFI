@@ -14,89 +14,118 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="0dp"
         android:gravity="center_vertical|center_horizontal"
         android:layout_height="match_parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
 
-        <Button
-            android:layout_width="252dp"
-            android:layout_height="50dp"
-            android:background="@drawable/btnbackcse"
-            android:drawableLeft="@drawable/ic_events"
-            android:drawablePadding="10dp"
-            android:drawableStart="@drawable/ic_events"
-            android:fontFamily="@font/robotoregular"
-            android:gravity="left|center"
-            android:onClick="Events"
-            android:padding="10dp"
-            android:singleLine="false"
-            android:text="Events"
-            android:textAllCaps="false"
-            android:textSize="20sp" />
-        <Button
-            android:layout_width="252dp"
-            android:layout_height="50dp"
-            android:text="Enquiry"
-            android:fontFamily="@font/robotoregular"
-            android:textSize="20sp"
-            android:gravity="left|center"
-            android:layout_marginTop="20dp"
-            android:padding="10dp"
-            android:onClick="Enquiry"
-            android:textAllCaps="false"
-            android:background="@drawable/btnbackcse"
-            android:drawableLeft="@drawable/ic_enquiry"
-            android:drawablePadding="10dp"
-            android:drawableStart="@drawable/ic_enquiry"/>
-        <Button
-            android:layout_width="252dp"
-            android:layout_height="50dp"
-            android:text="Facilities"
-            android:fontFamily="@font/robotoregular"
-            android:layout_marginTop="20dp"
-            android:textSize="20sp"
-            android:gravity="left|center"
-            android:padding="10dp"
-            android:onClick="facilities"
-            android:textAllCaps="false"
-            android:background="@drawable/btnbackcse"
-            android:drawableLeft="@drawable/ic_facilities"
-            android:drawablePadding="10dp"
-            android:drawableStart="@drawable/ic_facilities"/>
-        <Button
-            android:layout_width="252dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:text="Union"
-            android:fontFamily="@font/robotoregular"
-            android:textSize="20sp"
-            android:gravity="left|center"
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_azadi_logo_with_typo"
+                android:visibility="visible"
+                android:layout_height="wrap_content" />
 
-            android:onClick="unions"
-            android:padding="10dp"
-            android:textAllCaps="false"
-            android:background="@drawable/btnbackcse"
-            android:drawableLeft="@drawable/ic_union"
-            android:drawablePadding="10dp"
-            android:drawableStart="@drawable/ic_union"/>
 
-        <Button
-            android:layout_width="252dp"
-            android:layout_height="50dp"
-            android:text="Credits"
-            android:layout_marginTop="20dp"
-            android:textSize="20sp"
-            android:fontFamily="@font/robotoregular"
-            android:gravity="left|center"
-            android:padding="10dp"
-            android:textAllCaps="false"
-            android:onClick="credits"
-            android:background="@drawable/btnbackcse"
-            android:drawableLeft="@drawable/ic_credits"
-            android:drawablePadding="10dp"
-            android:layout_marginBottom="9dp"
-            android:drawableStart="@drawable/ic_credits"/>
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btnbackcse"
+                    android:drawableLeft="@drawable/ic_events"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/ic_events"
+                    android:fontFamily="@font/robotoregular"
+                    android:gravity="left|center"
+                    android:onClick="Events"
+                    android:padding="10dp"
+                    android:singleLine="false"
+                    android:text="Events"
+                    android:textAllCaps="false"
+                    android:textSize="20sp" />
+                <Button
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:text="Enquiry"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="20sp"
+                    android:gravity="left|center"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:onClick="Enquiry"
+                    android:textAllCaps="false"
+                    android:background="@drawable/btnbackcse"
+                    android:drawableLeft="@drawable/ic_enquiry"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/ic_enquiry"/>
+                <Button
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:text="Facilities"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:gravity="left|center"
+                    android:padding="10dp"
+                    android:onClick="facilities"
+                    android:textAllCaps="false"
+                    android:background="@drawable/btnbackcse"
+                    android:drawableLeft="@drawable/ic_facilities"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/ic_facilities"/>
+                <Button
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Union"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="20sp"
+                    android:gravity="left|center"
+
+                    android:onClick="unions"
+                    android:padding="10dp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/btnbackcse"
+                    android:drawableLeft="@drawable/ic_union"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/ic_union"/>
+
+                <Button
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:text="Credits"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:gravity="left|center"
+                    android:padding="10dp"
+                    android:textAllCaps="false"
+                    android:onClick="credits"
+                    android:background="@drawable/btnbackcse"
+                    android:drawableLeft="@drawable/ic_credits"
+                    android:drawablePadding="10dp"
+                    android:layout_marginBottom="9dp"
+                    android:drawableStart="@drawable/ic_credits"/>
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
 
 
 

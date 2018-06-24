@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anoop.myprojects.gec_sfi.CCFShowmore">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/ccfcoverpic"
+                android:layout_height="150dp">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:text="CCF"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Facilities"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="normal"
+                    android:text="Providing Authentication Credentials.\nBrowsing Facility\nWIFI Access.\nOnline Examination and Training\nTechnical support to other Departments and college office.\nProviding Expert advice in IT related Purchases.\nSupport for AICTE &amp;KTU relatedworks."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Authentication"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="normal"
+                    android:text="Access to the college network and internet\nconnectivity is restricted through a user level"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Authentication System"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="normal"
+                    android:text="For obtaining the authentication credentials, contact CCF.\nStudents are requested to apply through their staff advisor."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Browsing"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:fontFamily="@font/robotoregular"
+                    android:textStyle="normal"
+                    android:text="CCF is open for browsing from 9.30 AM to 4.30 PM on all week days. ASCE &amp; ASME is available to access in CCF."/>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

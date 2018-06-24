@@ -5,9 +5,99 @@
     tools:context="anoop.myprojects.gec_sfi.Credit">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/teamazadicreditpic"
+                    android:layout_height="200dp">
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Developer"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/user"
+                        android:layout_height="100dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:text="Anoop P\nS8 IT 2018 PASSOUT"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Ui Designer"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/user"
+                        android:layout_height="100dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:text="Mohammed Ummer Sufiyan K\nS8 Cse 2018 PASSOUT"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+
+    </LinearLayout>
 
 </FrameLayout>

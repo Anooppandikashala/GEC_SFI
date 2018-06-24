@@ -6,13 +6,252 @@
     android:layout_height="match_parent"
     tools:context="anoop.myprojects.gec_sfi.NSS">
 
-    <TextView
-        android:layout_height="match_parent"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:gravity="center"
-        android:text="N S S"
-        android:textColor="#000000"
-        android:fontFamily="@font/robotoregular"
-        android:textSize="30dp"/>
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.9"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/studentactivitiescoverpic"
+                    android:layout_height="150dp">
+                </LinearLayout>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="25dp"
+                            android:text="NSS"
+                            android:textSize="25sp"
+                            android:fontFamily="@font/robotoregular"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:text="Programme Officer"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/robotoregular"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:text="Najeem MS\nAsst.Professor, Dept.Mathematics"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/robotoregular"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:text="Volunteer Secretaries"
+                            android:textSize="20sp"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:fontFamily="@font/robotoregular"
+                            android:layout_height="wrap_content" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1."
+                            android:gravity="center_horizontal"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:padding="10dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/user"
+                                    android:layout_height="80dp" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Maneesh P(S7 CSE)\n+91 8111848441"
+                                    android:textSize="12sp"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="0.5"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:padding="10dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/user"
+                                    android:layout_height="80dp" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Chithra P(S7 IT)\n+91 8547268045"
+                                    android:textSize="12sp"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:text="Selection Criteria"
+                            android:textSize="20sp"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:fontFamily="@font/robotoregular"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/robotoregular"
+                            android:text="Various selection activities will be conducted for students willing to join the unit from which a maximum of 50 will be selected based on attendance and active participation."
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:text="Benefits"
+                            android:textSize="20sp"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:fontFamily="@font/robotoregular"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/robotoregular"
+                            android:text="KTU awards 60 credit point to nss volunteers who have 240 hours of attendance along with participation in any special camp during their volunteering period."
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+
+
+
+
+                    </LinearLayout>
+
+
+
+                </ScrollView>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.1"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/fb"
+                android:src="@drawable/ic_facebook"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_twitter"
+                android:id="@+id/tw"
+                android:visibility="gone"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/instagrams"
+                android:id="@+id/insta"
+                android:visibility="gone"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/you"
+                android:visibility="gone"
+                android:src="@drawable/ic_youtube"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

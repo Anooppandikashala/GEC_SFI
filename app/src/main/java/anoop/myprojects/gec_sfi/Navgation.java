@@ -242,7 +242,7 @@ public class Navgation extends AppCompatActivity {
                         //getFragmentManager().popBackStack();
                         fragmentTransaction.replace(R.id.main_container,new InfoFragment());
                         fragmentTransaction.commit();
-                        getSupportActionBar().setTitle("Information");
+                        getSupportActionBar().setTitle(" ");
                         drawerLayout.closeDrawers();
 
                     case R.id.nav_share :

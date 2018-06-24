@@ -73,8 +73,7 @@
         students with record books\nand other supplies necessary for their course.</string>
     <string name="canteen_desc">A place in college where food and
         meals are sold,\n often at a lower than usual price.</string>
-    <string name="ccf_desc">Super fast internet facility is available from
-        9:00 AM \nto 4:30 PM, for all students and staff for free at \nall working days.</string>
+    <string name="ccf_desc">Central Computing Facility(CCF) is a centralized Computing Centre for the Staff and students of this college. CCF is maintaining and managing the campus networking and Internet facility</string>
     <string name="mens_hostel">Where male wards could take admission \nfor food and accommodation.</string>
 
     <string name="womens_hostel">Where female wards could take admission \nfor food and accommodation.</string>
@@ -85,7 +84,15 @@
 
     <string name="Itaplab">Helpful in advanced programming and is useful for the research and development activities of the department.</string>
 
-
+    <string name="dormitory">Priority 1 : \n20% of the total seats should be alloted to students belonging to the
+categories of SC/ST/PH/BPL/Other States/Government of India Nominees
+irrespective of semester.\nPriority 2: \nThe remaining seats after allotment under Priority -1 above , shall be
+Alloted among the students as follows*\n
+a) 30% of seats to first year students\n
+b) 30% of seats to final year\nc) 20% of seats to 3rd and 4th years\n
+d) 10% of seats to second years\n
+e) 5% of seats to first year PG students\n
+f) 5% of seats to second year PG students\n*(on the basis of merit and distance)</string>
 </resources>
 
 

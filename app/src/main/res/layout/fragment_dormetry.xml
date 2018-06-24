@@ -138,16 +138,16 @@
                 android:text="@string/dormitory_desc"/>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="12sp"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:id="@+id/canteen"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
                 android:gravity="center"
                 android:fontFamily="@font/robotoregular"
                 android:textStyle="normal"
-                android:text="Warden :Prof.Vinayachandran K K\nAsst.Professor Department of Information Technology\n+91 9446051125"/>
-
-            
+                android:background="@drawable/btnbackcseblue"
+                android:text="Show More"/>
 
 
 

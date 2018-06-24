@@ -13,7 +13,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="@drawable/lhbgoptimised"
+            android:background="@drawable/privatehostelwomenbgoptimised"
             android:layout_height="410dp">
 
             <View
@@ -142,7 +142,7 @@
                 android:gravity="center"
                 android:fontFamily="@font/robotoregular"
                 android:textStyle="normal"
-                android:background="@drawable/btnbackcsepink"
+                android:background="@drawable/btnbackcsepwh"
                 android:text="Show More"/>
 
 

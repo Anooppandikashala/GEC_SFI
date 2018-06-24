@@ -166,6 +166,34 @@
                         />
                 </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="IEDC"
+                        android:id="@+id/iedc"
+                        android:gravity="left|center_vertical"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingLeft="25dp"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_dance_club"
+                        />
+
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:background="#b0bec5"
+                        />
+                </LinearLayout>
+
 
             </LinearLayout>
 

@@ -78,7 +78,12 @@
         <activity android:name=".GCLExplore" />
         <activity android:name=".DakshaExplore" />
         <activity android:name=".AnnualSportMeetExplore" />
-        <activity android:name=".LibraryShowMore"></activity>
+        <activity android:name=".LibraryShowMore" />
+        <activity android:name=".GymShowmore" />
+        <activity android:name=".CanteenShowMore" />
+        <activity android:name=".DormetryShowMore" />
+        <activity android:name=".CCFShowmore" />
+        <activity android:name=".Iedc"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anoop.myprojects.gec_sfi.CanteenShowMore">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_weight="0.9"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/coverpiccanteen"
+                    android:layout_height="150dp">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="25dp"
+                        android:text="Canteen"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:text="Incharge"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:text="Muthu, Sivashankaran\n+91 9847266426"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:text="Volunteer Secretaries"
+                        android:textSize="20sp"
+                        android:visibility="gone"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:text="Canteen time :"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/robotoregular"
+                        android:text="5 : 00 AM to 7 : 00 PM"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:text="Menu"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/robotoregular"
+                        android:text="Tea : 6 Rs\nSnacks : 6 Rs\nMeals(Veg) : 20 Rs\nMeals(non) : 30 Rs\nNechor : 30 Rs\nChicken : 40 Rs"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.1"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/robotoregular"
+                android:text="NB: Changes may occur\nCanteen is available in all working days."
+                android:textSize="12sp"
+                android:gravity="left"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
