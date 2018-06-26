@@ -4,15 +4,15 @@
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /-->
 
     <application
         android:name=".FireLearn"
         android:allowBackup="true"
-        android:icon="@mipmap/azadiogo"
+        android:icon="@mipmap/azadi_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/azadiogo"
+        android:roundIcon="@mipmap/azadi_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <meta-data

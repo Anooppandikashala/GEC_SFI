@@ -19,6 +19,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:orientation="vertical"
+                android:layout_marginBottom="20dp"
                 android:layout_height="wrap_content">
 
                 <LinearLayout
@@ -82,6 +83,38 @@
                         android:layout_width="match_parent"
                         android:layout_marginTop="5dp"
                         android:text="Mohammed Ummer Sufiyan K\nS8 Cse 2018 PASSOUT"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Coordinator"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:padding="0dp"
+                        android:layout_gravity="center"
+                        android:src="@mipmap/ajil"
+                        android:layout_height="100dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:text="Ajil Vijayan\nS7 ME"
                         android:textSize="13sp"
                         android:fontFamily="@font/robotoregular"
                         android:gravity="center"
