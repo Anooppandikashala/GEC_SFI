@@ -128,7 +128,7 @@
                         android:textStyle="bold"
                         android:paddingLeft="25dp"
                         android:drawablePadding="20dp"
-                        android:drawableLeft="@drawable/ic_music_club"
+                        android:drawableLeft="@drawable/nsslogo"
                         />
 
                     <View
@@ -155,7 +155,7 @@
                         android:textStyle="bold"
                         android:paddingLeft="25dp"
                         android:drawablePadding="20dp"
-                        android:drawableLeft="@drawable/ic_dance_club"
+                        android:drawableLeft="@drawable/ieeelogo"
                         />
 
                     <View
@@ -183,7 +183,7 @@
                         android:textStyle="bold"
                         android:paddingLeft="25dp"
                         android:drawablePadding="20dp"
-                        android:drawableLeft="@drawable/ic_dance_club"
+                        android:drawableLeft="@drawable/ic_general"
                         />
 
                     <View

@@ -13,7 +13,9 @@ import static android.support.constraint.Constraints.TAG;
 
 public class MyFirebaseInstanceIdService extends FirebaseInstanceIdService {
 
-    @Override
+    private static final String TAG = "MyFirebaseIIDService";
+
+    /*@Override
     public void onTokenRefresh() {
         super.onTokenRefresh();
 
@@ -25,6 +27,29 @@ public class MyFirebaseInstanceIdService extends FirebaseInstanceIdService {
         Log.d(TAG, "Refreshed token: " + token);
 
 
+    }*/
+
+
+    @Override
+    public void onTokenRefresh() {
+        // Get updated InstanceID token.
+        String refreshedToken = FirebaseInstanceId.getInstance().getToken();
+        Log.d(TAG, "Refreshed token: " + refreshedToken);
+
+        sendRegistrationToServer(refreshedToken);
+    }
+    // [END refresh_token]
+
+    /**
+     * Persist token to third-party servers.
+     *
+     * Modify this method to associate the user's FCM InstanceID token with any server-side account
+     * maintained by your application.
+     *
+     * @param token The new token.
+     */
+    private void sendRegistrationToServer(String token) {
+        // TODO: Implement this method to send token to your app server.
     }
 
 

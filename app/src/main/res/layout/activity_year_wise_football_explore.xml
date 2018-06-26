@@ -48,7 +48,6 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="20dp"
-                        android:visibility="gone"
                         android:text="Event Description"
                         android:textSize="20sp"
                         android:fontFamily="@font/robotoregular"
@@ -58,9 +57,8 @@
                         android:layout_height="wrap_content" />
                     <TextView
                         android:layout_width="match_parent"
-                        android:visibility="gone"
                         android:layout_marginTop="20dp"
-                        android:text="Invento 18 is our annual multifest conducted each\n year with 1000s of students participation Nationally"
+                        android:text="Inorder to encourage the sportsman inside every student, year wise football tournament is conducted."
                         android:textSize="12sp"
                         android:fontFamily="@font/robotoregular"
                         android:gravity="center"

@@ -48,7 +48,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="20dp"
-                        android:visibility="gone"
+                        android:visibility="visible"
                         android:text="Event Description"
                         android:textSize="20sp"
                         android:fontFamily="@font/robotoregular"
@@ -59,8 +59,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="20dp"
-                        android:visibility="gone"
-                        android:text="Invento 18 is our annual multifest conducted each\n year with 1000s of students participation Nationally"
+                        android:visibility="visible"
+                        android:text="Year wise cricket tournament, held at college ground. There will be two teams from each year, team A and team B."
                         android:textSize="12sp"
                         android:fontFamily="@font/robotoregular"
                         android:gravity="center"

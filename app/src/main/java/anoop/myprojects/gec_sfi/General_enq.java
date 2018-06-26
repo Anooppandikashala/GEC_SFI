@@ -180,7 +180,7 @@ public class General_enq extends Fragment {
 
                     try {
 
-                        intent.setData(Uri.parse("tel:9742583510"));
+                        intent.setData(Uri.parse("tel:9747700598"));
                         startActivity(intent);
                     } catch (SecurityException se) {
                         se.printStackTrace();
@@ -193,7 +193,7 @@ public class General_enq extends Fragment {
 
                     try {
 
-                        intent.setData(Uri.parse("tel:9605799688"));
+                        intent.setData(Uri.parse("tel:8089494197"));
                         startActivity(intent);
                     } catch (SecurityException se) {
                         se.printStackTrace();
@@ -206,7 +206,7 @@ public class General_enq extends Fragment {
 
                     try {
 
-                        intent.setData(Uri.parse("tel:9895347246"));
+                        intent.setData(Uri.parse("tel:9400566754"));
                         startActivity(intent);
                     } catch (SecurityException se) {
                         se.printStackTrace();
