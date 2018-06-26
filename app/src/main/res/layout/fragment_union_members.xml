@@ -127,7 +127,7 @@
                         android:layout_width="0dp"
                         android:padding="20dp"
                         android:layout_weight="0.3"
-                        android:src="@drawable/user"
+                        android:src="@mipmap/sarath"
                         android:layout_height="match_parent" />
 
                     <LinearLayout
@@ -200,7 +200,7 @@
                         android:layout_width="0dp"
                         android:padding="20dp"
                         android:layout_weight="0.3"
-                        android:src="@drawable/user"
+                        android:src="@mipmap/subisha"
                         android:layout_height="match_parent" />
 
                     <LinearLayout
@@ -261,7 +261,7 @@
                         android:layout_width="0dp"
                         android:padding="20dp"
                         android:layout_weight="0.3"
-                        android:src="@drawable/user"
+                        android:src="@mipmap/ranjith"
                         android:layout_height="match_parent" />
 
                     <LinearLayout
@@ -322,7 +322,7 @@
                         android:layout_width="0dp"
                         android:padding="20dp"
                         android:layout_weight="0.3"
-                        android:src="@drawable/user"
+                        android:src="@mipmap/minhaj"
                         android:layout_height="match_parent" />
 
                     <LinearLayout
@@ -383,7 +383,7 @@
                         android:layout_width="0dp"
                         android:padding="20dp"
                         android:layout_weight="0.3"
-                        android:src="@drawable/user"
+                        android:src="@mipmap/reshma"
                         android:layout_height="match_parent" />
 
                     <LinearLayout
@@ -505,7 +505,7 @@
                         android:layout_width="0dp"
                         android:padding="20dp"
                         android:layout_weight="0.3"
-                        android:src="@drawable/user"
+                        android:src="@mipmap/sajid"
                         android:layout_height="match_parent" />
 
                     <LinearLayout
@@ -566,7 +566,7 @@
                         android:layout_width="0dp"
                         android:padding="20dp"
                         android:layout_weight="0.3"
-                        android:src="@drawable/user"
+                        android:src="@mipmap/vinayan"
                         android:layout_height="match_parent" />
 
                     <LinearLayout
@@ -627,7 +627,7 @@
                         android:layout_width="0dp"
                         android:padding="20dp"
                         android:layout_weight="0.3"
-                        android:src="@drawable/user"
+                        android:src="@mipmap/arjun"
                         android:layout_height="match_parent" />
 
                     <LinearLayout
@@ -749,7 +749,7 @@
                         android:layout_width="0dp"
                         android:padding="20dp"
                         android:layout_weight="0.3"
-                        android:src="@drawable/user"
+                        android:src="@mipmap/swathy"
                         android:layout_height="match_parent" />
 
                     <LinearLayout

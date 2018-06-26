@@ -140,7 +140,7 @@
             <TextView
                 android:layout_width="240dp"
                 android:layout_height="50dp"
-                android:id="@+id/canteen"
+                android:id="@+id/dormitorys"
                 android:layout_marginTop="20dp"
                 android:textSize="20sp"
                 android:gravity="center"

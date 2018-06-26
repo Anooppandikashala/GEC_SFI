@@ -1,8 +1,16 @@
 package anoop.myprojects.gec_sfi;
 
 
+import android.*;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,6 +46,46 @@ public class UnitMemers extends Fragment {
             "Gautham raj(S7CSE)","Sabik (S7ECE)"
 
     } ;
+    Integer[] imageId = {
+            R.mipmap.ajil,
+            R.mipmap.sajid,
+            R.mipmap.akhilmadav,
+            R.mipmap.fahmi,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.mipmap.lakku,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.info,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.info
+
+    };
     String[] Title = {
             "Secretary",
             "President",
@@ -72,46 +120,7 @@ public class UnitMemers extends Fragment {
             "9497021050",
             "9544394188","7025504252","7907160314","9744560260","9496329344","8891284053"
     } ;
-    Integer[] imageId = {
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.info,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.user,
-            R.drawable.info,
-            R.drawable.info
 
-    };
 
 
     public UnitMemers() {
@@ -125,6 +134,13 @@ public class UnitMemers extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_unit_memers, container, false);
 
+        if(!runtime_permissions()){
+            //Intent i =new Intent(getApplicationContext(),GPS_Service.class);
+            //startService(i);
+            enable_buttons();
+
+        }
+
         CustomList adapter = new
                 CustomList(getActivity(), Title,Name,Mob, imageId);
         list=(ListView)view.findViewById(R.id.list);
@@ -135,11 +151,88 @@ public class UnitMemers extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 Toast.makeText(getContext(), "You Clicked at " +Mob[position], Toast.LENGTH_SHORT).show();
+                try {
+
+                    Intent intent = new Intent(Intent.ACTION_CALL);
+                    if (ActivityCompat.checkSelfPermission(getContext(), android.Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                        // TODO: Consider calling
+                        //    ActivityCompat#requestPermissions
+                        // here to request the missing permissions, and then overriding
+                        //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                        //                                          int[] grantResults)
+                        // to handle the case where the user grants the permission. See the documentation
+                        // for ActivityCompat#requestPermissions for more details.
+                        return;
+                    }
+
+                    try {
+                        String mobbb=Mob[position];
+                        mobbb =mobbb.trim();
+
+                        intent.setData(Uri.parse("tel:"+mobbb));
+                        startActivity(intent);
+                    } catch (SecurityException se) {
+                        se.printStackTrace();
+                        Toast.makeText(getContext(), "Permission Error", Toast.LENGTH_SHORT).show();
+                    }
+
+
+
+                }
+                catch(Exception e){
+
+                    e.printStackTrace();
+                }
 
             }
         });
 
+
+
         return view;
     }
+
+    private boolean runtime_permissions() {
+
+        try {
+            if (Build.VERSION.SDK_INT >= 23 && ContextCompat.checkSelfPermission(getContext(), android.Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+
+                requestPermissions(new String[]{android.Manifest.permission.CALL_PHONE}, 100);
+
+                return true;
+            }
+
+
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        try {
+
+            super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+            if (requestCode == 100) {
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
+                    enable_buttons();
+                } else {
+                    runtime_permissions();
+                }
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+    public  void enable_buttons(){
+        //nothing to do
+    }
+
+
+
+
 
 }

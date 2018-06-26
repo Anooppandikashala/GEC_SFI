@@ -29,6 +29,16 @@ public class Dormetry extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_dormetry, container, false);
 
+        t1= view.findViewById(R.id.dormitorys);
+        t1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent=new Intent(getContext(),DormetryShowMore.class);
+                startActivity(intent);
+            }
+        });
+
 
 
 

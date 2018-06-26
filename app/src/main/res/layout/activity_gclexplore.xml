@@ -38,7 +38,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="25dp"
-                        android:text="GEC PREMIER LEAUGE"
+                        android:text="GEC CRICKET LEAGUE"
                         android:textSize="25sp"
                         android:fontFamily="@font/robotoregular"
                         android:textStyle="bold"
@@ -90,7 +90,7 @@
                                 android:layout_width="80dp"
                                 android:padding="10dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/user"
+                                android:src="@mipmap/sufi"
                                 android:layout_height="80dp" />
                             <TextView
                                 android:layout_width="match_parent"
@@ -147,7 +147,7 @@
                                 android:layout_width="80dp"
                                 android:padding="10dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/user"
+                                android:src="@mipmap/minhaj"
                                 android:layout_height="80dp" />
                             <TextView
                                 android:layout_width="match_parent"
