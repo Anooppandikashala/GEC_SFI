@@ -74,6 +74,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_gravity="center"
                 android:textAlignment="center"
+                android:padding="10dp"
                 android:gravity="center"
                 android:id="@+id/spinnerlinefrom"
                 style="@style/Widget.AppCompat.DropDownItem.Spinner"
@@ -87,6 +88,7 @@
                 android:layout_gravity="center"
                 android:textAlignment="center"
                 android:gravity="center"
+                android:padding="10dp"
                 android:id="@+id/spinnerlineto"
                 style="@style/Widget.AppCompat.DropDownItem.Spinner"
                 android:layout_height="wrap_content"/>

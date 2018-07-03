@@ -246,7 +246,7 @@ public class Staffs extends Fragment {
 
                     try {
 
-                        intent.setData(Uri.parse("tel:9495508617"));
+                        intent.setData(Uri.parse("tel:9495070478"));
                         startActivity(intent);
                     } catch (SecurityException se) {
                         se.printStackTrace();

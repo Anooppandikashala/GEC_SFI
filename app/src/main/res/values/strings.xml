@@ -46,6 +46,10 @@
     <string name="title_activity_navgation">Navgation</string>
 
 
+    <string name="venue">Venue: Government Engineering College\n          Sreekrishnapuram,Palakkad</string>
+    >
+
+
     <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the
         news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the
         InstanceID token to logcat.</string>
@@ -111,6 +115,29 @@ b) 30% of seats to final year\nc) 20% of seats to 3rd and 4th years\n
 d) 10% of seats to second years\n
 e) 5% of seats to first year PG students\n
 f) 5% of seats to second year PG students\n*(on the basis of merit and distance)</string>
+
+
+    <string name="sports_desc">Sports club is successfully running to enhance
+        the spirit of sports and to improve the talents of every GECians.
+        Special coachings are conducting by experts for every students.
+        College has its own cricket team, football team, basketball team,
+        volleyball team and badminton team. Coaching for volleyball,
+        basketball and badminton are given to boys as well as girls. College
+        football team, Basket ball team and volleyball team had proven their spirit
+        and abilities in previous university and inter college matches.</string>
+
+    <string name="che_lab_desc">The research laboratories in which the B-tech
+        chemistry students arecarried out in our college are quite well equipped.
+        There is a perfect environment of social, sportive and educational purposes
+        for students to use. It gains exposure to chemical reactions, materials and
+        equipments. So during hand on chemical activities students need to pay immense
+        discipline and should safety deal with lab apparatus and instruments.\n\nRecord :
+        Without Graph\n\nFaculties:\nSeema 8921902235\n</string>
+    <string name="phy_lab_desc">Physics lab aids students in establishing reference of theory.
+        There is a range of lab equipments where students need to remain patient and disciplined while
+        taking observation and during the calculation.\n\nRecord :
+        Any neat note book\n\nfaculties:\nJamshad Ali  9846272290</string>
+    <string name="civil_lab">It helps the student to deal with practical problems and provide a brief introduction using a wide range of equipments.\n\nRecord : With Graph\n\nFaculties:\nAneesh Kumar  9446148112</string>
 </resources>
 
 

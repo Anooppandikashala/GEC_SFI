@@ -61,7 +61,7 @@ public class FacilityHome extends Fragment {
             @Override
             public void onClick(View v) {
 
-                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("fac");
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
@@ -78,7 +78,7 @@ public class FacilityHome extends Fragment {
             @Override
             public void onClick(View v) {
 
-                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("fac");
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
@@ -96,7 +96,7 @@ public class FacilityHome extends Fragment {
             @Override
             public void onClick(View v) {
 
-                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("fac");
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
@@ -113,7 +113,7 @@ public class FacilityHome extends Fragment {
             @Override
             public void onClick(View v) {
 
-                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("fac");
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
@@ -130,7 +130,7 @@ public class FacilityHome extends Fragment {
             @Override
             public void onClick(View v) {
 
-                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("fac");
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
@@ -147,7 +147,7 @@ public class FacilityHome extends Fragment {
             @Override
             public void onClick(View v) {
 
-                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("fac");
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
@@ -164,7 +164,7 @@ public class FacilityHome extends Fragment {
             @Override
             public void onClick(View v) {
 
-                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("fac");
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
@@ -181,7 +181,7 @@ public class FacilityHome extends Fragment {
             @Override
             public void onClick(View v) {
 
-                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("fac");
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
@@ -198,7 +198,7 @@ public class FacilityHome extends Fragment {
             @Override
             public void onClick(View v) {
 
-                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("fac");
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
@@ -215,7 +215,7 @@ public class FacilityHome extends Fragment {
             @Override
             public void onClick(View v) {
 
-                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("fac");
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
@@ -232,7 +232,7 @@ public class FacilityHome extends Fragment {
             @Override
             public void onClick(View v) {
 
-                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("fac");
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();
@@ -249,7 +249,7 @@ public class FacilityHome extends Fragment {
             @Override
             public void onClick(View v) {
 
-                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("fac");
 
                 Facilities ldf = new Facilities();
                 Bundle args = new Bundle();

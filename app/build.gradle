@@ -48,6 +48,9 @@ dependencies {
     implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
     compile 'com.google.android.gms:play-services-auth:11.8.0'
 
+
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
     /*compile 'com.google.firebase:firebase-core:16.0.1'
     compile 'com.google.firebase:firebase-database:16.0.1'
     compile 'com.google.firebase:firebase-messaging:17.0.0'

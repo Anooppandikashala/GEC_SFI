@@ -229,7 +229,19 @@ public class Navgation extends AppCompatActivity {
                         fragmentTransaction=getSupportFragmentManager().beginTransaction();
                         fragmentTransaction.replace(R.id.main_container,new AboutUsFragment());
                         fragmentTransaction.commit();
-                        getSupportActionBar().setTitle("AboutUs");
+                        getSupportActionBar().setTitle(" ");
+                        drawerLayout.closeDrawers();
+
+                        //x=checkNavigationMenuItem();
+                        //System.out.println("x="+x);
+
+                        break;
+                    case R.id.nav_credit :
+                        navigationView.setCheckedItem(R.id.nav_credit);
+                        fragmentTransaction=getSupportFragmentManager().beginTransaction();
+                        fragmentTransaction.replace(R.id.main_container,new Credit());
+                        fragmentTransaction.commit();
+                        getSupportActionBar().setTitle(" ");
                         drawerLayout.closeDrawers();
 
                         //x=checkNavigationMenuItem();

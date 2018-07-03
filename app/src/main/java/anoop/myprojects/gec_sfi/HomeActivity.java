@@ -39,7 +39,7 @@ public class HomeActivity extends AppCompatActivity {
 
 
 
-        viewPagerAdapter.addFragments(new Daksha());
+        viewPagerAdapter.addFragments(new News());
         viewPagerAdapter.addFragments(new HomeFragment());
         viewPagerAdapter.addFragments(new Gpl());
 

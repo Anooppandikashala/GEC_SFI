@@ -478,14 +478,14 @@
                                 <TextView
                                     android:layout_width="0dp"
                                     android:layout_weight="0.5"
-                                    android:text="Dr.Vincent G"
+                                    android:text="Dr.Vinitha Chellappan"
                                     android:fontFamily="@font/robotoregular"
                                     android:textSize="15sp"
                                     android:layout_height="match_parent" />
                                 <TextView
                                     android:layout_width="0dp"
                                     android:layout_weight="0.5"
-                                    android:text="9495508617"
+                                    android:text="9495070478"
                                     android:fontFamily="@font/robotoregular"
                                     android:textSize="15sp"
                                     android:layout_height="match_parent" />

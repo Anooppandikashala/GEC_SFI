@@ -57,8 +57,9 @@ public class UnitMemers extends Fragment {
             R.drawable.info,
             R.drawable.user,
             R.drawable.info,
-            R.mipmap.lakku,
+
             R.drawable.info,
+            R.mipmap.lakku,
             R.drawable.user,
             R.drawable.info,
             R.drawable.user,

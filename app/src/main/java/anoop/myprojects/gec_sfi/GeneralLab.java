@@ -15,15 +15,13 @@ public class GeneralLab extends AppCompatActivity {
     TextView t1,t2;
     TextView t3,t4;
     TextView t5,t6;
-    TextView t7,t8;
     View view1;
     View view2;
     View view3;
-    View view4;
-    boolean c1=false;
+
+    boolean c4=false;
     boolean c2=false;
     boolean c3=false;
-    boolean c4=false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,83 +30,59 @@ public class GeneralLab extends AppCompatActivity {
 
 
 
-        t1= findViewById(R.id.lblListHeader);
-        t2= findViewById(R.id.lblListItem);
-        view1 =findViewById(R.id.edd);
+        t1= findViewById(R.id.lblListHeader1);
+        t2= findViewById(R.id.lblListItem1);
+        view1 =findViewById(R.id.edd1);
 
-        t3= findViewById(R.id.lblListHeader1);
-        t4= findViewById(R.id.lblListItem1);
-        view2 =findViewById(R.id.edd1);
+        t3= findViewById(R.id.lblListHeader2);
+        t4= findViewById(R.id.lblListItem2);
+        view2 =findViewById(R.id.edd2);
 
-        t5= findViewById(R.id.lblListHeader2);
-        t6= findViewById(R.id.lblListItem2);
-        view3 =findViewById(R.id.edd2);
-
-        t7= findViewById(R.id.lblListHeader3);
-        t8= findViewById(R.id.lblListItem3);
-        view4 =findViewById(R.id.edd3);
-
-
-
+        t5= findViewById(R.id.lblListHeader3);
+        t6= findViewById(R.id.lblListItem3);
+        view3 =findViewById(R.id.edd3);
 
 
     }
 
 
+    public void headerClick1(View view) {
 
-
-
-    public void headerClick(View view) {
-
-        if(c1 == false){
-            c1=true;
+        if(!c2){
+            c2=true;
             t2.setVisibility(TextView.VISIBLE);
             view1.setVisibility(View.VISIBLE);
         }
         else {
-            c1=false;
+            c2=false;
             t2.setVisibility(TextView.GONE);
             view1.setVisibility(View.GONE);
         }
     }
+    public void headerClick2(View view) {
 
-    public void headerClick1(View view) {
-
-        if(c2 == false){
-            c2=true;
+        if(!c3){
+            c3=true;
             t4.setVisibility(TextView.VISIBLE);
             view2.setVisibility(View.VISIBLE);
         }
         else {
-            c2=false;
+            c3=false;
             t4.setVisibility(TextView.GONE);
             view2.setVisibility(View.GONE);
         }
     }
-    public void headerClick2(View view) {
+    public void headerClick3(View view) {
 
-        if(c3 == false){
-            c3=true;
+        if(!c4){
+            c4=true;
             t6.setVisibility(TextView.VISIBLE);
             view3.setVisibility(View.VISIBLE);
         }
         else {
-            c3=false;
+            c4=false;
             t6.setVisibility(TextView.GONE);
             view3.setVisibility(View.GONE);
-        }
-    }
-    public void headerClick3(View view) {
-
-        if(c4 == false){
-            c4=true;
-            t8.setVisibility(TextView.VISIBLE);
-            view4.setVisibility(View.VISIBLE);
-        }
-        else {
-            c4=false;
-            t8.setVisibility(TextView.GONE);
-            view4.setVisibility(View.GONE);
         }
     }
 }

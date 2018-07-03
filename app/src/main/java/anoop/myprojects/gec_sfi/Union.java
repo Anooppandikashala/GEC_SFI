@@ -38,8 +38,8 @@ public class Union extends Fragment {
         viewPager=(ViewPager)view.findViewById(R.id.viewPager);
 
         //img=view.findViewById(R.id.imageView3);
-        slider_train=view.findViewById(R.id.imageView2);
-        slider_enq=view.findViewById(R.id.imageView6);
+       // slider_train=view.findViewById(R.id.imageView2);
+        //slider_enq=view.findViewById(R.id.imageView6);
 
         viewPagerAdapter=new ViewPagerAdapterInfinity3(getChildFragmentManager());
 

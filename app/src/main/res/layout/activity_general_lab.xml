@@ -47,56 +47,9 @@
                 android:layout_marginLeft="30dp"
                 android:layout_height="wrap_content">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:orientation="vertical"
 
-                    android:layout_height="match_parent">
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/btnbackcsewhite"
-                        android:layout_height="wrap_content">
 
-                        <TextView
-                            android:id="@+id/lblListHeader"
-                            android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
-                            android:textSize="16sp"
-                            android:textColor="#000505"
-                            android:onClick="headerClick"
-                            android:text="hello header"
-                            android:gravity="center_vertical"
-                            android:layout_width="match_parent"
-                            android:fontFamily="@font/robotoregular"
-                            android:layout_height="50dp" />
-                        <View
-                            android:layout_width="match_parent"
-                            android:background="@color/line"
-                            android:id="@+id/edd"
-                            android:visibility="gone"
-                            android:layout_height="1dp"/>
-
-                        <TextView
-                            android:id="@+id/lblListItem"
-                            android:textSize="12sp"
-                            android:layout_marginBottom="30dp"
-                            android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
-                            android:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"
-                            android:paddingTop="5dp"
-                            android:paddingBottom="5dp"
-                            android:visibility="gone"
-                            android:text="dhjsdfdfdfdfhdhsjjnnvxnzdvjdjvjdjjzvdjsjs"
-                            android:textColor="#021f25"
-                            android:layout_width="match_parent"
-                            android:fontFamily="@font/robotoregular"
-                            android:layout_height="wrap_content"
-                            android:textIsSelectable="true"/>
-
-                    </LinearLayout>
-
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -111,7 +64,7 @@
                         android:textSize="16sp"
                         android:textColor="#000505"
                         android:onClick="headerClick1"
-                        android:text="hello header"
+                        android:text="Chemistry Lab"
                         android:gravity="center_vertical"
                         android:layout_width="match_parent"
                         android:fontFamily="@font/robotoregular"
@@ -133,7 +86,7 @@
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
                         android:visibility="gone"
-                        android:text="dhjsdfdfdfdfhdhsjjnnvxnzdvjdjvjdjjzvdjsjs"
+                        android:text="@string/che_lab_desc"
                         android:textColor="#021f25"
                         android:layout_width="match_parent"
                         android:fontFamily="@font/robotoregular"
@@ -144,7 +97,6 @@
 
 
                 </LinearLayout>
-
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -159,7 +111,7 @@
                         android:textSize="16sp"
                         android:textColor="#000505"
                         android:onClick="headerClick2"
-                        android:text="hello header"
+                        android:text="Physics Lab"
                         android:gravity="center_vertical"
                         android:layout_width="match_parent"
                         android:fontFamily="@font/robotoregular"
@@ -181,7 +133,7 @@
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
                         android:visibility="gone"
-                        android:text="dhjsdfdfdfdfhdhsjjnnvxnzdvjdjvjdjjzvdjsjs"
+                        android:text="@string/phy_lab_desc"
                         android:textColor="#021f25"
                         android:layout_width="match_parent"
                         android:fontFamily="@font/robotoregular"
@@ -206,7 +158,7 @@
                         android:textSize="16sp"
                         android:textColor="#000505"
                         android:onClick="headerClick3"
-                        android:text="hello header"
+                        android:text="Civil Lab"
                         android:gravity="center_vertical"
                         android:layout_width="match_parent"
                         android:fontFamily="@font/robotoregular"
@@ -228,7 +180,7 @@
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
                         android:visibility="gone"
-                        android:text="dhjsdfdfdfdfhdhsjjnnvxnzdvjdjvjdjjzvdjsjs"
+                        android:text="@string/civil_lab"
                         android:textColor="#021f25"
                         android:layout_width="match_parent"
                         android:fontFamily="@font/robotoregular"
