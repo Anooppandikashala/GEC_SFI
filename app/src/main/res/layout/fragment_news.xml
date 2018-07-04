@@ -9,18 +9,216 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/bustimecoverbg"
+            android:layout_height="130dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/liveLayout"
+            android:visibility="visible"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/LiveHead"
+                android:layout_width="match_parent"
+                android:gravity="left"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+                android:paddingEnd="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/robotoregular"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Inter Zone Cricket Tournament"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/LiveTeams"
+                    android:layout_width="wrap_content"
+                    android:gravity="left"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:paddingStart="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="GEC PKD v/s GEC TSR"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                <TextView
+                    android:id="@+id/Live"
+                    android:layout_width="wrap_content"
+                    android:gravity="left"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:paddingStart="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textStyle="bold"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_gravity="center"
+                    android:text="Live"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/LiveVenue"
+                android:layout_width="match_parent"
+                android:gravity="left"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingEnd="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/robotoregular"
+                android:layout_gravity="center_horizontal"
+                android:text="Venue : GEC Palakkad"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:id="@+id/LiveTeamColor1"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:id="@+id/LiveTeam1"
+                    android:layout_width="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_gravity="center"
+                    android:text="GEC PKD : 210/6"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+                <TextView
+                    android:id="@+id/LiveOver1"
+                    android:layout_width="wrap_content"
+                    android:gravity="left"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_gravity="center"
+                    android:text="20.0 Overs"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:id="@+id/LiveTeamColor2"
+                    android:layout_marginLeft="20dp"
+                    android:background="#aaaa44"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:id="@+id/LiveTeam2"
+                    android:layout_width="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_gravity="center"
+                    android:text="GEC TSR : 105/2"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+                <TextView
+                    android:id="@+id/LiveOver2"
+                    android:layout_width="wrap_content"
+                    android:gravity="left"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/robotoregular"
+                    android:layout_gravity="center"
+                    android:text="11.1 Overs"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="#b0bec5"
+                android:layout_height="1dp"/>
+
+
+
+
+
+
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:textSize="30dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
             android:textColor="@color/black"
             android:fontFamily="@font/robotoregular"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:text="News"
+            android:text="Headlines"
             android:textAppearance="?android:attr/textAppearanceLarge"/>
 
         <android.support.v7.widget.RecyclerView
