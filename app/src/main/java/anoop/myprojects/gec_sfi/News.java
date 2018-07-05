@@ -12,7 +12,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -20,14 +22,16 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FirebaseStorage;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class News extends Fragment {
+public class News extends Fragment{
 
     private static RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager layoutManager;
@@ -35,6 +39,19 @@ public class News extends Fragment {
     private static ArrayList<DataModelNews> data;
     static View.OnClickListener myOnClickListener;
     private static ArrayList<Integer> removedItems;
+
+    private RecyclerView mRecyclerView;
+    private ImageAdapter mAdapter;
+
+    private ProgressBar mProgressCircle;
+
+    private FirebaseStorage mStorage;
+    private DatabaseReference mDatabaseRef;
+    private ValueEventListener mDBListener;
+
+    private List<Upload> mUploads;
+
+
     TextView error;
     int c=0;
     boolean liveStatus=false;
@@ -130,6 +147,46 @@ public class News extends Fragment {
             }
         });
 
+        mRecyclerView = (RecyclerView)view.findViewById(R.id.my_recycler_view_noti);
+        mRecyclerView.setHasFixedSize(true);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
+       // mProgressCircle = view.findViewById(R.id.progress_circle);
+
+        mUploads = new ArrayList<>();
+
+        mAdapter = new ImageAdapter(getContext(), mUploads);
+
+        mRecyclerView.setAdapter(mAdapter);
+
+        //mAdapter.setOnItemClickListener();
+
+        mStorage = FirebaseStorage.getInstance();
+        mDatabaseRef = FirebaseDatabase.getInstance().getReference("uploads");
+
+        mDBListener = mDatabaseRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                mUploads.clear();
+
+                for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
+                    Upload upload = postSnapshot.getValue(Upload.class);
+                    upload.setKey(postSnapshot.getKey());
+                    mUploads.add(upload);
+                }
+
+                mAdapter.notifyDataSetChanged();
+
+                //mProgressCircle.setVisibility(View.INVISIBLE);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                Toast.makeText(getContext(), databaseError.getMessage(), Toast.LENGTH_SHORT).show();
+                //mProgressCircle.setVisibility(View.INVISIBLE);
+            }
+        });
 
 
 
@@ -138,7 +195,8 @@ public class News extends Fragment {
 
 
 
-        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://gecapp-e3c7f.firebaseio.com/notifications");
+/*
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://gecapp-e3c7f.firebaseio.com/uploads");
 
         databaseReference.addChildEventListener(new ChildEventListener() {
             @Override
@@ -158,27 +216,13 @@ public class News extends Fragment {
                 ));
                 adapter.notifyDataSetChanged();
 
-                /*listDataHeader.add(key);
-                listDataDesc.add(value);
 
-                listHash.put(listDataHeader.get(count),listDataDesc.get(count));
-
-                listAdapter.notifyDataSetChanged();*/
 
                 c++;
 
 
 
-                //String result=key+":\n"+value;
 
-                //mProductList.add(new Product(count++,key,value));
-
-
-
-                //mUsername.add(result);
-                //arrayAdapter.notifyDataSetChanged();
-
-                //adapter.notifyDataSetChanged();
 
             }
 
@@ -202,7 +246,7 @@ public class News extends Fragment {
 
                 error.setVisibility(TextView.VISIBLE);
             }
-        });
+        });*/
 
         return view;
     }

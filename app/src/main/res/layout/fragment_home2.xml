@@ -10,11 +10,14 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_marginTop="0dp"
-        android:gravity="center_vertical|center_horizontal"
+        android:gravity="top"
         android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/mainscreenbg"
+            android:layout_marginBottom="20dp"
             android:layout_height="200dp">
 
             <ImageView
@@ -33,6 +36,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:orientation="vertical"
+                android:padding="10dp"
+                android:background="@color/colorAccent"
                 android:gravity="center_horizontal"
                 android:layout_height="wrap_content">
 
@@ -81,11 +86,29 @@
                     android:drawableLeft="@drawable/ic_facilities"
                     android:drawablePadding="10dp"
                     android:drawableStart="@drawable/ic_facilities"/>
+
+
+                <Button
+                    android:layout_width="252dp"
+                    android:layout_height="50dp"
+                    android:text="Maps"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/robotoregular"
+                    android:gravity="left|center"
+                    android:padding="10dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/credits"
+                    android:background="@drawable/btnbackcse"
+                    android:drawableLeft="@drawable/ic_maps"
+                    android:drawablePadding="10dp"
+                    android:layout_marginBottom="9dp"
+                    android:drawableStart="@drawable/ic_maps"/>
                 <Button
                     android:layout_width="252dp"
                     android:layout_height="50dp"
                     android:layout_marginTop="20dp"
-                    android:text="Union"
+                    android:text="Sfi Gec"
                     android:fontFamily="@font/robotoregular"
                     android:textSize="20sp"
                     android:gravity="left|center"
@@ -97,23 +120,6 @@
                     android:drawableLeft="@drawable/ic_union"
                     android:drawablePadding="10dp"
                     android:drawableStart="@drawable/ic_union"/>
-
-                <Button
-                    android:layout_width="252dp"
-                    android:layout_height="50dp"
-                    android:text="Credits"
-                    android:layout_marginTop="20dp"
-                    android:textSize="20sp"
-                    android:fontFamily="@font/robotoregular"
-                    android:gravity="left|center"
-                    android:padding="10dp"
-                    android:textAllCaps="false"
-                    android:id="@+id/credits"
-                    android:background="@drawable/btnbackcse"
-                    android:drawableLeft="@drawable/ic_credits"
-                    android:drawablePadding="10dp"
-                    android:layout_marginBottom="9dp"
-                    android:drawableStart="@drawable/ic_credits"/>
 
 
             </LinearLayout>
