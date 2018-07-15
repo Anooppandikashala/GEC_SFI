@@ -13,13 +13,17 @@ import android.support.v7.graphics.drawable.DrawerArrowDrawable;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class Navgation extends AppCompatActivity {
     NavigationView navigationView;
+
     DrawerLayout drawerLayout;
     Toolbar toolbar;
     String msg="";
+    ImageView i1;
     public static ActionBarDrawerToggle actionBarDrawerToggle;
     public  static MenuItem gmitem;
     FragmentTransaction fragmentTransaction;
@@ -40,6 +44,10 @@ public class Navgation extends AppCompatActivity {
 
         navigationView = (NavigationView) findViewById(R.id.navgation_view);
         Menu menu = navigationView.getMenu();
+
+
+
+
         MenuItem mitem;
         if(Global.badge==true) {
             for (int i = 0; i < menu.size(); i++) {
@@ -154,14 +162,16 @@ public class Navgation extends AppCompatActivity {
         if(msg.equals("crd")){
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-            Credit ldf = new Credit();
+            Maps ldf = new Maps();
             Bundle args = new Bundle();
             args.putString("message", "credit");
             ldf.setArguments(args);
 
             fragmentTransaction.add(R.id.main_container,ldf);
             fragmentTransaction.commit();
-            //getSupportActionBar().setTitle("Credit");
+            //getSupportActionBar().setTitle("Credit");*/
+
+
         }
 
 
@@ -259,11 +269,8 @@ public class Navgation extends AppCompatActivity {
 
                     case R.id.nav_share :
                         shareApp();
-
-                        //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
-
                         break;
+
                     //https://gecskp.etlab.in/user/login
                     //https://app.ktu.edu.in/login.jsp;jsessionid=723955CF0F43D5770338AD2C3C2DF031.KTUApp1
                     //https://chat.whatsapp.com/BqqvINrLcX8Jdx6O09AXtx
