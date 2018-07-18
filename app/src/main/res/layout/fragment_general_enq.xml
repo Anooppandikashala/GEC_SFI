@@ -311,7 +311,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
                         android:text="Sergeant"
-                        android:id="@+id/sergeant"
+                        android:id="@+id/ieee"
                         android:gravity="left|center_vertical"
                         android:fontFamily="@font/robotoregular"
                         android:textSize="20sp"

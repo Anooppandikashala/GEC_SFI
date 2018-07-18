@@ -1,7 +1,6 @@
 package anoop.myprojects.gec_sfi;
 
 
-import android.*;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -42,7 +41,7 @@ public class General_enq extends Fragment {
         drama= view.findViewById(R.id.c2);
         media= view.findViewById(R.id.c3);
         design= view.findViewById(R.id.c4);
-        sports= view.findViewById(R.id.sergeant);
+        sports= view.findViewById(R.id.ieee);
 
         music.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -226,7 +225,7 @@ public class General_enq extends Fragment {
                     }
                     break;
 
-                case R.id.sergeant:
+                case R.id.ieee:
 
 
                     try {

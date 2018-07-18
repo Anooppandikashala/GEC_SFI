@@ -1,0 +1,183 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anoop.myprojects.gec_sfi.FirstFloor2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/firstfloorpartone"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/ccf"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="107dp"
+            android:layout_marginStart="107dp"
+            android:layout_marginTop="78dp" />
+
+        <View
+            android:id="@+id/tbi"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/ccf"
+            android:layout_toEndOf="@+id/ccf"
+            android:layout_toRightOf="@+id/ccf" />
+
+        <View
+            android:id="@+id/boystoilet"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/tbi"
+            android:layout_toEndOf="@+id/tbi"
+            android:layout_toRightOf="@+id/tbi" />
+
+        <View
+            android:id="@+id/s3me"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@+id/boystoilet"
+            android:layout_alignRight="@+id/boystoilet"
+            android:layout_below="@+id/tbi"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="19dp" />
+
+        <View
+            android:id="@+id/melib"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/s3me"
+            android:layout_alignStart="@+id/s3me"
+            android:layout_below="@+id/s3me" />
+
+        <View
+            android:id="@+id/ithod"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/s3me"
+            android:layout_marginEnd="49dp"
+            android:layout_marginRight="49dp"
+            android:layout_toLeftOf="@+id/tbi"
+            android:layout_toStartOf="@+id/tbi" />
+
+        <View
+            android:id="@+id/ecestaffroom"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/ithod"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_toLeftOf="@+id/tbi"
+            android:layout_toStartOf="@+id/tbi" />
+
+        <View
+            android:id="@+id/ecestaffroom1"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/ccf"
+            android:layout_alignStart="@+id/ccf"
+            android:layout_below="@+id/ithod" />
+
+        <View
+            android:id="@+id/nssroom"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/ecestaffroom"
+            android:layout_alignRight="@+id/ecestaffroom"
+            android:layout_below="@+id/ecestaffroom1" />
+
+        <View
+            android:id="@+id/mathshod"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/ecestaffroom1"
+            android:layout_alignStart="@+id/ecestaffroom1"
+            android:layout_below="@+id/melib"
+            android:layout_marginTop="23dp" />
+
+        <View
+            android:id="@+id/mathsstaff"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/mathshod"
+            android:layout_alignStart="@+id/mathshod"
+            android:layout_below="@+id/mathshod" />
+
+        <View
+            android:id="@+id/boyswaitrooming"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/melib"
+            android:layout_alignStart="@+id/melib"
+            android:layout_alignTop="@+id/mathshod" />
+
+        <View
+            android:id="@+id/phy"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/boyswaitrooming"
+            android:layout_alignStart="@+id/boyswaitrooming"
+            android:layout_below="@+id/boyswaitrooming" />
+
+        <View
+            android:id="@+id/pe"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/phy"
+            android:layout_alignStart="@+id/phy"
+            android:layout_below="@+id/phy" />
+
+        <View
+            android:id="@+id/ieee"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/mathsstaff"
+            android:layout_marginTop="11dp"
+            android:layout_toLeftOf="@+id/mathsstaff"
+            android:layout_toStartOf="@+id/mathsstaff" />
+
+        <View
+            android:id="@+id/union"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nssroom"
+            android:layout_alignStart="@+id/nssroom"
+            android:layout_alignTop="@+id/ieee" />
+
+        <View
+            android:id="@+id/ladieswaitingroom"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/union"
+            android:layout_toEndOf="@+id/ithod"
+            android:layout_toRightOf="@+id/ithod" />
+
+        <View
+            android:id="@+id/mestaffroom2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/ladieswaitingroom"
+            android:layout_toEndOf="@+id/ladieswaitingroom"
+            android:layout_toRightOf="@+id/ladieswaitingroom" />
+
+        <View
+            android:id="@+id/edusat"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/mestaffroom2"
+            android:layout_toEndOf="@+id/mestaffroom2"
+            android:layout_toRightOf="@+id/mestaffroom2" />
+
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -3,15 +3,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:background="@drawable/secondfloor"
     tools:context="anoop.myprojects.gec_sfi.SecondFloor">
 
+
+
     <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="230dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="109dp"
+            android:id="@+id/part1" />
+
+        <View
+            android:layout_width="160dp"
+            android:id="@+id/part2"
+            android:layout_height="230dp"
+            android:layout_alignTop="@+id/part1"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_toEndOf="@+id/part1"
+            android:layout_toRightOf="@+id/part1" />
+
+
+
+    </RelativeLayout>
     <View
-        android:layout_width="200dp"
         android:id="@+id/map"
-        android:layout_gravity="center"
+        android:layout_width="200dp"
         android:layout_height="200dp"
-        android:background="#f18e99"
-         />
+        android:layout_gravity="center"
+        android:background="@android:color/transparent" />
 
 </FrameLayout>

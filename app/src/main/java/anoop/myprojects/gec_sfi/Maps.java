@@ -39,7 +39,7 @@ public class Maps extends Fragment {
 
                 fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
 
-                fragmentTransaction.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit);
+                fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
                 MapSecond ldf = new MapSecond();
                 Bundle args = new Bundle();
@@ -58,7 +58,7 @@ public class Maps extends Fragment {
 
                 fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
 
-                fragmentTransaction.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit);
+                fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
                 Map_Third ldf = new Map_Third();
                 Bundle args = new Bundle();
@@ -77,7 +77,7 @@ public class Maps extends Fragment {
 
                 fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
 
-                fragmentTransaction.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit);
+                fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
                 Map_Fourth ldf = new Map_Fourth();
                 Bundle args = new Bundle();

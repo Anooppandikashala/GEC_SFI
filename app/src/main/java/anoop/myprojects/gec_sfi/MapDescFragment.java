@@ -17,8 +17,9 @@ public class MapDescFragment extends Fragment {
 
 
     static int x=0;
-    TextView t1,t2;
+    TextView t1,t2,t3;
     ImageView i1;
+    String heading,desc;
 
 
 
@@ -31,7 +32,7 @@ public class MapDescFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        SecondFloor.count=0;
+        //SecondFloor.count=0;
 
         x=1;
 
@@ -39,10 +40,17 @@ public class MapDescFragment extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_map_desc, container, false);
 
+        heading = getArguments().getString("heading");
+        desc = getArguments().getString("desc");
+
+
         t1=view.findViewById(R.id.text);
         t2=view.findViewById(R.id.heading);
+        t3 = view.findViewById(R.id.description);
         i1=view.findViewById(R.id.back);
 
+        t2.setText(heading);
+        t3.setText(desc);
         t1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

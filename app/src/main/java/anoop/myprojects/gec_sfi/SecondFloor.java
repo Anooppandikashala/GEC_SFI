@@ -15,9 +15,9 @@ import android.view.ViewGroup;
 public class SecondFloor extends Fragment {
 
     FragmentTransaction fragmentTransaction;
-    static int count=0;
 
-     static View view1;
+
+    View view1;
 
 
     public SecondFloor() {
@@ -31,7 +31,7 @@ public class SecondFloor extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_second_floor, container, false);
         view1=view.findViewById(R.id.map);
-        count =0;
+
 
         view1.setOnClickListener(new View.OnClickListener() {
 
@@ -53,7 +53,7 @@ public class SecondFloor extends Fragment {
 
                     fragmentTransaction.add(R.id.main_container,ldf);
                     fragmentTransaction.commit();
-                    count++;
+
 
 
 

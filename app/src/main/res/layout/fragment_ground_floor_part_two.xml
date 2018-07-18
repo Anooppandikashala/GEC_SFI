@@ -1,0 +1,127 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anoop.myprojects.gec_sfi.GroundFloorPartTwo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/groundfloorparttwo"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/sportsroom"
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="109dp"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="99dp" />
+
+        <View
+            android:id="@+id/eselab"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/sportsroom"
+            android:layout_toEndOf="@+id/sportsroom"
+            android:layout_toRightOf="@+id/sportsroom" />
+
+        <View
+            android:id="@+id/ecedrawinghall"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/eselab"
+            android:layout_toEndOf="@+id/eselab"
+            android:layout_toRightOf="@+id/eselab" />
+
+        <View
+            android:id="@+id/mefluidlab"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/ecedrawinghall"
+            android:layout_toEndOf="@+id/ecedrawinghall"
+            android:layout_toRightOf="@+id/ecedrawinghall" />
+
+        <View
+            android:id="@+id/boystoilet"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/mefluidlab"
+            android:layout_toEndOf="@+id/mefluidlab"
+            android:layout_toRightOf="@+id/mefluidlab" />
+
+        <View
+            android:id="@+id/economics"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/sportsroom"
+            android:layout_alignStart="@+id/sportsroom"
+            android:layout_below="@+id/sportsroom"
+            android:layout_marginTop="19dp" />
+
+        <View
+            android:id="@+id/pta"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/economics"
+            android:layout_alignStart="@+id/economics"
+            android:layout_below="@+id/economics" />
+
+        <View
+            android:id="@+id/chemistry"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/pta"
+            android:layout_alignStart="@+id/pta"
+            android:layout_below="@+id/pta" />
+
+        <View
+            android:id="@+id/chemistrylab"
+            android:layout_width="60dp"
+            android:layout_height="110dp"
+            android:layout_alignTop="@+id/economics"
+            android:layout_toEndOf="@+id/ecedrawinghall"
+            android:layout_toRightOf="@+id/ecedrawinghall" />
+
+        <View
+            android:id="@+id/union"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_alignLeft="@+id/chemistry"
+            android:layout_alignStart="@+id/chemistry"
+            android:layout_below="@+id/chemistry"
+            android:layout_marginTop="21dp" />
+
+        <View
+            android:id="@+id/civilhod"
+            android:layout_width="30dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/union"
+            android:layout_toLeftOf="@+id/eselab"
+            android:layout_toStartOf="@+id/eselab" />
+
+        <View
+            android:id="@+id/civildept"
+            android:layout_width="30dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/union"
+            android:layout_toEndOf="@+id/civilhod"
+            android:layout_toRightOf="@+id/civilhod" />
+
+        <View
+            android:id="@+id/civilworkshop1"
+            android:layout_width="60dp"
+            android:layout_height="110dp"
+            android:layout_alignLeft="@+id/chemistrylab"
+            android:layout_alignStart="@+id/chemistrylab"
+            android:layout_alignTop="@+id/union" />
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

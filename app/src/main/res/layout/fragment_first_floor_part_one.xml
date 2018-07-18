@@ -1,0 +1,170 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="anoop.myprojects.gec_sfi.FirstFloorPartOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/firstfloorparttwo"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/ladiestoilet"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="83dp" />
+
+        <View
+            android:id="@+id/ecelab1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/ladiestoilet"
+            android:layout_toEndOf="@+id/ladiestoilet"
+            android:layout_toRightOf="@+id/ladiestoilet" />
+
+        <View
+            android:id="@+id/ecelab2"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/ecelab1"
+            android:layout_toEndOf="@+id/ecelab1"
+            android:layout_toRightOf="@+id/ecelab1" />
+
+        <View
+            android:id="@+id/ecelab3"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/ecelab2"
+            android:layout_toEndOf="@+id/ecelab2"
+            android:layout_toRightOf="@+id/ecelab2" />
+
+
+
+        <View
+            android:id="@+id/itdept"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/ecelab3"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="29dp"
+            android:layout_toEndOf="@+id/ecelab2"
+            android:layout_toRightOf="@+id/ecelab2" />
+
+        <View
+            android:id="@+id/s1it1"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_alignLeft="@+id/itdept"
+            android:layout_alignStart="@+id/itdept"
+            android:layout_below="@+id/itdept" />
+
+        <View
+            android:id="@+id/itstaff1"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_alignLeft="@+id/ladiestoilet"
+            android:layout_alignStart="@+id/ladiestoilet"
+            android:layout_below="@+id/itdept"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp" />
+
+        <View
+            android:id="@+id/s1it"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_above="@+id/itstaff1"
+            android:layout_alignLeft="@+id/itstaff1"
+            android:layout_alignStart="@+id/itstaff1" />
+
+        <View
+            android:id="@+id/staffroomit2"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_alignLeft="@+id/itstaff1"
+            android:layout_alignStart="@+id/itstaff1"
+            android:layout_below="@+id/itstaff1"
+            android:layout_marginTop="28dp" />
+
+        <View
+            android:id="@+id/s5it"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_alignLeft="@+id/staffroomit2"
+            android:layout_alignStart="@+id/staffroomit2"
+            android:layout_below="@+id/staffroomit2" />
+
+        <View
+            android:id="@+id/s3it"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_alignLeft="@+id/s1it"
+            android:layout_alignStart="@+id/s1it"
+            android:layout_alignTop="@+id/staffroomit2" />
+
+
+
+        <View
+            android:id="@+id/staffroomit"
+            android:layout_width="30dp"
+            android:layout_height="55dp"
+            android:layout_alignLeft="@+id/s3it"
+            android:layout_alignStart="@+id/s3it"
+            android:layout_below="@+id/s3it" />
+
+        <View
+            android:id="@+id/ithod"
+            android:layout_width="30dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/s3it"
+            android:layout_toEndOf="@+id/staffroomit"
+            android:layout_toRightOf="@+id/staffroomit" />
+
+        <View
+            android:id="@+id/cseseminarhall"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/ladiestoilet"
+            android:layout_alignStart="@+id/ladiestoilet"
+            android:layout_below="@+id/s5it"
+            android:layout_marginTop="16dp" />
+
+        <View
+            android:id="@+id/mtechlecture"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/cseseminarhall"
+            android:layout_toEndOf="@+id/cseseminarhall"
+            android:layout_toRightOf="@+id/cseseminarhall" />
+
+        <View
+            android:id="@+id/eeelecturehall"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/staffroomit"
+            android:layout_alignStart="@+id/staffroomit"
+            android:layout_alignTop="@+id/mtechlecture" />
+
+        <View
+            android:id="@+id/ktuexamhall"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/eeelecturehall"
+            android:layout_toEndOf="@+id/eeelecturehall"
+            android:layout_toRightOf="@+id/eeelecturehall" />
+
+
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
