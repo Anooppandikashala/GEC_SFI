@@ -57,7 +57,7 @@
             android:layout_below="@+id/s3me" />
 
         <View
-            android:id="@+id/ithod"
+            android:id="@+id/echod"
             android:layout_width="40dp"
             android:layout_height="35dp"
             android:layout_alignTop="@+id/s3me"
@@ -70,7 +70,7 @@
             android:id="@+id/ecestaffroom"
             android:layout_width="40dp"
             android:layout_height="35dp"
-            android:layout_alignTop="@+id/ithod"
+            android:layout_alignTop="@+id/echod"
             android:layout_marginEnd="13dp"
             android:layout_marginRight="13dp"
             android:layout_toLeftOf="@+id/tbi"
@@ -82,7 +82,7 @@
             android:layout_height="40dp"
             android:layout_alignLeft="@+id/ccf"
             android:layout_alignStart="@+id/ccf"
-            android:layout_below="@+id/ithod" />
+            android:layout_below="@+id/echod" />
 
         <View
             android:id="@+id/nssroom"
@@ -155,8 +155,8 @@
             android:layout_width="70dp"
             android:layout_height="40dp"
             android:layout_alignTop="@+id/union"
-            android:layout_toEndOf="@+id/ithod"
-            android:layout_toRightOf="@+id/ithod" />
+            android:layout_toEndOf="@+id/echod"
+            android:layout_toRightOf="@+id/echod" />
 
         <View
             android:id="@+id/mestaffroom2"

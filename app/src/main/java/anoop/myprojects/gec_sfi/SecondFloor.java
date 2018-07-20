@@ -15,9 +15,7 @@ import android.view.ViewGroup;
 public class SecondFloor extends Fragment {
 
     FragmentTransaction fragmentTransaction;
-
-
-    View view1;
+    View part1,part2;
 
 
     public SecondFloor() {
@@ -30,35 +28,46 @@ public class SecondFloor extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_second_floor, container, false);
-        view1=view.findViewById(R.id.map);
+        part1 = view.findViewById(R.id.part1);
 
+        part2 = view.findViewById(R.id.part2);
 
-        view1.setOnClickListener(new View.OnClickListener() {
-
-
-
+        part1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+                fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
 
-                    fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+                fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
-                    fragmentTransaction.setCustomAnimations(R.anim.slide_in_up, R.anim.slide_in_down, R.anim.slide_out_down, R.anim.slide_out_up);
-
-                    MapDescFragment ldf = new MapDescFragment();
-                    Bundle args = new Bundle();
-                    args.putString("message", "enquery");
-                    ldf.setArguments(args);
-
-
-                    fragmentTransaction.add(R.id.main_container,ldf);
-                    fragmentTransaction.commit();
+                SecondFloorPartOne ldf = new SecondFloorPartOne();
+                Bundle args = new Bundle();
+                args.putString("message", "enquery");
+                ldf.setArguments(args);
 
 
+                fragmentTransaction.replace(R.id.main_container,ldf);
+                fragmentTransaction.commit();
+
+            }
+        });
+
+        part2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+                fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+                SecondFloorPartTwo ldf = new SecondFloorPartTwo();
+                Bundle args = new Bundle();
+                args.putString("message", "enquery");
+                ldf.setArguments(args);
 
 
-
-
+                fragmentTransaction.replace(R.id.main_container,ldf);
+                fragmentTransaction.commit();
 
             }
         });

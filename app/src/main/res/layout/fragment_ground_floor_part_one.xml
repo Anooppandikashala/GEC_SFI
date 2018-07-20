@@ -49,7 +49,7 @@
 
 
         <View
-            android:id="@+id/itdept"
+            android:id="@+id/projectroom"
             android:layout_width="60dp"
             android:layout_height="55dp"
             android:layout_below="@+id/ecelab3"
@@ -60,42 +60,42 @@
             android:layout_toRightOf="@+id/ecelab2" />
 
         <View
-            android:id="@+id/s1it"
+            android:id="@+id/s5ece"
             android:layout_width="60dp"
             android:layout_height="55dp"
-            android:layout_alignLeft="@+id/itdept"
-            android:layout_alignStart="@+id/itdept"
-            android:layout_below="@+id/itdept" />
+            android:layout_alignLeft="@+id/projectroom"
+            android:layout_alignStart="@+id/projectroom"
+            android:layout_below="@+id/projectroom" />
 
         <View
-            android:id="@+id/itstaff1"
+            android:id="@+id/ecestaff1"
             android:layout_width="60dp"
             android:layout_height="55dp"
             android:layout_alignLeft="@+id/ladiestoilet"
             android:layout_alignStart="@+id/ladiestoilet"
-            android:layout_below="@+id/itdept"
+            android:layout_below="@+id/projectroom"
             android:layout_marginLeft="12dp"
             android:layout_marginStart="12dp" />
 
         <View
-            android:id="@+id/s7it"
+            android:id="@+id/s3ece"
             android:layout_width="60dp"
             android:layout_height="55dp"
-            android:layout_above="@+id/itstaff1"
-            android:layout_alignLeft="@+id/itstaff1"
-            android:layout_alignStart="@+id/itstaff1" />
+            android:layout_above="@+id/ecestaff1"
+            android:layout_alignLeft="@+id/ecestaff1"
+            android:layout_alignStart="@+id/ecestaff1" />
 
         <View
             android:id="@+id/staffroomit2"
             android:layout_width="60dp"
             android:layout_height="55dp"
-            android:layout_alignLeft="@+id/itstaff1"
-            android:layout_alignStart="@+id/itstaff1"
-            android:layout_below="@+id/itstaff1"
+            android:layout_alignLeft="@+id/ecestaff1"
+            android:layout_alignStart="@+id/ecestaff1"
+            android:layout_below="@+id/ecestaff1"
             android:layout_marginTop="28dp" />
 
         <View
-            android:id="@+id/s5it"
+            android:id="@+id/s1ece"
             android:layout_width="60dp"
             android:layout_height="55dp"
             android:layout_alignLeft="@+id/staffroomit2"
@@ -103,11 +103,11 @@
             android:layout_below="@+id/staffroomit2" />
 
         <View
-            android:id="@+id/s3it"
+            android:id="@+id/s7ece"
             android:layout_width="60dp"
             android:layout_height="55dp"
-            android:layout_alignLeft="@+id/s1it"
-            android:layout_alignStart="@+id/s1it"
+            android:layout_alignLeft="@+id/s5ece"
+            android:layout_alignStart="@+id/s5ece"
             android:layout_alignTop="@+id/staffroomit2" />
 
 
@@ -116,15 +116,15 @@
             android:id="@+id/staffroomit"
             android:layout_width="30dp"
             android:layout_height="55dp"
-            android:layout_alignLeft="@+id/s3it"
-            android:layout_alignStart="@+id/s3it"
-            android:layout_below="@+id/s3it" />
+            android:layout_alignLeft="@+id/s7ece"
+            android:layout_alignStart="@+id/s7ece"
+            android:layout_below="@+id/s7ece" />
 
         <View
-            android:id="@+id/ithod"
+            android:id="@+id/echod"
             android:layout_width="30dp"
             android:layout_height="55dp"
-            android:layout_below="@+id/s3it"
+            android:layout_below="@+id/s7ece"
             android:layout_toEndOf="@+id/staffroomit"
             android:layout_toRightOf="@+id/staffroomit" />
 

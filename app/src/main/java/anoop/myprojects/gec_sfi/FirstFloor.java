@@ -57,6 +57,19 @@ public class FirstFloor extends Fragment {
             @Override
             public void onClick(View v) {
 
+                fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+                fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+                FirstFloor2 ldf = new FirstFloor2();
+                Bundle args = new Bundle();
+                args.putString("message", "enquery");
+                ldf.setArguments(args);
+
+
+                fragmentTransaction.replace(R.id.main_container,ldf);
+                fragmentTransaction.commit();
+
             }
         });
 
