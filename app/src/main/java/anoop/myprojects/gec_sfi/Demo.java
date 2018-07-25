@@ -3,6 +3,7 @@ package anoop.myprojects.gec_sfi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Demo extends AppCompatActivity {
@@ -19,6 +20,17 @@ public class Demo extends AppCompatActivity {
         t1= findViewById(R.id.lblListHeader);
         t2= findViewById(R.id.lblListItem);
         view1 =findViewById(R.id.edd);
+
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Demo.super.onBackPressed();
+            }
+        });
 
     }
 

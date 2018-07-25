@@ -21,6 +21,17 @@ public class YearWiseFootballExplore extends AppCompatActivity {
         insta=findViewById(R.id.insta);
         you=findViewById(R.id.you);
 
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                YearWiseFootballExplore.super.onBackPressed();
+            }
+        });
+
         fb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

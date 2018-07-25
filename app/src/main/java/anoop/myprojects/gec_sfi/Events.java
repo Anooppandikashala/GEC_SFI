@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -17,6 +18,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
@@ -33,6 +35,10 @@ public class Events extends Fragment {
     @SuppressLint("StaticFieldLeak")
     public static ImageView left1,right1;
 
+    LinearLayout sliderDotsPanel;
+    private int dotsCount;
+    private ImageView[] dots;
+
     public Events() {
         // Required empty public constructor
     }
@@ -46,6 +52,8 @@ public class Events extends Fragment {
         toolbar=getActivity().findViewById(R.id.toolbar);
         left1 =view.findViewById(R.id.left1);
         right1 =view.findViewById(R.id.right1);
+
+        sliderDotsPanel=view.findViewById(R.id.sliderdots);
 
 
 
@@ -80,6 +88,10 @@ public class Events extends Fragment {
 
 
         viewPager.setAdapter(viewPagerAdapter);
+        //viewPager.setClipToPadding(false);
+        //viewPager.setPadding(80,90,80,0);
+        //viewPager.setPageMargin(20);
+        //viewPager.setCurrentItem(1);
 
         //tabLayout.setupWithViewPager(viewPager);
         //setupTabIcons();
@@ -105,6 +117,47 @@ public class Events extends Fragment {
         };*/
 
         //myThread.start();
+
+        dotsCount = viewPagerAdapter.getCount();
+        dots = new ImageView[dotsCount];
+
+        for(int i = 0; i < dotsCount; i++){
+
+            dots[i] = new ImageView(getContext());
+            dots[i].setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.nonactive_dot));
+
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+
+            params.setMargins(8, 0, 8, 0);
+
+            sliderDotsPanel.addView(dots[i], params);
+
+        }
+
+        dots[0].setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.active_dot));
+
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+
+                for(int i = 0; i< dotsCount; i++){
+                    dots[i].setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.nonactive_dot));
+                }
+
+                dots[position].setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.active_dot));
+
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
 
 
         return view;

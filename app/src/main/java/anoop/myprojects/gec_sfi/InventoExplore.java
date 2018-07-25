@@ -15,6 +15,17 @@ public class InventoExplore extends AppCompatActivity {
         setContentView(R.layout.activity_invento_explore);
         ImageView fb,tw,insta,you;
 
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                InventoExplore.super.onBackPressed();
+            }
+        });
+
         fb=findViewById(R.id.fb);
         insta=findViewById(R.id.insta);
         you=findViewById(R.id.you);

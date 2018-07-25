@@ -8,5 +8,47 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="330dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="109dp"
+            android:id="@+id/part1" />
+
+        <View
+            android:layout_width="180dp"
+            android:id="@+id/part2"
+            android:layout_height="330dp"
+            android:layout_alignTop="@+id/part1"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_toEndOf="@+id/part1"
+            android:layout_toRightOf="@+id/part1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/robotoregular"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Third Floor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+
 
 </FrameLayout>

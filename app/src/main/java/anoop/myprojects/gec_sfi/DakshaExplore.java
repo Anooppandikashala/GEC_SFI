@@ -14,6 +14,17 @@ public class DakshaExplore extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daksha_explore);
 
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DakshaExplore.super.onBackPressed();
+            }
+        });
+
         ImageView fb,tw,insta,you;
 
         you=findViewById(R.id.you);

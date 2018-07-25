@@ -14,6 +14,17 @@ public class GPL_Explore extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gpl__explore);
 
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                GPL_Explore.super.onBackPressed();
+            }
+        });
+
         ImageView fb,tw,insta,you;
 
         fb=findViewById(R.id.fb);

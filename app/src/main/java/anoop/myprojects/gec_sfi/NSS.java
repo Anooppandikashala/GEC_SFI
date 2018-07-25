@@ -14,6 +14,17 @@ public class NSS extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nss);
 
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                NSS.super.onBackPressed();
+            }
+        });
+
         ImageView fb,tw,insta,you;
 
         fb=findViewById(R.id.fb);

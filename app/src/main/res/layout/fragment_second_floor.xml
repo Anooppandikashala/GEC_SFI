@@ -16,7 +16,7 @@
 
         <View
             android:layout_width="160dp"
-            android:layout_height="230dp"
+            android:layout_height="330dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
@@ -26,23 +26,30 @@
             android:id="@+id/part1" />
 
         <View
-            android:layout_width="160dp"
+            android:layout_width="180dp"
             android:id="@+id/part2"
-            android:layout_height="230dp"
+            android:layout_height="330dp"
             android:layout_alignTop="@+id/part1"
             android:layout_marginLeft="13dp"
             android:layout_marginStart="13dp"
             android:layout_toEndOf="@+id/part1"
             android:layout_toRightOf="@+id/part1" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/robotoregular"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Second Floor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
 
 
     </RelativeLayout>
-    <View
-        android:id="@+id/map"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
-        android:background="@android:color/transparent" />
 
 </FrameLayout>

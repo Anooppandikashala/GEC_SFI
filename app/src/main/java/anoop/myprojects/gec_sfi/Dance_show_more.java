@@ -14,6 +14,17 @@ public class Dance_show_more extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dance_show_more);
 
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Dance_show_more.super.onBackPressed();
+            }
+        });
+
         ImageView fb,tw,insta,you;
 
         fb=findViewById(R.id.fb);

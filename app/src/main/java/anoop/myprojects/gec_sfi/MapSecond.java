@@ -4,6 +4,7 @@ package anoop.myprojects.gec_sfi;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -11,6 +12,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 
 /**
@@ -26,6 +29,10 @@ public class MapSecond extends Fragment {
     ActionBarDrawerToggle actionBarDrawerToggle;
     Toolbar toolbar;
 
+    LinearLayout sliderDotsPanel;
+    private int dotsCount;
+    private ImageView[] dots;
+
 
     public MapSecond() {
         // Required empty public constructor
@@ -40,6 +47,8 @@ public class MapSecond extends Fragment {
 
         //View view = inflater.inflate(R.layout.fragment_events, container, false);
         toolbar=getActivity().findViewById(R.id.toolbar);
+
+        sliderDotsPanel=view.findViewById(R.id.sliderdots);
 
 
 
@@ -69,7 +78,52 @@ public class MapSecond extends Fragment {
 
 
         viewPager.setAdapter(viewPagerAdapter);
+
+       /* viewPager.setClipToPadding(false);
+        viewPager.setPadding(80,90,80,0);
+        viewPager.setPageMargin(20);*/
         viewPager.setCurrentItem(1);
+
+        dotsCount = viewPagerAdapter.getCount();
+        dots = new ImageView[dotsCount];
+
+        for(int i = 0; i < dotsCount; i++){
+
+            dots[i] = new ImageView(getContext());
+            dots[i].setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.nonactive_dot));
+
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+
+            params.setMargins(8, 0, 8, 0);
+
+            sliderDotsPanel.addView(dots[i], params);
+
+        }
+
+        dots[1].setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.active_dot));
+
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+
+                for(int i = 0; i< dotsCount; i++){
+                    dots[i].setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.nonactive_dot));
+                }
+
+                dots[position].setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.active_dot));
+
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
 
         //tabLayout.setupWithViewPager(viewPager);
         //setupTabIcons();

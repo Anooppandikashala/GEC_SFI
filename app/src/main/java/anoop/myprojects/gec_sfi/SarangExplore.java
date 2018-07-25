@@ -15,6 +15,17 @@ public class SarangExplore extends AppCompatActivity {
         setContentView(R.layout.activity_sarang_explore);
         ImageView fb,tw,insta,you;
 
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               SarangExplore.super.onBackPressed();
+            }
+        });
+
         fb=findViewById(R.id.fb);
         tw=findViewById(R.id.tw);
         insta=findViewById(R.id.insta);

@@ -15,6 +15,17 @@ public class Music_Show_More extends AppCompatActivity {
         setContentView(R.layout.activity_music__show__more);
         ImageView fb,tw,insta,you;
 
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Music_Show_More.super.onBackPressed();
+            }
+        });
+
         fb=findViewById(R.id.fb);
         tw=findViewById(R.id.tw);
         insta=findViewById(R.id.insta);

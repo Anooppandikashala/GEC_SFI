@@ -120,7 +120,15 @@
         </service>
 
         <activity android:name=".NSS_notification" />
-        <activity android:name=".MapHome"></activity>
+        <activity android:name=".MapHome" />
+        <activity android:name=".GroundFloorPartOneDesc" />
+        <activity android:name=".FirstFloorPartOneDesc" />
+        <activity android:name=".SecondFloorPartOneDesc" />
+        <activity android:name=".ThirdFloorPartOneDesc" />
+        <activity android:name=".GroundFloorPartTwoDesc" />
+        <activity android:name=".FirstFloorPartTwoDesc" />
+        <activity android:name=".SecondFloorPartTwoDesc" />
+        <activity android:name=".ThirdFloorPartTwoDesc"></activity>
     </application>
 
 </manifest>

@@ -15,6 +15,17 @@ public class GCLExplore extends AppCompatActivity {
         setContentView(R.layout.activity_gclexplore);
         ImageView fb,tw,insta,you;
 
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                GCLExplore.super.onBackPressed();
+            }
+        });
+
 
         insta=findViewById(R.id.insta);
 

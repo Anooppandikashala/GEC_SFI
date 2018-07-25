@@ -2,6 +2,8 @@ package anoop.myprojects.gec_sfi;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 public class CanteenShowMore extends AppCompatActivity {
 
@@ -9,5 +11,16 @@ public class CanteenShowMore extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_canteen_show_more);
+
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CanteenShowMore.super.onBackPressed();
+            }
+        });
     }
 }

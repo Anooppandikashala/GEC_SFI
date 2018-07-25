@@ -1,12 +1,14 @@
 package anoop.myprojects.gec_sfi;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 
 /**
@@ -15,8 +17,7 @@ import android.view.ViewGroup;
 public class FirstFloor2 extends Fragment {
 
     FragmentTransaction fragmentTransaction;
-    View view1,view2;
-    String value;
+    ImageView info;
 
 
     public FirstFloor2() {
@@ -30,72 +31,17 @@ public class FirstFloor2 extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_first_floor2, container, false);
 
-        view1=view.findViewById(R.id.ladiestoilet);
-        view2=view.findViewById(R.id.ecelab1);
-        view2=view.findViewById(R.id.ecelab1);
-        view2=view.findViewById(R.id.ecelab1);
-        view2=view.findViewById(R.id.ecelab1);
-        view2=view.findViewById(R.id.ecelab1);
-        view2=view.findViewById(R.id.ecelab1);
-        view2=view.findViewById(R.id.ecelab1);
-        view2=view.findViewById(R.id.ecelab1);
-        view2=view.findViewById(R.id.ecelab1);
-        view2=view.findViewById(R.id.ecelab1);
-        view2=view.findViewById(R.id.ecelab1);
-        view2=view.findViewById(R.id.ecelab1);
-        view2=view.findViewById(R.id.ecelab1);
+        info =view.findViewById(R.id.infoMap);
 
-
-
-        view1.setOnClickListener(new View.OnClickListener() {
-
-
-
+        info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
-
-                fragmentTransaction.setCustomAnimations(R.anim.slide_in_up, R.anim.slide_in_down, R.anim.slide_out_down, R.anim.slide_out_up);
-
-                MapDescFragment ldf = new MapDescFragment();
-                Bundle args = new Bundle();
-                args.putString("heading", "Ladies Toilet");
-                args.putString("desc", "Wash room for Girls");
-                ldf.setArguments(args);
-
-
-                fragmentTransaction.add(R.id.main_container,ldf);
-                fragmentTransaction.commit();
-
+                Intent intent = new Intent(getContext(),FirstFloorPartTwoDesc.class);
+                startActivity(intent);
             }
         });
 
-        view2.setOnClickListener(new View.OnClickListener() {
 
-
-
-            @Override
-            public void onClick(View v) {
-
-
-                fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
-
-                fragmentTransaction.setCustomAnimations(R.anim.slide_in_up, R.anim.slide_in_down, R.anim.slide_out_down, R.anim.slide_out_up);
-
-                MapDescFragment ldf = new MapDescFragment();
-                Bundle args = new Bundle();
-                args.putString("heading", "CSE Lab");
-                args.putString("desc", "lab of cse dept");
-                ldf.setArguments(args);
-
-
-                fragmentTransaction.add(R.id.main_container,ldf);
-                fragmentTransaction.commit();
-
-            }
-        });
 
         return view;
     }

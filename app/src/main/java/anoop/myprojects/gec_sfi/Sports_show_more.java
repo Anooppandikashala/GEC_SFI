@@ -15,6 +15,17 @@ public class Sports_show_more extends AppCompatActivity {
         setContentView(R.layout.activity_sports_show_more);
         ImageView fb,tw,insta,you;
 
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Sports_show_more.super.onBackPressed();
+            }
+        });
+
         fb=findViewById(R.id.fb);
         tw=findViewById(R.id.tw);
         insta=findViewById(R.id.insta);

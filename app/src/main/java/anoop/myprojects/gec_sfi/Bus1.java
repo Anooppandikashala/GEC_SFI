@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 import java.util.ArrayList;
@@ -21,10 +22,16 @@ public class Bus1 extends AppCompatActivity implements AdapterView.OnItemSelecte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bus1);
 
+        ImageView back;
 
+        back = findViewById(R.id.back);
 
-
-
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bus1.super.onBackPressed();
+            }
+        });
         spinnerbus1 = (Spinner) findViewById(R.id.spinnerbus1);
         spinnerbus1.setOnItemSelectedListener(Bus1.this);
 

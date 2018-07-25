@@ -15,6 +15,17 @@ public class PmeExplore extends AppCompatActivity {
         setContentView(R.layout.activity_pme_explore);
         ImageView fb,tw,insta,you;
 
+        ImageView back;
+
+        back = findViewById(R.id.back);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                PmeExplore.super.onBackPressed();
+            }
+        });
+
         fb=findViewById(R.id.fb);
 
         insta=findViewById(R.id.insta);
