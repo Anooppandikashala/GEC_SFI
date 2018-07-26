@@ -12,6 +12,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,37 +27,46 @@ public class Maps extends Fragment {
     View view1_clg,view2_work,view3_lh;
 
     AutoCompleteTextView autocomplete;
+    ImageView search;
+
+    String key;
 
     String[] stops = {
-            "It Department",
-            "Cse Department",
-            "Mech Department",
-            "Ece Department",
-            "It Department Library",
-            "Cse Department Library",
-            "Mech Department Library",
-            "Ece Department Library",
-            "Eee Department",
-            "Office",
-            "Cooperative Store",
-            "Tequip",
-            "Civil Department",
-            "Maths Department",
-            "Physics Department",
-            "Chemistry Department",
-            "Physics Lab",
-            "Chemistry Lab",
-            "Nss Room",
-            "Ieee Room",
-            "Union Room",
-            "It Drawing Hall",
-            "Cse Drawing Hall",
-            "Ece Drawing Hall",
-            "It Seminar Hall",
-            "Cse Seminar Hall",
-            "Ece Seminar Hall",
-            "Mtech",
-            "CCF","Edusat Room","TBI","Central Library"
+            "It Department",//
+            "Cse Department",//
+            "Mech Department",//
+            "Ece Department",//
+            "It Department Library",//
+            "Cse Department Library",//
+            "Mech Department Library",//
+            "Ece Department Library",//
+            "Eee Department",//
+            "Office",//
+            "Cooperative Store",//
+            "Tequip",//
+            "Civil Department",//
+            "Maths Department",//
+            "Physics Department",//
+            "Chemistry Department",//
+            "Physics Lab",//
+            "Chemistry Lab",//
+            "Nss Room",//
+            "Ieee Room",//
+            "Union Room",//
+            "It Drawing Hall",//
+            "Cse Drawing Hall",//
+            "Ece Drawing Hall",//
+            "It Seminar Hall",//
+            "Cse Seminar Hall",//
+            "Ece Seminar Hall",//
+            "Mtech",//
+            "CCF",//
+            "Edusat Room",//
+            "TBI",//
+            "Central Library",//
+            "PTA Office",//
+            "Ladies Waiting Room",//
+            "Boys Waiting Room"//
 
 
     };
@@ -68,7 +78,173 @@ public class Maps extends Fragment {
 
     public  void performSearch(String item)
     {
-        System.out.print(item);
+        System.out.println(item);
+
+        if(item.equals("It Department") || item.equals("It Department Library") ||item.equals("Mtech") ||item.equals("Cse Seminar Hall") ){
+
+            //second floor part one
+
+            fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+            fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+            SecondFloorPartOne ldf = new SecondFloorPartOne();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.replace(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+
+        }
+        else if(item.equals("Eee Department") ||item.equals("Nss Room") || item.equals("Office") ||item.equals("Mech Department Library") ||item.equals("It Drawing Hall")){
+
+            //second floor part two
+
+            fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+            fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+            SecondFloorPartTwo ldf = new SecondFloorPartTwo();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.replace(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+
+
+
+
+        }
+        else if(item.equals("Ece Department")){
+
+            //groundfloor part one
+
+            fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+            fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+            GroundFloorPartOne ldf = new GroundFloorPartOne();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.replace(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+
+        }
+        else if(item.equals("Chemistry Lab") || item.equals("Civil Department") ||item.equals("Chemistry Department") ||item.equals("Ece Drawing Hall") ||item.equals("PTA Office")){
+
+            //groundfloor part two
+
+            fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+            fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+            GroundFloorPartTwo ldf = new GroundFloorPartTwo();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.replace(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+
+
+        }
+
+        else if(item.equals("Cse Department") || item.equals("Cse Department Library") ||item.equals("Ece Seminar Hall") ||item.equals("Ece Department Library")){
+
+            //first floor part one
+
+            fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+            fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+            FirstFloorPartOne ldf = new FirstFloorPartOne();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.replace(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+
+
+        }
+
+        else if(item.equals("Boys Waiting Room") ||item.equals("Ladies Waiting Room") ||item.equals("Tequip") ||item.equals("Mech Department") || item.equals("Cse Drawing Hall")||item.equals("Edusat Room") ||item.equals("Cooperative Store") ||item.equals("Maths Department")||item.equals("Physics Department")){
+
+            //first floor part two
+
+            fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+            fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+            FirstFloor2 ldf = new FirstFloor2();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.replace(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+
+
+        }
+        else if(item.equals("Central Library") || item.equals("It Department Library") ||item.equals("Mtech") ||item.equals("It Seminar Hall") ){
+
+            //third floor part one
+
+            fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+            fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+            ThirdFloorPartOne ldf = new ThirdFloorPartOne();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.replace(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+
+        }
+        else if(item.equals("CCF") || item.equals("TBI") ||item.equals("Ieee Room") ||item.equals("Union Room")||item.equals("Physics Lab")){
+
+            //third floor part two
+
+            fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+            fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+            ThirdFloorPartTwo ldf = new ThirdFloorPartTwo();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.replace(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+
+
+
+
+        }
+        else
+        {
+            //
+
+        }
+
+
+
+
+
     }
 
 
@@ -76,42 +252,42 @@ public class Maps extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view= inflater.inflate(R.layout.fragment_maps, container, false);
+        View view11= inflater.inflate(R.layout.fragment_maps, container, false);
+
+        search = view11.findViewById(R.id.go);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),
                 android.R.layout.simple_dropdown_item_1line, stops);
 
-        autocomplete = (AutoCompleteTextView)view.findViewById(R.id.search);
+        autocomplete = view11.findViewById(R.id.search);
 
         autocomplete.setThreshold(1);
         autocomplete.setAdapter(adapter);
-        autocomplete.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        /*autocomplete.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 String item = parent.getItemAtPosition(position).toString();
                 performSearch(item);
-            }
 
+            }
+        } );*/
+
+        search.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onNothingSelected(AdapterView<?> parent) {
+            public void onClick(View v) {
+
+                key = autocomplete.getText().toString().trim();
+
+                performSearch(key);
 
             }
         });
 
 
-
-
-
-
-
-
-
-
-
-        view1_clg=view.findViewById(R.id.button2);
-        view2_work=view.findViewById(R.id.button3);
-        view3_lh=view.findViewById(R.id.button4);
+        view1_clg=view11.findViewById(R.id.button2);
+        view2_work=view11.findViewById(R.id.button3);
+        view3_lh=view11.findViewById(R.id.button4);
         view1_clg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -170,7 +346,7 @@ public class Maps extends Fragment {
             }
         });
 
-        return view;
+        return view11;
     }
 
 
