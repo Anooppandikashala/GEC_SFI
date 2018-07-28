@@ -51,12 +51,10 @@ public class GroundFloorPartTwoDesc extends AppCompatActivity {
         //listDataHeader.add("CERD");
 
         List<String> network = new ArrayList<>();
-        network.add("To conduct labs based on networking.\n" +
-                "Lab in-charge:");
+        network.add("DTP facilities, issue of temporary ID card, Bus cards are available at PTA office.");
 
         List<String> project = new ArrayList<>();
-        project.add("For students to work on their project implementations\n" +
-                "Lab in charge: Mr. Sasikumar");
+        project.add("Room provided for Sports");
 
         List<String> soft = new ArrayList<>();
         soft.add("To practice and conduct labs on programming languages. \n" +

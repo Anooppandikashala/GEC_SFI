@@ -38,7 +38,7 @@ public class ThirdFloorPartTwoDesc extends AppCompatActivity {
         listDataHeader = new ArrayList<>();
 
         listDataHeader.add("CCF");
-        listDataHeader.add("TBI");
+        listDataHeader.add("Physics lab");
         listDataHeader.add("IEEE Room");
         listDataHeader.add("Union Room");
 
@@ -55,20 +55,16 @@ public class ThirdFloorPartTwoDesc extends AppCompatActivity {
         //listDataHeader.add("CERD");
 
         List<String> network = new ArrayList<>();
-        network.add("To conduct labs based on networking.\n" +
-                "Lab in-charge:");
+        network.add("Central Computing Facility, with network facility for students for reference, seminar and project works");
 
         List<String> project = new ArrayList<>();
-        project.add("For students to work on their project implementations\n" +
-                "Lab in charge: Mr. Sasikumar");
+        project.add("Lab provided by physics department for first year students.");
 
         List<String> soft = new ArrayList<>();
-        soft.add("To practice and conduct labs on programming languages. \n" +
-                "Lab in-charge: Mr. Pradeep");
+        soft.add("Room provided for IEEE");
 
         List<String> soft1 = new ArrayList<>();
-        soft1.add("To practice and conduct labs on programming languages. \n" +
-                "Lab in-charge: Mr. Pradeep");
+        soft1.add("College union room for satisfying needs and welfare for students.");
 
 
 
@@ -95,7 +91,7 @@ public class ThirdFloorPartTwoDesc extends AppCompatActivity {
         view3 =findViewById(R.id.edd2);
 
         t7= findViewById(R.id.lblListHeader3);
-        t7.setText(listDataHeader.get(2));
+        t7.setText(listDataHeader.get(3));
         t8= findViewById(R.id.lblListItem3);
         t8.setText(soft1.get(0));
         view4 =findViewById(R.id.edd3);

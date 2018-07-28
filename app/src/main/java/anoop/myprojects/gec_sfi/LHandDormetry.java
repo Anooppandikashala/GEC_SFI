@@ -9,41 +9,45 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FirstFloorPartTwoDesc extends AppCompatActivity {
+public class LHandDormetry extends AppCompatActivity {
 
     TextView t1,t2;
     TextView t3,t4;
     TextView t5,t6;
     TextView t7,t8;
+    TextView t9,t10;
     View view1;
     View view2;
     View view3;
     View view4;
+    View view5;
     ImageView back;
 
     boolean c1=false;
     boolean c2=false;
     boolean c3=false;
     boolean c4=false;
+    boolean c5=false;
     private List<String> listDataHeader;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first_floor_part_two_desc);
+        setContentView(R.layout.activity_lhand_dormetry);
 
         listDataHeader = new ArrayList<>();
 
-        listDataHeader.add("Tequip Office");
-        listDataHeader.add("Edusat Room");
-        listDataHeader.add("Cooperative Store");
+        listDataHeader.add("CCF");
+        listDataHeader.add("Physics lab");
+        listDataHeader.add("IEEE Room");
+        listDataHeader.add("Union Room");
 
         back = findViewById(R.id.back);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FirstFloorPartTwoDesc.super.onBackPressed();
+                LHandDormetry.super.onBackPressed();
             }
         });
 
@@ -51,13 +55,16 @@ public class FirstFloorPartTwoDesc extends AppCompatActivity {
         //listDataHeader.add("CERD");
 
         List<String> network = new ArrayList<>();
-        network.add("Tequip Office");
+        network.add("Central Computing Facility, with network facility for students for reference, seminar and project works");
 
         List<String> project = new ArrayList<>();
-        project.add("Seminar and conference hall");
+        project.add("Lab provided by physics department for first year students.");
 
         List<String> soft = new ArrayList<>();
-        soft.add("Stationary items provided for college students at moderate price");
+        soft.add("Room provided for IEEE");
+
+        List<String> soft1 = new ArrayList<>();
+        soft1.add("College union room for satisfying needs and welfare for students.");
 
 
 
@@ -82,6 +89,12 @@ public class FirstFloorPartTwoDesc extends AppCompatActivity {
         t6= findViewById(R.id.lblListItem2);
         t6.setText(soft.get(0));
         view3 =findViewById(R.id.edd2);
+
+        t7= findViewById(R.id.lblListHeader3);
+        t7.setText(listDataHeader.get(2));
+        t8= findViewById(R.id.lblListItem3);
+        t8.setText(soft1.get(0));
+        view4 =findViewById(R.id.edd3);
     }
 
     public void headerClick(View view) {
@@ -122,6 +135,20 @@ public class FirstFloorPartTwoDesc extends AppCompatActivity {
             c3=false;
             t6.setVisibility(TextView.GONE);
             view3.setVisibility(View.GONE);
+        }
+    }
+
+    public void headerClick3(View view) {
+
+        if(c4 == false){
+            c4=true;
+            t8.setVisibility(TextView.VISIBLE);
+            view4.setVisibility(View.VISIBLE);
+        }
+        else {
+            c3=false;
+            t8.setVisibility(TextView.GONE);
+            view4.setVisibility(View.GONE);
         }
     }
 }

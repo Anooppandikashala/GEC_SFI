@@ -103,6 +103,7 @@
                     android:layout_width="match_parent"
                     android:orientation="vertical"
                     android:layout_marginTop="20dp"
+                    android:visibility="invisible"
                     android:background="@drawable/btnbackcsewhite"
                     android:layout_height="wrap_content">
 
@@ -151,6 +152,7 @@
                     android:layout_width="match_parent"
                     android:orientation="vertical"
                     android:layout_marginTop="20dp"
+                    android:visibility="invisible"
                     android:background="@drawable/btnbackcsewhite"
                     android:layout_height="wrap_content">
 

@@ -35,8 +35,8 @@ public class GroundFloorPartOneDesc extends AppCompatActivity {
 
         listDataHeader = new ArrayList<>();
 
-        listDataHeader.add("Project Room");
-        listDataHeader.add("Ece Department Library");
+        listDataHeader.add("Staff room");
+        listDataHeader.add("Fluid lab");
         listDataHeader.add("Ece seminar hall");
 
         back = findViewById(R.id.back);
@@ -52,12 +52,10 @@ public class GroundFloorPartOneDesc extends AppCompatActivity {
         //listDataHeader.add("CERD");
 
         List<String> network = new ArrayList<>();
-        network.add("To conduct labs based on networking.\n" +
-                "Lab in-charge:");
+        network.add("For faculties of ECE Department.");
 
         List<String> project = new ArrayList<>();
-        project.add("For students to work on their project implementations\n" +
-                "Lab in charge: Mr. Sasikumar");
+        project.add("Lab provided by mechanical department for ME Students");
 
         List<String> soft = new ArrayList<>();
         soft.add("To practice and conduct labs on programming languages. \n" +

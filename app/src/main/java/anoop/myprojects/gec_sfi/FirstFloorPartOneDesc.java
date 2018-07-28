@@ -51,16 +51,13 @@ public class FirstFloorPartOneDesc extends AppCompatActivity {
         //listDataHeader.add("CERD");
 
         List<String> network = new ArrayList<>();
-        network.add("To conduct labs based on networking.\n" +
-                "Lab in-charge:");
+        network.add("Reference library for CSE Students");
 
         List<String> project = new ArrayList<>();
-        project.add("For students to work on their project implementations\n" +
-                "Lab in charge: Mr. Sasikumar");
+        project.add("Reference library for ECE Students");
 
         List<String> soft = new ArrayList<>();
-        soft.add("To practice and conduct labs on programming languages. \n" +
-                "Lab in-charge: Mr. Pradeep");
+        soft.add("To Conduct seminars and presentations");
 
 
 

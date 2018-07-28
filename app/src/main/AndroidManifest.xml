@@ -128,7 +128,9 @@
         <activity android:name=".GroundFloorPartTwoDesc" />
         <activity android:name=".FirstFloorPartTwoDesc" />
         <activity android:name=".SecondFloorPartTwoDesc" />
-        <activity android:name=".ThirdFloorPartTwoDesc"></activity>
+        <activity android:name=".ThirdFloorPartTwoDesc" />
+        <activity android:name=".WorkshopDesc" />
+        <activity android:name=".LHandDormetry" />
     </application>
 
 </manifest>

@@ -53,8 +53,7 @@ public class ThirdFloorPartOneDesc extends AppCompatActivity {
         //listDataHeader.add("CERD");
 
         List<String> network = new ArrayList<>();
-        network.add("To conduct labs based on networking.\n" +
-                "Lab in-charge:");
+        network.add("Central library of college, constitutes reference books for all departments, Science magazines, dailies, novels etc.");
 
         List<String> project = new ArrayList<>();
         project.add("For students to work on their project implementations\n" +

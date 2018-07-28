@@ -81,6 +81,7 @@ public class Enquiry extends Fragment{
             viewPagerAdapter.addFragments(new BusTime());
             viewPagerAdapter.addFragments(new General_enq());
             viewPagerAdapter.addFragments(new TrainTimes());
+            viewPagerAdapter.addFragments(new Staffs());
 
 
         }

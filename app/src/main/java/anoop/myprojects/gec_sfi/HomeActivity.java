@@ -4,12 +4,14 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Intent;
 import android.os.Build;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.firebase.database.ChildEventListener;
@@ -24,14 +26,24 @@ public class HomeActivity extends AppCompatActivity {
     Button enquiry,union,credits,facilities;
     ViewPager viewPager;
     ViewPagerAdapterNew viewPagerAdapter;
+    static FragmentTransaction fragmentTransaction;
+    SessionManager session;
     //public static boolean badge=false;
+    LinearLayout linearLayout;
     String msg="";
+    Button gotIt;
+
     private static final String TAG = "HomeActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        session = new SessionManager(getApplicationContext());
+        linearLayout=findViewById(R.id.layoutForGotit);
+        gotIt=findViewById(R.id.okgotit);
+
 
         viewPager=(ViewPager)findViewById(R.id.viewPager);
 
@@ -50,7 +62,28 @@ public class HomeActivity extends AppCompatActivity {
 
 
 
+        if(!session.isLoggedIn()) {
+
+
+
+
+            linearLayout.setVisibility(LinearLayout.VISIBLE);
+            fragmentTransaction = getSupportFragmentManager().beginTransaction().addToBackStack("hello");
+
+            BlankFragment ldf = new BlankFragment();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.add(R.id.main_containerhome, ldf);
+            fragmentTransaction.commit();
+        }
+
+
+
     }
+
 
 
 
@@ -67,5 +100,11 @@ public class HomeActivity extends AppCompatActivity {
         System.exit(0);
 
         //super.onBackPressed();
+    }
+
+
+    public void okGotIt(View view) {
+
+        linearLayout.setVisibility(LinearLayout.GONE);
     }
 }
