@@ -12,9 +12,9 @@
     <application
         android:name=".FireLearn"
         android:allowBackup="true"
-        android:icon="@mipmap/azadi_logo"
+        android:icon="@mipmap/gmate"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/azadi_logo"
+        android:roundIcon="@mipmap/gmate"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <meta-data

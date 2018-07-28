@@ -20,7 +20,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/ic_azadi_logo_with_typo"
+                android:src="@drawable/ic_g_capp_logo"
                 android:layout_height="wrap_content" />
 
 
@@ -38,7 +38,7 @@
             android:fontFamily="@font/robotoregular"
             android:textStyle="normal"
             android:background="@drawable/btnbackcseinfo"
-            android:text="To get updated on Gec news, Azadi provides you with all the information, latest updates, and contact details of the campus."/>
+            android:text="To get updated on Gec news, G Mate provides you with all the information, latest updates, and contact details of the campus."/>
 
 
 

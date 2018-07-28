@@ -22,7 +22,7 @@
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:src="@drawable/ic_azadi_logo_with_typo"
+                android:src="@drawable/ic_g_capp_logo_white"
                 android:visibility="visible"
                 android:layout_height="wrap_content" />
 

@@ -31,6 +31,8 @@ public class FirstFloorPartOne extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_first_floor_part_one, container, false);
 
+
+
         info =view.findViewById(R.id.infoMap);
 
         info.setOnClickListener(new View.OnClickListener() {
