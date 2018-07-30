@@ -77,7 +77,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View v) {
                 msg = "crd";
                 System.out.println("hello");
-                Intent intent = new Intent(getContext(), Navgation.class);
+                Intent intent = new Intent(getContext(), MapActivity.class);
                 intent.putExtra("message", msg);
 
                 startActivity(intent);

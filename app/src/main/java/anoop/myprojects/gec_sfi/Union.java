@@ -46,8 +46,10 @@ public class Union extends Fragment {
 
         //viewPagerAdapter.addFragments(new WhatsNew(),"");
         if(value.equals("facility")) {
+            viewPagerAdapter.addFragments(new AntiRaging());
             viewPagerAdapter.addFragments(new Union_members());
             viewPagerAdapter.addFragments(new UnitMemers());
+            viewPagerAdapter.addFragments(new AntiRaging());
             viewPagerAdapter.addFragments(new Union_members());
             viewPagerAdapter.addFragments(new UnitMemers());
             //viewPagerAdapter.addFragments(new Staffs());

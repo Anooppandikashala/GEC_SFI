@@ -66,7 +66,12 @@ public class Maps extends Fragment {
             "Central Library",//
             "PTA Office",//
             "Ladies Waiting Room",//
-            "Boys Waiting Room"//
+            "Boys Waiting Room",//
+            "S1 S2 Cse","S1 S2 It","S1 S2 Ece","S1 S2 Eee","S1 S2 Mech",
+            "S3 S4 Cse","S3 S4 It","S3 S4 Ece","S3 S4 Eee","S3 S4 Mech",
+            "S5 S6 Cse","S5 S6 It","S5 S6 Ece","S5 S6 Eee","S5 S6 Mech",
+            "S7 S8 Cse","S7 S8 It","S7 S8 Ece","S7 S8 Mech"
+
 
 
     };
@@ -80,7 +85,7 @@ public class Maps extends Fragment {
     {
         System.out.println(item);
 
-        if(item.equals("It Department") || item.equals("It Department Library") ||item.equals("Mtech") ||item.equals("Cse Seminar Hall") ){
+        if(item.equals("S7 S8 It") ||item.equals("S5 S6 It") ||item.equals("S3 S4 It") ||item.equals("S1 S2 It") ||item.equals("It Department") || item.equals("It Department Library") ||item.equals("Mtech") ||item.equals("Cse Seminar Hall") ){
 
             //second floor part one
 
@@ -119,7 +124,7 @@ public class Maps extends Fragment {
 
 
         }
-        else if(item.equals("Ece Department")){
+        else if(item.equals("S7 S8 Ece") ||item.equals("S5 S6 Ece") ||item.equals("S3 S4 Ece") ||item.equals("S1 S2 Ece") ||item.equals("Ece Department")){
 
             //groundfloor part one
 
@@ -157,7 +162,7 @@ public class Maps extends Fragment {
 
         }
 
-        else if(item.equals("Cse Department") || item.equals("Cse Department Library") ||item.equals("Ece Seminar Hall") ||item.equals("Ece Department Library")){
+        else if(item.equals("S7 S8 Cse") ||item.equals("S5 S6 Cse") ||item.equals("S3 S4 Cse") ||item.equals("S1 S2 Cse") ||item.equals("Cse Department") || item.equals("Cse Department Library") ||item.equals("Ece Seminar Hall") ||item.equals("Ece Department Library")){
 
             //first floor part one
 

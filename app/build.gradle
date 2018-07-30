@@ -8,7 +8,7 @@ android {
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
-        //multiDexEnabled true
+        multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -50,6 +50,8 @@ dependencies {
     //implementation 'com.github.chrisbanes:PhotoView:2.1.4'
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.jsibbold:zoomage:1.1.0'
+    compile 'com.github.clans:fab:1.6.2'
+    //implementation 'com.github.wangjiegulu:rfab:2.0.0'
     /*compile 'com.google.firebase:firebase-core:16.0.1'
         compile 'com.google.firebase:firebase-database:16.0.1'
         compile 'com.google.firebase:firebase-messaging:17.0.0'

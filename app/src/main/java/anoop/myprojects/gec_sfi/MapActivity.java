@@ -1,0 +1,145 @@
+package anoop.myprojects.gec_sfi;
+
+import android.graphics.Color;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
+
+
+import com.github.clans.fab.FloatingActionButton;
+import com.github.clans.fab.FloatingActionMenu;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MapActivity extends AppCompatActivity {
+
+    FragmentTransaction fragmentTransaction;
+
+    FloatingActionMenu materialDesignFAM;
+    FloatingActionButton floatingActionButton1,
+            floatingActionButton2,
+            floatingActionButton3,
+            floatingActionButton4;
+
+
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_map);
+
+        fragmentTransaction=getSupportFragmentManager().beginTransaction();//.addToBackStack("mapps");
+
+        Maps ldf = new Maps();
+        Bundle args = new Bundle();
+        args.putString("message", "enquery");
+        ldf.setArguments(args);
+
+
+        fragmentTransaction.add(R.id.main_container,ldf);
+        fragmentTransaction.commit();
+
+
+
+        materialDesignFAM = (FloatingActionMenu) findViewById(R.id.material_design_android_floating_action_menu);
+        floatingActionButton1 = (FloatingActionButton) findViewById(R.id.material_design_floating_action_menu_item1);
+        floatingActionButton2 = (FloatingActionButton) findViewById(R.id.material_design_floating_action_menu_item2);
+        floatingActionButton3 = (FloatingActionButton) findViewById(R.id.material_design_floating_action_menu_item3);
+        floatingActionButton4 = (FloatingActionButton) findViewById(R.id.material_design_floating_action_menu_item4);
+
+        floatingActionButton1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                materialDesignFAM.close(true);
+
+
+                fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
+
+                FirstFloor ldf = new FirstFloor();
+                Bundle args = new Bundle();
+                args.putString("message", "enquery");
+                ldf.setArguments(args);
+
+
+                fragmentTransaction.replace(R.id.main_container,ldf);
+                fragmentTransaction.commit();
+                //System.out.println(getFragmentManager().getBackStackEntryCount());
+
+            }
+        });
+        floatingActionButton2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                materialDesignFAM.close(true);
+
+                fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
+
+                SecondFloor ldf = new SecondFloor();
+                Bundle args = new Bundle();
+                args.putString("message", "enquery");
+                ldf.setArguments(args);
+
+
+                fragmentTransaction.replace(R.id.main_container,ldf);
+                fragmentTransaction.commit();
+                //System.out.println(getFragmentManager().getBackStackEntryCount());
+
+            }
+        });
+        floatingActionButton3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                materialDesignFAM.close(true);
+                fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
+
+
+                ThirdFloor ldf = new ThirdFloor();
+                Bundle args = new Bundle();
+                args.putString("message", "enquery");
+                ldf.setArguments(args);
+
+
+                fragmentTransaction.replace(R.id.main_container,ldf);
+                fragmentTransaction.commit();
+                //System.out.println(getFragmentManager().getBackStackEntryCount());
+
+            }
+        });
+        floatingActionButton4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                materialDesignFAM.close(true);
+                fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
+
+
+                GroundFloor ldf = new GroundFloor();
+                Bundle args = new Bundle();
+                args.putString("message", "enquery");
+                ldf.setArguments(args);
+
+
+                fragmentTransaction.replace(R.id.main_container,ldf);
+                fragmentTransaction.commit();
+
+                //System.out.println(getFragmentManager().getBackStackEntryCount());
+
+            }
+        });
+
+
+
+
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        super.onBackPressed();
+    }
+}

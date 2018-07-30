@@ -132,6 +132,7 @@
         <activity android:name=".ThirdFloorPartTwoDesc" />
         <activity android:name=".WorkshopDesc" />
         <activity android:name=".LHandDormetry" />
+        <activity android:name=".MapActivity"></activity>
     </application>
 
 </manifest>
