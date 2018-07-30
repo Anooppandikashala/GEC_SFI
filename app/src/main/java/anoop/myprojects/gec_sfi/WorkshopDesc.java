@@ -92,7 +92,7 @@ public class WorkshopDesc extends AppCompatActivity {
         view3 =findViewById(R.id.edd2);
 
         t7= findViewById(R.id.lblListHeader3);
-        t7.setText(listDataHeader.get(2));
+        t7.setText(listDataHeader.get(3));
         t8= findViewById(R.id.lblListItem3);
         t8.setText(soft1.get(0));
         view4 =findViewById(R.id.edd3);

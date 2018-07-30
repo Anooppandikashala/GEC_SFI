@@ -2,13 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/firstfloor"
     tools:context="anoop.myprojects.gec_sfi.FirstFloor">
 
     <!-- TODO: Update blank fragment layout -->
 
     <RelativeLayout
         android:layout_width="match_parent"
+        android:background="@drawable/firstfloornew"
         android:layout_height="match_parent">
 
         <View

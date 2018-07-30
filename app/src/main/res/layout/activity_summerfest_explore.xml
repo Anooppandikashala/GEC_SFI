@@ -96,7 +96,7 @@
                                 android:layout_width="80dp"
                                 android:padding="10dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/user"
+                                android:src="@mipmap/arjunn"
                                 android:layout_height="80dp" />
                             <TextView
                                 android:layout_width="match_parent"
@@ -153,7 +153,7 @@
                                 android:layout_width="80dp"
                                 android:padding="10dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/user"
+                                android:src="@mipmap/akhilp"
                                 android:layout_height="80dp" />
                             <TextView
                                 android:layout_width="match_parent"

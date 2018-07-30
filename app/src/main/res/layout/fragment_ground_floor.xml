@@ -9,7 +9,7 @@
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:background="@drawable/groundfloor"
+        android:background="@drawable/groundfloornew"
         android:layout_height="match_parent">
 
         <View

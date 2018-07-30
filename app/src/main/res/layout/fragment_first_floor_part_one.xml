@@ -9,15 +9,27 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/firstfloorparttwo">
+        android:background="@drawable/firstfloorparttwonew">
 
         <ImageView
             android:layout_width="wrap_content"
             android:src="@drawable/ic_info_outline_black_24dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="50dp"
+            android:layout_margin="50dp"
             android:id="@+id/infoMap"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="First Floor Left"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
             android:layout_height="wrap_content" />
 
 

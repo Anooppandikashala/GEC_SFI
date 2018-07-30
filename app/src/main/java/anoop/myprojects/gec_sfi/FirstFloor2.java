@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -30,6 +31,7 @@ public class FirstFloor2 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_first_floor2, container, false);
+
 
         info =view.findViewById(R.id.infoMap);
 

@@ -161,7 +161,7 @@
                                 android:layout_width="0dp"
                                 android:layout_marginTop="10dp"
                                 android:layout_weight="0.5"
-                                android:text="7907069259"
+                                android:text=" "
                                 android:fontFamily="@font/robotoregular"
                                 android:textSize="15dp"
                                 android:layout_height="match_parent" />
@@ -232,7 +232,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_weight="0.5"
-                                android:text="9742583510"
+                                android:text=" "
                                 android:fontFamily="@font/robotoregular"
                                 android:textSize="15dp"
                                 android:layout_height="match_parent" />
@@ -293,7 +293,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_weight="0.5"
-                                android:text="9605799688"
+                                android:text=" "
                                 android:fontFamily="@font/robotoregular"
                                 android:textSize="15dp"
                                 android:layout_height="match_parent" />
@@ -354,7 +354,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_weight="0.5"
-                                android:text="9895347246"
+                                android:text=" "
                                 android:fontFamily="@font/robotoregular"
                                 android:textSize="15dp"
                                 android:layout_height="match_parent" />
@@ -415,7 +415,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_weight="0.5"
-                                android:text="9544519864"
+                                android:text=" "
                                 android:fontFamily="@font/robotoregular"
                                 android:textSize="15dp"
                                 android:layout_height="match_parent" />
@@ -598,7 +598,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_weight="0.5"
-                                android:text="9447968952"
+                                android:text=" "
                                 android:fontFamily="@font/robotoregular"
                                 android:textSize="15dp"
                                 android:layout_height="match_parent" />
@@ -659,7 +659,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_weight="0.5"
-                                android:text="8113067549"
+                                android:text=" "
                                 android:fontFamily="@font/robotoregular"
                                 android:textSize="15dp"
                                 android:layout_height="match_parent" />
@@ -720,7 +720,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_weight="0.5"
-                                android:text="8593858494"
+                                android:text=" "
                                 android:fontFamily="@font/robotoregular"
                                 android:textSize="15dp"
                                 android:layout_height="match_parent" />
@@ -781,7 +781,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_weight="0.5"
-                                android:text="7034994977"
+                                android:text=" "
                                 android:fontFamily="@font/robotoregular"
                                 android:textSize="15dp"
                                 android:layout_height="match_parent" />
@@ -1087,7 +1087,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_weight="0.5"
-                                android:text="9495542243"
+                                android:text=" "
                                 android:fontFamily="@font/robotoregular"
                                 android:textSize="15dp"
                                 android:layout_height="match_parent" />

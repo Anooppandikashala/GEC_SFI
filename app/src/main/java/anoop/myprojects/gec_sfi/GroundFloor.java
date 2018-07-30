@@ -27,57 +27,68 @@ public class GroundFloor extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view= inflater.inflate(R.layout.fragment_ground_floor, container, false);
+        View view=null;
+        try {
+            view = inflater.inflate(R.layout.fragment_ground_floor, container, false);
 
-        part1 = view.findViewById(R.id.part1);
+            part1 = view.findViewById(R.id.part1);
 
-        part2 = view.findViewById(R.id.part2);
+            part2 = view.findViewById(R.id.part2);
 
-        part1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+            part1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
 
-                fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+                    fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
 
-                fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+                    fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
-                GroundFloorPartOne ldf = new GroundFloorPartOne();
-                Bundle args = new Bundle();
-                args.putString("message", "enquery");
-                ldf.setArguments(args);
-
-
-                fragmentTransaction.replace(R.id.main_container,ldf);
-                fragmentTransaction.commit();
-
-            }
-        });
-
-        part2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
-
-                fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
-
-                GroundFloorPartTwo  ldf = new GroundFloorPartTwo();
-                Bundle args = new Bundle();
-                args.putString("message", "enquery");
-                ldf.setArguments(args);
+                    GroundFloorPartOne ldf = new GroundFloorPartOne();
+                    Bundle args = new Bundle();
+                    args.putString("message", "enquery");
+                    ldf.setArguments(args);
 
 
-                fragmentTransaction.replace(R.id.main_container,ldf);
-                fragmentTransaction.commit();
+                    fragmentTransaction.replace(R.id.main_container, ldf);
+                    fragmentTransaction.commit();
 
-            }
-        });
+                }
+            });
+
+            part2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+                    fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+                    GroundFloorPartTwo ldf = new GroundFloorPartTwo();
+                    Bundle args = new Bundle();
+                    args.putString("message", "enquery");
+                    ldf.setArguments(args);
+
+
+                    fragmentTransaction.replace(R.id.main_container, ldf);
+                    fragmentTransaction.commit();
+
+                }
+            });
+
+            return view;
+
+        }
+        catch (Exception e){
+
+            e.printStackTrace();
+        }
+
+
+
+
 
 
         return view;
-
-
-
     }
 
 }

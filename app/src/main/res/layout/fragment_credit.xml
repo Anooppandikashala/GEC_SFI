@@ -24,7 +24,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:background="@drawable/teamazadicreditpic"
+                    android:background="@drawable/teamgmate"
                     android:layout_height="200dp">
                 </LinearLayout>
                 <TextView

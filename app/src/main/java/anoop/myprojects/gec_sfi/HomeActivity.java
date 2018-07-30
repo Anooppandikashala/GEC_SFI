@@ -105,6 +105,8 @@ public class HomeActivity extends AppCompatActivity {
 
     public void okGotIt(View view) {
 
+        session.createLoginSession("anoop", "anoopp","1000");
+
         linearLayout.setVisibility(LinearLayout.GONE);
     }
 }

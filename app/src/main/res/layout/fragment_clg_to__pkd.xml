@@ -27,7 +27,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="7 : 55"
+                    android:text="4 : 30"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -35,7 +35,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="7 : 58"
+                    android:text="4 : 38"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -43,7 +43,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="8 : 00"
+                    android:text="4 : 40"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -51,7 +51,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="8 : 05"
+                    android:text="4 : 45"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -59,7 +59,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="8 : 07"
+                    android:text="4 : 50"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -67,7 +67,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="8 : 10"
+                    android:text="4 : 55"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -75,7 +75,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="8 : 12"
+                    android:text="5 : 00"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -83,7 +83,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="8 : 18"
+                    android:text="5 : 16"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -91,7 +91,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="8 : 22"
+                    android:text="5 : 20"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -99,7 +99,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="8 : 25"
+                    android:text="5 : 22"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -107,7 +107,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="8 : 28"
+                    android:text="5 : 25"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -115,7 +115,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="8 : 35"
+                    android:text="5 : 32"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
 
@@ -124,7 +124,7 @@
                     android:fontFamily="@font/robotoregular"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="8 : 37"
+                    android:text="5 : 35"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
 
@@ -133,7 +133,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/robotoregular"
                     android:gravity="center"
-                    android:text="8 : 40"
+                    android:text="5 : 38"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -141,7 +141,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/robotoregular"
                     android:gravity="center"
-                    android:text="8 : 42"
+                    android:text="5 : 42"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -149,7 +149,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/robotoregular"
                     android:gravity="center"
-                    android:text="8 : 46"
+                    android:text="5 : 46"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -157,7 +157,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/robotoregular"
                     android:gravity="center"
-                    android:text="8 : 50"
+                    android:text="5 : 50"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -165,7 +165,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/robotoregular"
                     android:gravity="center"
-                    android:text="8 : 55"
+                    android:text="5 : 55"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -173,7 +173,7 @@
                     android:layout_marginTop="20dp"
                     android:gravity="center"
                     android:fontFamily="@font/robotoregular"
-                    android:text="9 : 00"
+                    android:text="6 : 00"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -181,7 +181,7 @@
                     android:layout_marginTop="20dp"
                     android:gravity="center"
                     android:fontFamily="@font/robotoregular"
-                    android:text="9 : 05"
+                    android:text="6 : 05"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -189,7 +189,7 @@
                     android:layout_marginTop="20dp"
                     android:gravity="center"
                     android:fontFamily="@font/robotoregular"
-                    android:text="9 : 10"
+                    android:text="6 : 10"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
                 <TextView
@@ -197,7 +197,7 @@
                     android:layout_marginTop="20dp"
                     android:gravity="center"
                     android:fontFamily="@font/robotoregular"
-                    android:text="9 : 12"
+                    android:text="6 : 12"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
 
@@ -205,7 +205,7 @@
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="9 : 20"
+                    android:text="6 : 15"
                     android:fontFamily="@font/robotoregular"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />

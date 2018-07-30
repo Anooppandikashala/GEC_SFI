@@ -32,7 +32,7 @@ public class MyData {
             "6.0-6.0.1"};
 
     static Integer[] drawableArray = {
-            R.drawable.back,
+            R.drawable.ic_bus_1,
             R.drawable.ic_bus_1,
             R.drawable.ic_bus_1,
             R.drawable.ic_bus_1,

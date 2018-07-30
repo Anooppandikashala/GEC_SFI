@@ -27,7 +27,7 @@
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="8 : 55"
+                    android:text="4 : 30"
                     android:textSize="15sp"
                     android:fontFamily="@font/robotoregular"
                     android:layout_height="wrap_content" />
@@ -35,7 +35,7 @@
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="9 : 00"
+                    android:text="4 : 35"
                     android:fontFamily="@font/robotoregular"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
@@ -43,7 +43,7 @@
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="9 : 05"
+                    android:text="4 : 42"
                     android:fontFamily="@font/robotoregular"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
@@ -51,16 +51,34 @@
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="9 : 08"
+                    android:text="4 : 48"
                     android:fontFamily="@font/robotoregular"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="4 : 52"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="4 : 55"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="9 : 12"
+                    android:text="5 : 00"
                     android:fontFamily="@font/robotoregular"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />
@@ -68,25 +86,7 @@
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="9 : 18"
-                    android:fontFamily="@font/robotoregular"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="center"
-                    android:text="9 : 25"
-                    android:fontFamily="@font/robotoregular"
-                    android:textSize="15sp"
-                    android:layout_height="wrap_content" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:gravity="center"
-                    android:text="9 : 30"
+                    android:text="5 : 05"
                     android:fontFamily="@font/robotoregular"
                     android:textSize="15sp"
                     android:layout_height="wrap_content" />

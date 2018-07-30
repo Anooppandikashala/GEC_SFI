@@ -29,7 +29,7 @@ public class BlankFragment extends Fragment {
 
         // Inflate the layout for this fragment
         session = new SessionManager(getContext());
-        session.createLoginSession("anoop", "anoopp","1000");
+        //session.createLoginSession("anoop", "anoopp","1000");
         View view = inflater.inflate(R.layout.fragment_blank, container, false);
 
         return view;

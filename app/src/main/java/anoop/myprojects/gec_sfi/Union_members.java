@@ -56,7 +56,7 @@ public class Union_members extends Fragment {
 
 
 
-        chair.setOnClickListener(new View.OnClickListener() {
+        /*chair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -184,7 +184,7 @@ public class Union_members extends Fragment {
                 click(v);
 
             }
-        });
+        });*/
 
 
         if(!runtime_permissions()){
