@@ -70,7 +70,12 @@ public class Maps extends Fragment {
             "S1 S2 Cse","S1 S2 It","S1 S2 Ece","S1 S2 Eee","S1 S2 Mech",
             "S3 S4 Cse","S3 S4 It","S3 S4 Ece","S3 S4 Eee","S3 S4 Mech",
             "S5 S6 Cse","S5 S6 It","S5 S6 Ece","S5 S6 Eee","S5 S6 Mech",
-            "S7 S8 Cse","S7 S8 It","S7 S8 Ece","S7 S8 Mech"
+            "S7 S8 Cse","S7 S8 It","S7 S8 Ece","S7 S8 Mech",
+            "EC 001 S3","EC 014 S1","EC 004 S5","EC 003 S7","G 024 ECE DH",//
+            "G 017 S7 ME","G 129 S1 ME","G 120 S5 ME",//
+            "CS 108 S1","CS 105 S3","CS 115 S5","CS 116 S7","CS 131 DH",//
+            "IT 209 S5","IT 216 S7","IT 217 S1","IT 206 S3","IT 233 DH",//
+            "CS 203 EEE S1"//
 
 
 
@@ -103,6 +108,44 @@ public class Maps extends Fragment {
             fragmentTransaction.commit();
 
         }
+        else if(item.equals("CS 108 S1") ||item.equals("CS 105 S3") ||item.equals("CS 115 S5") ||item.equals("CS 116 S7") ||item.equals("CS 131 DH")||item.equals("G 129 S1 ME")||item.equals("G 120 S5 ME")){
+
+            //first floor part one
+
+            fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+            fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+            FirstFloor ldf = new FirstFloor();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.replace(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+
+
+        }
+        else if(item.equals("IT 209 S5") ||item.equals("IT 216 S7") ||item.equals("IT 217 S1") ||item.equals("IT 206 S3") ||item.equals("IT 233 DH") || item.equals("CS 203 EEE S1") ){
+
+            //second floor part one
+
+            fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+            fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+            SecondFloor ldf = new SecondFloor();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.replace(R.id.main_container,ldf);
+            fragmentTransaction.commit();
+
+        }
+
         else if(item.equals("Eee Department") ||item.equals("Nss Room") || item.equals("Office") ||item.equals("Mech Department Library") ||item.equals("It Drawing Hall")){
 
             //second floor part two
@@ -122,6 +165,24 @@ public class Maps extends Fragment {
 
 
 
+
+        }
+        else if(item.equals("G 017 S7 ME") ||item.equals("EC 001 S3") ||item.equals("EC 014 S1") ||item.equals("EC 004 S5") ||item.equals("EC 003 S7") ||item.equals("G 024 ECE DH")){
+
+            //groundfloor part one
+
+            fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction().addToBackStack("map");
+
+            fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
+
+            GroundFloor ldf = new GroundFloor();
+            Bundle args = new Bundle();
+            args.putString("message", "enquery");
+            ldf.setArguments(args);
+
+
+            fragmentTransaction.replace(R.id.main_container,ldf);
+            fragmentTransaction.commit();
 
         }
         else if(item.equals("S7 S8 Ece") ||item.equals("S5 S6 Ece") ||item.equals("S3 S4 Ece") ||item.equals("S1 S2 Ece") ||item.equals("Ece Department")){
@@ -301,7 +362,7 @@ public class Maps extends Fragment {
 
                 fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
-                MapSecond ldf = new MapSecond();
+                FirstFloor ldf = new FirstFloor();
                 Bundle args = new Bundle();
                 args.putString("message", "enquery");
                 ldf.setArguments(args);

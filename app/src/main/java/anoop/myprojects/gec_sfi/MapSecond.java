@@ -54,7 +54,7 @@ public class MapSecond extends Fragment {
 
 
         //actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorPrimary));
-        drawerLayout=getActivity().findViewById(R.id.activity_navgation);
+        //drawerLayout=getActivity().findViewById(R.id.activity_navgation);
 
 
         tabLayout=(TabLayout)view.findViewById(R.id.tabLayout);
@@ -82,7 +82,7 @@ public class MapSecond extends Fragment {
        /* viewPager.setClipToPadding(false);
         viewPager.setPadding(80,90,80,0);
         viewPager.setPageMargin(20);*/
-        viewPager.setCurrentItem(1);
+        viewPager.setCurrentItem(0);
 
         dotsCount = viewPagerAdapter.getCount();
         dots = new ImageView[dotsCount];

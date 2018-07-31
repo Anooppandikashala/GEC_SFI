@@ -32,10 +32,10 @@
         fab:menu_fab_label="College Map"
         fab:menu_fab_size="normal"
         fab:menu_icon="@drawable/ic_lift_icon"
-        fab:menu_labels_colorNormal="#99d4d4d4"
+        fab:menu_labels_colorNormal="#BFd4d4d4"
         fab:menu_labels_colorPressed="#FFF915"
         fab:menu_labels_colorRipple="#66efecec"
-        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_cornerRadius="8dp"
         fab:menu_labels_ellipsize="none"
         fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
         fab:menu_labels_margin="0dp"
@@ -53,21 +53,12 @@
         fab:menu_shadowXOffset="1dp"
         fab:menu_shadowYOffset="4dp"
         fab:menu_showShadow="true">
-
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/material_design_floating_action_menu_item1"
+            android:id="@+id/material_design_floating_action_menu_item4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_4"
-            fab:fab_label="Ground Floor"
-            fab:fab_size="mini" />
-
-        <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/material_design_floating_action_menu_item2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_1"
-            fab:fab_label="First Floor"
+            android:src="@drawable/ic_3"
+            fab:fab_label="Third Floor"
             fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
@@ -77,14 +68,23 @@
             android:src="@drawable/ic_2"
             fab:fab_label="Second Floor"
             fab:fab_size="mini" />
-
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/material_design_floating_action_menu_item4"
+            android:id="@+id/material_design_floating_action_menu_item2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_3"
-            fab:fab_label="Third Floor"
+            android:src="@drawable/ic_1"
+            fab:fab_label="First Floor"
             fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/material_design_floating_action_menu_item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_4"
+            fab:fab_label="Ground Floor"
+            fab:fab_size="mini" />
+
+
     </com.github.clans.fab.FloatingActionMenu>
 
 

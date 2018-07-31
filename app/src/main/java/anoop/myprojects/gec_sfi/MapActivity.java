@@ -53,6 +53,8 @@ public class MapActivity extends AppCompatActivity {
         floatingActionButton3 = (FloatingActionButton) findViewById(R.id.material_design_floating_action_menu_item3);
         floatingActionButton4 = (FloatingActionButton) findViewById(R.id.material_design_floating_action_menu_item4);
 
+        //floatingActionButton2.setImageResource(R.drawable.ic_1_fill);
+
         floatingActionButton1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
@@ -158,6 +160,8 @@ public class MapActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+
+        materialDesignFAM.close(true);
 
         super.onBackPressed();
     }
