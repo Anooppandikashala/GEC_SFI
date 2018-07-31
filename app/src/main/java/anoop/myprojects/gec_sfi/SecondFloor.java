@@ -28,7 +28,7 @@ public class SecondFloor extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_second_floor, container, false);
-        part1 = view.findViewById(R.id.part1);
+        /*part1 = view.findViewById(R.id.part1);
 
         part2 = view.findViewById(R.id.part2);
 
@@ -70,7 +70,7 @@ public class SecondFloor extends Fragment {
                 fragmentTransaction.commit();
 
             }
-        });
+        });*/
 
 
         return view;

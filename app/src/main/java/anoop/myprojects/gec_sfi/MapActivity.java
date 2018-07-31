@@ -58,10 +58,15 @@ public class MapActivity extends AppCompatActivity {
 
                 materialDesignFAM.close(true);
 
+                floatingActionButton3.setImageResource(R.drawable.ic_2);
+                floatingActionButton2.setImageResource(R.drawable.ic_1);
+                floatingActionButton1.setImageResource(R.drawable.ic_4_fillsvg);
+                floatingActionButton4.setImageResource(R.drawable.ic_3);
+
 
                 fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
 
-                FirstFloor ldf = new FirstFloor();
+                GroundFloor ldf = new GroundFloor();
                 Bundle args = new Bundle();
                 args.putString("message", "enquery");
                 ldf.setArguments(args);
@@ -78,9 +83,14 @@ public class MapActivity extends AppCompatActivity {
 
                 materialDesignFAM.close(true);
 
+                floatingActionButton3.setImageResource(R.drawable.ic_2);
+                floatingActionButton2.setImageResource(R.drawable.ic_1_fill);
+                floatingActionButton1.setImageResource(R.drawable.ic_4);
+                floatingActionButton4.setImageResource(R.drawable.ic_3);
+
                 fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
 
-                SecondFloor ldf = new SecondFloor();
+                FirstFloor ldf = new FirstFloor();
                 Bundle args = new Bundle();
                 args.putString("message", "enquery");
                 ldf.setArguments(args);
@@ -96,10 +106,14 @@ public class MapActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 materialDesignFAM.close(true);
+                floatingActionButton3.setImageResource(R.drawable.ic_2_fill);
+                floatingActionButton2.setImageResource(R.drawable.ic_1);
+                floatingActionButton1.setImageResource(R.drawable.ic_4);
+                floatingActionButton4.setImageResource(R.drawable.ic_3);
                 fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
 
 
-                ThirdFloor ldf = new ThirdFloor();
+                SecondFloor ldf = new SecondFloor();
                 Bundle args = new Bundle();
                 args.putString("message", "enquery");
                 ldf.setArguments(args);
@@ -115,10 +129,15 @@ public class MapActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 materialDesignFAM.close(true);
+
+                floatingActionButton3.setImageResource(R.drawable.ic_2);
+                floatingActionButton2.setImageResource(R.drawable.ic_1);
+                floatingActionButton1.setImageResource(R.drawable.ic_4);
+                floatingActionButton4.setImageResource(R.drawable.ic_3_fill);
                 fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
 
 
-                GroundFloor ldf = new GroundFloor();
+                ThirdFloor ldf = new ThirdFloor();
                 Bundle args = new Bundle();
                 args.putString("message", "enquery");
                 ldf.setArguments(args);

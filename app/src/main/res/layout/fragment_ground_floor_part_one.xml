@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
 
     tools:context="anoop.myprojects.gec_sfi.GroundFloorPartOne">
 
@@ -9,8 +10,22 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="@drawable/groundfloorpartone"
             android:layout_height="match_parent">
+
+            <com.jsibbold.zoomage.ZoomageView
+                android:id="@+id/myZoomageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/groundfloorpartone"
+                app:zoomage_restrictBounds="false"
+                app:zoomage_animateOnReset="true"
+                app:zoomage_autoResetMode="UNDER"
+                app:zoomage_autoCenter="true"
+                app:zoomage_zoomable="true"
+                app:zoomage_translatable="true"
+                app:zoomage_minScale="0.6"
+                app:zoomage_maxScale="8"
+                />
 
             <ImageView
                 android:layout_width="wrap_content"

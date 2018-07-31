@@ -67,10 +67,10 @@ public class MapSecond extends Fragment {
         if(value.equals("facility")) {
 
 
-            viewPagerAdapter.addFragments(new GroundFloor());
+            //viewPagerAdapter.addFragments(new GroundFloor());
             viewPagerAdapter.addFragments(new FirstFloor());
-            viewPagerAdapter.addFragments(new SecondFloor());
-            viewPagerAdapter.addFragments(new ThirdFloor());
+            //viewPagerAdapter.addFragments(new SecondFloor());
+            //viewPagerAdapter.addFragments(new ThirdFloor());
 
             // viewPagerAdapter.addFragments(new EventList());
 

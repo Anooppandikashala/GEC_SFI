@@ -93,7 +93,7 @@ public class Maps extends Fragment {
 
             fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
-            SecondFloorPartOne ldf = new SecondFloorPartOne();
+            SecondFloor ldf = new SecondFloor();
             Bundle args = new Bundle();
             args.putString("message", "enquery");
             ldf.setArguments(args);
@@ -111,7 +111,7 @@ public class Maps extends Fragment {
 
             fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
-            SecondFloorPartTwo ldf = new SecondFloorPartTwo();
+            SecondFloor ldf = new SecondFloor();
             Bundle args = new Bundle();
             args.putString("message", "enquery");
             ldf.setArguments(args);
@@ -132,7 +132,7 @@ public class Maps extends Fragment {
 
             fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
-            GroundFloorPartOne ldf = new GroundFloorPartOne();
+            GroundFloor ldf = new GroundFloor();
             Bundle args = new Bundle();
             args.putString("message", "enquery");
             ldf.setArguments(args);
@@ -150,7 +150,7 @@ public class Maps extends Fragment {
 
             fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
-            GroundFloorPartTwo ldf = new GroundFloorPartTwo();
+            GroundFloor ldf = new GroundFloor();
             Bundle args = new Bundle();
             args.putString("message", "enquery");
             ldf.setArguments(args);
@@ -170,7 +170,7 @@ public class Maps extends Fragment {
 
             fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
-            FirstFloorPartOne ldf = new FirstFloorPartOne();
+            FirstFloor ldf = new FirstFloor();
             Bundle args = new Bundle();
             args.putString("message", "enquery");
             ldf.setArguments(args);
@@ -190,7 +190,7 @@ public class Maps extends Fragment {
 
             fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
-            FirstFloor2 ldf = new FirstFloor2();
+            FirstFloor ldf = new FirstFloor();
             Bundle args = new Bundle();
             args.putString("message", "enquery");
             ldf.setArguments(args);
@@ -209,7 +209,7 @@ public class Maps extends Fragment {
 
             fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
-            ThirdFloorPartOne ldf = new ThirdFloorPartOne();
+            ThirdFloor ldf = new ThirdFloor();
             Bundle args = new Bundle();
             args.putString("message", "enquery");
             ldf.setArguments(args);
@@ -227,7 +227,7 @@ public class Maps extends Fragment {
 
             fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left);
 
-            ThirdFloorPartTwo ldf = new ThirdFloorPartTwo();
+            ThirdFloor ldf = new ThirdFloor();
             Bundle args = new Bundle();
             args.putString("message", "enquery");
             ldf.setArguments(args);
