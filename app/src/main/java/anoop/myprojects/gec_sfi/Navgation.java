@@ -236,12 +236,10 @@ public class Navgation extends AppCompatActivity {
 
                         break;
                     case R.id.nav_rateus :
-                        navigationView.setCheckedItem(R.id.nav_rateus);
-                        fragmentTransaction=getSupportFragmentManager().beginTransaction();
-                        fragmentTransaction.replace(R.id.main_container,new AboutUsFragment());
-                        fragmentTransaction.commit();
+                        Toast.makeText(Navgation.this,"Coming Soon",
+                                Toast.LENGTH_SHORT).show();
                         getSupportActionBar().setTitle(" ");
-                        drawerLayout.closeDrawers();
+                        //drawerLayout.closeDrawers();
 
                         //x=checkNavigationMenuItem();
                         //System.out.println("x="+x);
@@ -288,6 +286,10 @@ public class Navgation extends AppCompatActivity {
     }
 
     private void shareApp(){
+
+        Toast.makeText(Navgation.this,"Coming Soon",
+                Toast.LENGTH_SHORT).show();
+        getSupportActionBar().setTitle(" ");
 
         //Intent intent =new Intent(Intent.ACTION_SEND);
 

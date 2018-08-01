@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context="anoop.myprojects.gec_sfi.Design_show_more">
 
     <ScrollView
@@ -87,7 +88,7 @@
 
                         <ImageView
                             android:layout_width="80dp"
-                            android:padding="10dp"
+                            android:padding="0dp"
                             android:layout_gravity="center"
                             android:src="@mipmap/rajathks"
                             android:layout_height="80dp" />
@@ -115,9 +116,9 @@
 
                         <ImageView
                             android:layout_width="80dp"
-                            android:padding="10dp"
+                            android:padding="8dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/user"
+                            android:src="@mipmap/reshmi"
                             android:layout_height="80dp" />
                         <TextView
                             android:layout_width="match_parent"

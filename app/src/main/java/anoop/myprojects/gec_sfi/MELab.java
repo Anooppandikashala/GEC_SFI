@@ -41,7 +41,7 @@ public class MELab extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ecelab);
+        setContentView(R.layout.activity_melab);
 
         ImageView back;
 

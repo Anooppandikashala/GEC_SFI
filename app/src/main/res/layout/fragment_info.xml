@@ -38,7 +38,7 @@
             android:fontFamily="@font/robotoregular"
             android:textStyle="normal"
             android:background="@drawable/btnbackcseinfo"
-            android:text="To get updated on Gec news, G Mate provides you with all the information, latest updates, and contact details of the campus."/>
+            android:text="To get updated on Gec news,\nG Mate provides you with all the information, latest updates, and contact details of the campus."/>
 
 
 

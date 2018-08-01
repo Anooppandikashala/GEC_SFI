@@ -60,10 +60,10 @@ public class MapActivity extends AppCompatActivity {
 
                 materialDesignFAM.close(true);
 
-                floatingActionButton3.setImageResource(R.drawable.ic_2);
-                floatingActionButton2.setImageResource(R.drawable.ic_1);
-                floatingActionButton1.setImageResource(R.drawable.ic_4_fillsvg);
-                floatingActionButton4.setImageResource(R.drawable.ic_3);
+                floatingActionButton3.setImageResource(R.drawable.ic_2_fill);
+                floatingActionButton2.setImageResource(R.drawable.ic_1_fill);
+                floatingActionButton1.setImageResource(R.drawable.ic_4);
+                floatingActionButton4.setImageResource(R.drawable.ic_3_fill);
 
 
                 fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
@@ -85,10 +85,10 @@ public class MapActivity extends AppCompatActivity {
 
                 materialDesignFAM.close(true);
 
-                floatingActionButton3.setImageResource(R.drawable.ic_2);
-                floatingActionButton2.setImageResource(R.drawable.ic_1_fill);
-                floatingActionButton1.setImageResource(R.drawable.ic_4);
-                floatingActionButton4.setImageResource(R.drawable.ic_3);
+                floatingActionButton3.setImageResource(R.drawable.ic_2_fill);
+                floatingActionButton2.setImageResource(R.drawable.ic_1);
+                floatingActionButton1.setImageResource(R.drawable.ic_4_fillsvg);
+                floatingActionButton4.setImageResource(R.drawable.ic_3_fill);
 
                 fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
 
@@ -108,10 +108,10 @@ public class MapActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 materialDesignFAM.close(true);
-                floatingActionButton3.setImageResource(R.drawable.ic_2_fill);
-                floatingActionButton2.setImageResource(R.drawable.ic_1);
-                floatingActionButton1.setImageResource(R.drawable.ic_4);
-                floatingActionButton4.setImageResource(R.drawable.ic_3);
+                floatingActionButton3.setImageResource(R.drawable.ic_2);
+                floatingActionButton2.setImageResource(R.drawable.ic_1_fill);
+                floatingActionButton1.setImageResource(R.drawable.ic_4_fillsvg);
+                floatingActionButton4.setImageResource(R.drawable.ic_3_fill);
                 fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
 
 
@@ -132,10 +132,10 @@ public class MapActivity extends AppCompatActivity {
 
                 materialDesignFAM.close(true);
 
-                floatingActionButton3.setImageResource(R.drawable.ic_2);
-                floatingActionButton2.setImageResource(R.drawable.ic_1);
-                floatingActionButton1.setImageResource(R.drawable.ic_4);
-                floatingActionButton4.setImageResource(R.drawable.ic_3_fill);
+                floatingActionButton3.setImageResource(R.drawable.ic_2_fill);
+                floatingActionButton2.setImageResource(R.drawable.ic_1_fill);
+                floatingActionButton1.setImageResource(R.drawable.ic_4_fillsvg);
+                floatingActionButton4.setImageResource(R.drawable.ic_3);
                 fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
 
 

@@ -29,9 +29,9 @@ public class Labs extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_labs, container, false);
 
-        cse=(TextView)view.findViewById(R.id.ccf);
+        cse=(TextView)view.findViewById(R.id.cselab);
         me=(TextView)view.findViewById(R.id.melab);
-        it=(TextView)view.findViewById(R.id.ccf);
+        it=(TextView)view.findViewById(R.id.itlab);
         ec=(TextView)view.findViewById(R.id.ecelab);
         eee=(TextView)view.findViewById(R.id.eeelab);
         general=(TextView)view.findViewById(R.id.general);

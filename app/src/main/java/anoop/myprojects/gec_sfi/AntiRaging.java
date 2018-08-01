@@ -110,7 +110,7 @@ public class AntiRaging extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-                Toast.makeText(getContext(), "You Clicked at " +Mob[position], Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(), "You Clicked at " +Mob[position], Toast.LENGTH_SHORT).show();
                 try {
 
                     Intent intent = new Intent(Intent.ACTION_CALL);

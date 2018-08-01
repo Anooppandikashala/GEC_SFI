@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
-    tools:context="anoop.myprojects.gec_sfi.AntiRaging">
+    tools:context="anoop.myprojects.gec_sfi.Scholarship">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -14,7 +14,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="@drawable/antiraggingsquadoptimised"
+            android:background="@drawable/scholarshipoptimised"
             android:layout_height="410dp">
 
             <View
@@ -24,6 +24,9 @@
                 android:layout_height="410dp"
                 android:id="@+id/imageView3"
                 />
+
+            <!--01B0FF -->
+
 
 
 
@@ -44,7 +47,7 @@
                         android:layout_weight="1"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Unit"
+                        android:text="Staffs"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
                         android:textSize="8sp"
@@ -58,7 +61,7 @@
                         android:layout_width="0dp"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Anti-Ragging Squad"
+                        android:text="Scholarship"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
@@ -72,7 +75,7 @@
                         android:layout_width="0dp"
                         android:layout_marginTop="5dp"
                         android:layout_height="wrap_content"
-                        android:text="Union"
+                        android:text="Hospitals"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:fontFamily="@font/robotoregular"
@@ -89,7 +92,60 @@
 
                 </LinearLayout>
 
+                <!--GridLayout
+                    android:layout_width="match_parent"
+                    android:columnCount="3"
+                    android:rowCount="1"
+                    android:layout_weight="3"
+                    android:padding="2dp"
+                    android:layout_gravity="top"
+                    android:layout_height="wrap_content">
 
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bus Time"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="12sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+
+
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="General Enquiry"
+                        android:layout_columnWeight="1"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="16sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+
+
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="Train Time"
+                        android:layout_columnWeight="1"
+                        android:gravity="center"
+                        android:fontFamily="@font/robotoregular"
+                        android:textSize="12sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+
+
+                        />
+
+                </GridLayout-->
                 <View
                     android:layout_width="match_parent"
                     android:padding="3.5dp"
@@ -104,12 +160,32 @@
 
         </RelativeLayout>
 
-        <ListView
-            android:id="@+id/list"
-            android:padding="5dp"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
 
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:id="@+id/showmore"
+                android:layout_marginTop="40dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:fontFamily="@font/robotoregular"
+                android:textStyle="normal"
+                android:background="@drawable/btnbackcseblue"
+                android:text="Show more"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
 
 
     </LinearLayout>
