@@ -85,7 +85,7 @@ public class Navgation extends AppCompatActivity {
         drawerLayout.setDrawerListener(actionBarDrawerToggle);
 
         if(msg.equals("event")){
-            System.out.println("Super Macha");
+            ////System.out.println("Super Macha");
             //actionBarDrawerToggle.setDrawerArrowDrawable(new DrawerArrowDrawable(R.drawable.home_icon));
             actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.black));
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
@@ -103,7 +103,7 @@ public class Navgation extends AppCompatActivity {
         }
 
         if(msg.equals("enq")){
-            System.out.println("Super Macha");
+            ////System.out.println("Super Macha");
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
             Enquiry ldf = new Enquiry();
@@ -119,7 +119,7 @@ public class Navgation extends AppCompatActivity {
         }
 
         if(msg.equals("union")){
-            System.out.println("Super Macha");
+            ////System.out.println("Super Macha");
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
             Union ldf = new Union();
@@ -136,7 +136,7 @@ public class Navgation extends AppCompatActivity {
         if(msg.equals("fac")){
 
             actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.black));
-            System.out.println("Super Macha");
+            ////System.out.println("Super Macha");
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
             FacilityHome ldf = new FacilityHome();
@@ -152,7 +152,7 @@ public class Navgation extends AppCompatActivity {
         }
 
         /*if(msg=="enq"){
-            System.out.println(msg);
+            ////System.out.println(msg);
             fragmentTransaction=getSupportFragmentManager().beginTransaction();
             fragmentTransaction.add(R.id.main_container,new HomFragment());
             fragmentTransaction.commit();
@@ -214,7 +214,7 @@ public class Navgation extends AppCompatActivity {
                         startActivity(intent);
 
                         //int x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
+                        //////System.out.println("x="+x);
 
                         break;
 
@@ -232,20 +232,22 @@ public class Navgation extends AppCompatActivity {
                         startActivity(intent1);
 
                         //int x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
+                        //////System.out.println("x="+x);
 
                         break;
                     case R.id.nav_rateus :
-                        Toast.makeText(Navgation.this,"Coming Soon",
-                                Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(Navgation.this,"Coming Soon",
+                                //Toast.LENGTH_SHORT).show();
+                        goToUrl("https://play.google.com/store/apps/details?id=anoop.myprojects.gec_sfi");
                         getSupportActionBar().setTitle(" ");
                         //drawerLayout.closeDrawers();
 
                         //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
+                        //////System.out.println("x="+x);
 
                         break;
                     case R.id.nav_credit :
+                        actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorAccent));
                         navigationView.setCheckedItem(R.id.nav_credit);
                         fragmentTransaction=getSupportFragmentManager().beginTransaction();
                         fragmentTransaction.replace(R.id.main_container,new Credit());
@@ -254,7 +256,7 @@ public class Navgation extends AppCompatActivity {
                         drawerLayout.closeDrawers();
 
                         //x=checkNavigationMenuItem();
-                        //System.out.println("x="+x);
+                        //////System.out.println("x="+x);
 
                         break;
                     case R.id.nav_info :
@@ -287,9 +289,23 @@ public class Navgation extends AppCompatActivity {
 
     private void shareApp(){
 
-        Toast.makeText(Navgation.this,"Coming Soon",
+        /*Toast.makeText(Navgation.this,"Coming Soon",
                 Toast.LENGTH_SHORT).show();
-        getSupportActionBar().setTitle(" ");
+        getSupportActionBar().setTitle(" ");*/
+        
+        try{
+            Intent i = new Intent(Intent.ACTION_SEND);
+            i.setType("text/plain");
+            i.putExtra(Intent.EXTRA_SUBJECT, "G Mate");
+            String sAux = "Let me recommend you this Application\n\n";
+            sAux = sAux +"https://play.google.com/store/apps/details?id=anoop.myprojects.gec_sfi \n\n";
+            i.putExtra(Intent.EXTRA_TEXT,sAux);
+            startActivity(Intent.createChooser(i,"Choose one"));
+        }
+        catch (Exception e)
+        {
+            
+        }
 
         //Intent intent =new Intent(Intent.ACTION_SEND);
 
@@ -320,7 +336,7 @@ public class Navgation extends AppCompatActivity {
             drawerLayout.closeDrawer(GravityCompat.START);
         } else {
             int x=checkNavigationMenuItem();
-            //System.out.println("x="+x);
+            ////////System.out.println("x="+x);
             if ( x!= 0)
             {
 
