@@ -18,6 +18,7 @@ import java.util.List;
 public class MapActivity extends AppCompatActivity {
 
     FragmentTransaction fragmentTransaction;
+    static int count=0;
 
     FloatingActionMenu materialDesignFAM;
     FloatingActionButton floatingActionButton1,
@@ -65,8 +66,17 @@ public class MapActivity extends AppCompatActivity {
                 floatingActionButton1.setImageResource(R.drawable.ic_4);
                 floatingActionButton4.setImageResource(R.drawable.ic_3_fill);
 
+                if(count ==1){
 
-                fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
+                    fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
+
+                }
+                else {
+                    fragmentTransaction=getSupportFragmentManager().beginTransaction();
+                }
+
+
+
 
                 GroundFloor ldf = new GroundFloor();
                 Bundle args = new Bundle();
@@ -90,7 +100,15 @@ public class MapActivity extends AppCompatActivity {
                 floatingActionButton1.setImageResource(R.drawable.ic_4_fillsvg);
                 floatingActionButton4.setImageResource(R.drawable.ic_3_fill);
 
-                fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
+                if(count == 1){
+
+                    fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
+                }
+                else {
+                    fragmentTransaction=getSupportFragmentManager().beginTransaction();
+                }
+
+
 
                 FirstFloor ldf = new FirstFloor();
                 Bundle args = new Bundle();
@@ -112,7 +130,14 @@ public class MapActivity extends AppCompatActivity {
                 floatingActionButton2.setImageResource(R.drawable.ic_1_fill);
                 floatingActionButton1.setImageResource(R.drawable.ic_4_fillsvg);
                 floatingActionButton4.setImageResource(R.drawable.ic_3_fill);
-                fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
+
+                if(count == 1){
+                    fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
+                }
+                else {
+                    fragmentTransaction=getSupportFragmentManager().beginTransaction();
+                }
+
 
 
                 SecondFloor ldf = new SecondFloor();
@@ -136,7 +161,14 @@ public class MapActivity extends AppCompatActivity {
                 floatingActionButton2.setImageResource(R.drawable.ic_1_fill);
                 floatingActionButton1.setImageResource(R.drawable.ic_4_fillsvg);
                 floatingActionButton4.setImageResource(R.drawable.ic_3);
-                fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
+
+                if(count == 1){
+                    fragmentTransaction=getSupportFragmentManager().beginTransaction().addToBackStack("mapsss");
+                }
+                else {
+                    fragmentTransaction=getSupportFragmentManager().beginTransaction();
+                }
+
 
 
                 ThirdFloor ldf = new ThirdFloor();
@@ -162,6 +194,8 @@ public class MapActivity extends AppCompatActivity {
     public void onBackPressed() {
 
         materialDesignFAM.close(true);
+
+
 
         super.onBackPressed();
     }

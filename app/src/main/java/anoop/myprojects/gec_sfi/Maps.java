@@ -318,6 +318,8 @@ public class Maps extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        MapActivity.count=1;
+
         View view11= inflater.inflate(R.layout.fragment_maps, container, false);
 
         search = view11.findViewById(R.id.go);

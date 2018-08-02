@@ -26,6 +26,7 @@ public class ThirdFloor extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        MapActivity.count=5;
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_third_floor, container, false);
 

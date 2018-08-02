@@ -95,7 +95,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_marginTop="5dp"
-                            android:text="Rajath K (S7 CSE)\n+91 9847225140"
+                            android:text="Rajath K S (S7 CSE)\n+91 9847225140"
                             android:textSize="12sp"
                             android:fontFamily="@font/robotoregular"
                             android:gravity="center"
@@ -123,7 +123,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_marginTop="5dp"
-                            android:text="Resmi (S5 CSE)\n+91 9539905956"
+                            android:text="Rasmi (S5 CSE)\n+91 9539905956"
                             android:textSize="12sp"
                             android:fontFamily="@font/robotoregular"
                             android:gravity="center"

@@ -26,6 +26,8 @@ public class SecondFloor extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container,
                              Bundle savedInstanceState) {
+
+        MapActivity.count=4;
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_second_floor, container, false);
         /*part1 = view.findViewById(R.id.part1);
