@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.firebase.database.ChildEventListener;
@@ -29,7 +30,7 @@ public class HomeActivity extends AppCompatActivity {
     static FragmentTransaction fragmentTransaction;
     SessionManager session;
     //public static boolean badge=false;
-    LinearLayout linearLayout;
+    RelativeLayout linearLayout;
     String msg="";
     Button gotIt;
 
@@ -67,7 +68,7 @@ public class HomeActivity extends AppCompatActivity {
 
 
 
-            linearLayout.setVisibility(LinearLayout.VISIBLE);
+            linearLayout.setVisibility(RelativeLayout.VISIBLE);
             fragmentTransaction = getSupportFragmentManager().beginTransaction().addToBackStack("hello");
 
             BlankFragment ldf = new BlankFragment();
