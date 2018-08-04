@@ -64,7 +64,7 @@
             android:textColor="@color/black"
             android:fontFamily="@font/robotoregular"
             android:textStyle="bold"
-            android:text="SARANG MEMORIAL INTER-ENGINEERING\nCOLLEGE FOOTBALL COMPETITION 2K18"/>
+            android:text="SARANG MEMORIAL INTER-ENGINEERING\nCOLLEGE FOOTBALL TOURNAMENT 2K18"/>
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">

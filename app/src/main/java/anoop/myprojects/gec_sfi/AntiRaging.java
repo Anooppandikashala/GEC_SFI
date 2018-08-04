@@ -47,7 +47,7 @@ public class AntiRaging extends Fragment {
             R.mipmap.anooppk,
             R.mipmap.muhammed,
             R.mipmap.roy,
-            R.drawable.user,
+            R.mipmap.bahir,
             R.mipmap.anjan,
             R.mipmap.rabia,
             R.mipmap.hemang

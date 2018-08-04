@@ -444,7 +444,7 @@
                         android:layout_width="0dp"
                         android:padding="20dp"
                         android:layout_weight="0.3"
-                        android:src="@drawable/user"
+                        android:src="@mipmap/dhilrajsoza"
                         android:layout_height="match_parent" />
 
                     <LinearLayout
@@ -810,7 +810,7 @@
                         android:layout_width="0dp"
                         android:padding="20dp"
                         android:layout_weight="0.3"
-                        android:src="@drawable/user"
+                        android:src="@mipmap/sabin"
                         android:layout_height="match_parent" />
 
                     <LinearLayout
@@ -932,7 +932,7 @@
                         android:layout_width="0dp"
                         android:padding="20dp"
                         android:layout_weight="0.3"
-                        android:src="@drawable/user"
+                        android:src="@mipmap/arjunn"
                         android:layout_height="match_parent" />
 
                     <LinearLayout

@@ -136,6 +136,13 @@ public class Notifications extends AppCompatActivity {
         });
 
 
+        if(0==c)
+        {
+            progressDialog.dismiss();
+            error.setVisibility(TextView.VISIBLE);
+        }
+
+
 
 
     }

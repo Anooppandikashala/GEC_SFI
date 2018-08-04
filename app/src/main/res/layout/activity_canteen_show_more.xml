@@ -65,7 +65,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="20dp"
-                        android:text="Muthu, Sivashankaran\n+91 9847266426"
+                        android:text="Muthu, Sivaraman\n+91 9847266426"
                         android:textSize="12sp"
                         android:fontFamily="@font/robotoregular"
                         android:gravity="center"

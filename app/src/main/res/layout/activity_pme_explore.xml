@@ -180,7 +180,6 @@
 
 
                     </LinearLayout>
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="10dp"
@@ -189,6 +188,16 @@
                         android:fontFamily="@font/robotoregular"
                         android:gravity="center"
                         android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:text="Priyadarshan\nStaff Co-ordinator"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:layout_height="wrap_content" />
+
 
                     <TextView
                         android:layout_width="match_parent"

@@ -268,6 +268,8 @@ public class Navgation extends AppCompatActivity {
                         getSupportActionBar().setTitle(" ");
                         drawerLayout.closeDrawers();
 
+                        break;
+
                     case R.id.nav_share :
                         shareApp();
                         break;

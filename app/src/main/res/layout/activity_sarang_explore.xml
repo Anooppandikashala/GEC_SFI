@@ -44,7 +44,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginTop="25dp"
-                        android:text="SARANG MEMORIAL INTER-ENGINEERING COLLEGE FOOTBALL COMPETITION 2K18"
+                        android:text="SARANG MEMORIAL INTER-ENGINEERING COLLEGE FOOTBALL TOURNAMENT 2K18"
                         android:textSize="15sp"
                         android:fontFamily="@font/robotoregular"
                         android:textStyle="bold"

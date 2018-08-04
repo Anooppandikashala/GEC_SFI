@@ -13,13 +13,16 @@ public class PrivateMensHostelShowMore extends AppCompatActivity {
 
     TextView t1,t2;
     TextView t3,t4;
+    TextView t5,t6;
 
     View view1;
     View view2;
+    View view3;
 
 
     boolean c1=false;
     boolean c2=false;
+    boolean c3=false;
 
 
     private List<String> listDataHeader;
@@ -45,6 +48,7 @@ public class PrivateMensHostelShowMore extends AppCompatActivity {
 
         listDataHeader.add("Whitehouse Hostel");
         listDataHeader.add("Sabareesh Hostel");
+        listDataHeader.add("Manjalangadan Hostel");
 
 
         //listDataHeader.add("CERD");
@@ -65,6 +69,9 @@ public class PrivateMensHostelShowMore extends AppCompatActivity {
                 "(Neelamangalam sabareesh hostel)\n" +
                 "Current bill Extra");
 
+        List<String> mj = new ArrayList<>();
+        mj.add("Contact : 9746005816\n(Kunjappu)");
+
 
 
 
@@ -81,6 +88,12 @@ public class PrivateMensHostelShowMore extends AppCompatActivity {
         t4= findViewById(R.id.lblListItem1);
         t4.setText(sb.get(0));
         view2 =findViewById(R.id.edd1);
+
+        t5= findViewById(R.id.lblListHeader2);
+        t5.setText(listDataHeader.get(2));
+        t6= findViewById(R.id.lblListItem2);
+        t6.setText(mj.get(0));
+        view3 =findViewById(R.id.edd2);
 
 
 

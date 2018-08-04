@@ -99,7 +99,7 @@
 
                                 <ImageView
                                     android:layout_width="80dp"
-                                    android:padding="10dp"
+                                    android:padding="4dp"
                                     android:layout_gravity="center"
                                     android:src="@mipmap/maneesh"
                                     android:layout_height="80dp" />
