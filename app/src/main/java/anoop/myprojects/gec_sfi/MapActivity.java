@@ -21,10 +21,10 @@ public class MapActivity extends AppCompatActivity {
     static int count=0;
 
     FloatingActionMenu materialDesignFAM;
-    FloatingActionButton floatingActionButton1,
-            floatingActionButton2,
+    static FloatingActionButton floatingActionButton1,
             floatingActionButton3,
             floatingActionButton4;
+    static FloatingActionButton floatingActionButton2;
 
 
 
@@ -43,6 +43,8 @@ public class MapActivity extends AppCompatActivity {
         ldf.setArguments(args);
 
 
+
+
         fragmentTransaction.add(R.id.main_container,ldf);
         fragmentTransaction.commit();
 
@@ -53,6 +55,12 @@ public class MapActivity extends AppCompatActivity {
         floatingActionButton2 = (FloatingActionButton) findViewById(R.id.material_design_floating_action_menu_item2);
         floatingActionButton3 = (FloatingActionButton) findViewById(R.id.material_design_floating_action_menu_item3);
         floatingActionButton4 = (FloatingActionButton) findViewById(R.id.material_design_floating_action_menu_item4);
+
+
+        floatingActionButton3.setImageResource(R.drawable.ic_2_fill);
+        floatingActionButton2.setImageResource(R.drawable.ic_1_fill);
+        floatingActionButton1.setImageResource(R.drawable.ic_4_fillsvg);
+        floatingActionButton4.setImageResource(R.drawable.ic_3_fill);
 
         //floatingActionButton2.setImageResource(R.drawable.ic_1_fill);
 

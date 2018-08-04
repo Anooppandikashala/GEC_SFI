@@ -32,6 +32,8 @@ public class GroundFloor extends Fragment {
         View view;
             view = inflater.inflate(R.layout.fragment_ground_floor, container, false);
 
+        MapActivity.floatingActionButton1.setImageResource(R.drawable.ic_1);
+
             return view;
 
     }

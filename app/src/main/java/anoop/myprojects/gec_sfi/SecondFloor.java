@@ -30,7 +30,11 @@ public class SecondFloor extends Fragment {
         MapActivity.count=4;
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_second_floor, container, false);
+
+        MapActivity.floatingActionButton3.setImageResource(R.drawable.ic_1);
         /*part1 = view.findViewById(R.id.part1);
+
+
 
         part2 = view.findViewById(R.id.part2);
 

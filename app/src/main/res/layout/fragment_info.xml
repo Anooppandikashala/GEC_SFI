@@ -25,68 +25,101 @@
 
 
         </LinearLayout>
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/gymm"
+            android:orientation="vertical"
             android:padding="10dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="20dp"
-            android:textSize="16sp"
-            android:gravity="center"
-            android:textColor="#3b3b3b"
-            android:fontFamily="@font/robotoregular"
-            android:textStyle="normal"
-            android:background="@drawable/btnbackcseinfo"
-            android:text="To get updated on Gec news, G Mate provides you with all the information, latest updates, and contact details of the campus."/>
+            android:layout_margin="30dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gymm"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:background="@drawable/btnbackcseinfo"
+                android:gravity="center"
+                android:textColor="#3b3b3b"
+                android:fontFamily="@font/robotoregular"
+                android:textStyle="normal"
+                android:text="To get updated on Gec news, G Mate provides you with all the information, latest updates, and contact details of the campus."/>
 
 
-        <TextView
-            android:layout_width="match_parent"
-            android:fontFamily="@font/robotoregular"
-            android:textSize="16sp"
-            android:gravity="center"
-            android:layout_marginTop="50dp"
-            android:textColor="#3b3b3b"
-            android:text="Our Social Media Platform"
-            android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="Our Social Media Platform"
+                android:layout_height="wrap_content" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:fontFamily="@font/robotoregular"
-            android:textSize="12sp"
-            android:gravity="center"
-            android:id="@+id/fblink"
-            android:textStyle="italic"
-            android:layout_marginTop="10dp"
-            android:textColor="#070cf5"
-            android:text="https://www.facebook.com/sfigecskp/"
-            android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:id="@+id/fblink"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                android:textColor="#070cf5"
+                android:text="https://www.facebook.com/sfigecskp/"
+                android:layout_height="wrap_content" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:fontFamily="@font/robotoregular"
-            android:textSize="12sp"
-            android:gravity="center"
-            android:id="@+id/fblink1"
-            android:textStyle="italic"
-            android:layout_marginTop="10dp"
-            android:textColor="#070cf5"
-            android:text="Our Social Media Links"
-            android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:id="@+id/fblink1"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                android:textColor="#070cf5"
+                android:text="https://www.facebook.com/lifeatgec/"
+                android:layout_height="wrap_content" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:fontFamily="@font/robotoregular"
-            android:textSize="12sp"
-            android:gravity="center"
-            android:textStyle="italic"
-            android:id="@+id/fblink2"
-            android:layout_marginTop="10dp"
-            android:textColor="#070cf5"
-            android:text="Our Social Media Links"
-            android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:id="@+id/fblink2"
+                android:layout_marginTop="10dp"
+                android:textColor="#070cf5"
+                android:text="https://www.facebook.com/Govt.Engg.College.Palakkad/"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:id="@+id/fblink3"
+                android:layout_marginTop="10dp"
+                android:textColor="#070cf5"
+                android:text="https://www.instagram.com/lifeatgec/"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:id="@+id/fblink4"
+                android:layout_marginTop="10dp"
+                android:textColor="#070cf5"
+                android:layout_marginBottom="30dp"
+                android:text="https://www.instagram.com/gecpalakkad/"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
 
 
 

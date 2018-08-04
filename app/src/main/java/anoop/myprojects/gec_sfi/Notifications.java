@@ -85,8 +85,14 @@ public class Notifications extends AppCompatActivity {
                 data.add(new DataModelNotification(
                         key,
                         value,
-                        c
+                        c++
                 ));
+
+                if(c>0)
+                {
+                    //progressDialog.dismiss();
+                    error.setVisibility(TextView.GONE);
+                }
                 adapter.notifyDataSetChanged();
 
                 /*listDataHeader.add(key);
@@ -96,7 +102,7 @@ public class Notifications extends AppCompatActivity {
 
                 listAdapter.notifyDataSetChanged();*/
 
-                c++;
+                //c++;
 
 
 

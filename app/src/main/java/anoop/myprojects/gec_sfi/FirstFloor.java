@@ -28,10 +28,12 @@ public class FirstFloor extends Fragment {
                              Bundle savedInstanceState) {
 
         MapActivity.count=3;
+
+
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_first_floor, container, false);
 
-
+        MapActivity.floatingActionButton2.setImageResource(R.drawable.ic_1);
 
 
         return view;

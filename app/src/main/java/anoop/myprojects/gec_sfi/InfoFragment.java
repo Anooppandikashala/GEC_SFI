@@ -30,6 +30,9 @@ public class InfoFragment extends Fragment {
         TextView fb =view.findViewById(R.id.fblink);
         TextView fb1 =view.findViewById(R.id.fblink1);
         TextView fb2 =view.findViewById(R.id.fblink2);
+        TextView fb3 =view.findViewById(R.id.fblink3);
+        TextView fb4 =view.findViewById(R.id.fblink4);
+
 
 
 
@@ -39,6 +42,40 @@ public class InfoFragment extends Fragment {
             public void onClick(View v) {
 
                 goToUrl("https://www.facebook.com/sfigecskp/");
+
+            }
+        });
+
+        fb1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                goToUrl("https://www.facebook.com/lifeatgec/");
+
+            }
+        });
+
+        fb2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                goToUrl("https://www.facebook.com/Govt.Engg.College.Palakkad/");
+
+            }
+        });
+        fb3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                goToUrl("https://www.instagram.com/lifeatgec/");
+
+            }
+        });
+        fb4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                goToUrl("https://www.instagram.com/gecpalakkad/");
 
             }
         });

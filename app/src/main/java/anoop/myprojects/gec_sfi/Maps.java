@@ -75,7 +75,11 @@ public class Maps extends Fragment {
             "G 017 S7 ME","G 129 S1 ME","G 120 S5 ME",//
             "CS 108 S1","CS 105 S3","CS 115 S5","CS 116 S7","CS 131 DH",//
             "IT 209 S5","IT 216 S7","IT 217 S1","IT 206 S3","IT 233 DH",//
-            "CS 203 EEE S1"//
+            "CS 203 EEE S1",//
+            "Ladies Toilet First Floor","Ladies Toilet Ground Floor",
+            "Ladies Toilet Second Floor",
+            "Boys Toilet First Floor","Boys Toilet Ground Floor",
+            "Boys Toilet Second Floor","Boys Toilet Third Floor"
 
 
 
@@ -90,7 +94,7 @@ public class Maps extends Fragment {
     {
         System.out.println(item);
 
-        if(item.equals("S7 S8 It") ||item.equals("S5 S6 It") ||item.equals("S3 S4 It") ||item.equals("S1 S2 It") ||item.equals("It Department") || item.equals("It Department Library") ||item.equals("Mtech") ||item.equals("Cse Seminar Hall") ){
+        if(item.equals("Ladies Toilet Second Floor") ||item.equals("Boys Toilet Second Floor") ||item.equals("S7 S8 It") ||item.equals("S5 S6 It") ||item.equals("S3 S4 It") ||item.equals("S1 S2 It") ||item.equals("It Department") || item.equals("It Department Library") ||item.equals("Mtech") ||item.equals("Cse Seminar Hall") ){
 
             //second floor part one
 
@@ -108,7 +112,7 @@ public class Maps extends Fragment {
             fragmentTransaction.commit();
 
         }
-        else if(item.equals("CS 108 S1") ||item.equals("CS 105 S3") ||item.equals("CS 115 S5") ||item.equals("CS 116 S7") ||item.equals("CS 131 DH")||item.equals("G 129 S1 ME")||item.equals("G 120 S5 ME")){
+        else if(item.equals("Ladies Toilet First Floor") ||item.equals("Boys Toilet First Floor") ||item.equals("CS 108 S1") ||item.equals("CS 105 S3") ||item.equals("CS 115 S5") ||item.equals("CS 116 S7") ||item.equals("CS 131 DH")||item.equals("G 129 S1 ME")||item.equals("G 120 S5 ME")){
 
             //first floor part one
 
@@ -167,7 +171,7 @@ public class Maps extends Fragment {
 
 
         }
-        else if(item.equals("G 017 S7 ME") ||item.equals("EC 001 S3") ||item.equals("EC 014 S1") ||item.equals("EC 004 S5") ||item.equals("EC 003 S7") ||item.equals("G 024 ECE DH")){
+        else if(item.equals("Ladies Toilet Ground Floor") ||item.equals("Boys Toilet Ground Floor") ||item.equals("G 017 S7 ME") ||item.equals("EC 001 S3") ||item.equals("EC 014 S1") ||item.equals("EC 004 S5") ||item.equals("EC 003 S7") ||item.equals("G 024 ECE DH")){
 
             //groundfloor part one
 
@@ -262,7 +266,7 @@ public class Maps extends Fragment {
 
 
         }
-        else if(item.equals("Central Library") || item.equals("It Department Library") ||item.equals("Mtech") ||item.equals("It Seminar Hall") ){
+        else if(item.equals("Boys Toilet Third Floor")||item.equals("Central Library") || item.equals("It Department Library") ||item.equals("Mtech") ||item.equals("It Seminar Hall") ){
 
             //third floor part one
 
@@ -321,6 +325,11 @@ public class Maps extends Fragment {
         MapActivity.count=1;
 
         View view11= inflater.inflate(R.layout.fragment_maps, container, false);
+
+        MapActivity.floatingActionButton3.setImageResource(R.drawable.ic_2_fill);
+        MapActivity.floatingActionButton2.setImageResource(R.drawable.ic_1_fill);
+        MapActivity.floatingActionButton1.setImageResource(R.drawable.ic_4_fillsvg);
+        MapActivity.floatingActionButton4.setImageResource(R.drawable.ic_3_fill);
 
         search = view11.findViewById(R.id.go);
 

@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textColor="@color/black"
             android:fontFamily="@font/robotoregular"
             android:layout_gravity="center_horizontal"
@@ -27,7 +27,7 @@
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/my_recycler_view_noti"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"

@@ -52,7 +52,7 @@
                         android:layout_width="match_parent"
                         android:layout_marginTop="5dp"
                         android:text="Anoop P\nS8 IT 2018 PASSOUT"
-                        android:textSize="14sp"
+                        android:textSize="13sp"
                         android:fontFamily="@font/robotoregular"
                         android:gravity="center"
                         android:layout_height="wrap_content" />
@@ -92,7 +92,7 @@
                         android:layout_width="match_parent"
                         android:layout_marginTop="5dp"
                         android:text="Mohammed Ummer Sufiyan K\nS8 Cse 2018 PASSOUT"
-                        android:textSize="14sp"
+                        android:textSize="13sp"
                         android:fontFamily="@font/robotoregular"
                         android:gravity="center"
                         android:layout_height="wrap_content" />
