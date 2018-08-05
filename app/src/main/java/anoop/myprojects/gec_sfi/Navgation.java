@@ -299,7 +299,7 @@ public class Navgation extends AppCompatActivity {
             Intent i = new Intent(Intent.ACTION_SEND);
             i.setType("text/plain");
             i.putExtra(Intent.EXTRA_SUBJECT, "G Mate");
-            String sAux = "Let me recommend you this Application\n\n";
+            String sAux = "Get set with G Mate\n\n";
             sAux = sAux +"https://play.google.com/store/apps/details?id=anoop.myprojects.gec_sfi \n\n";
             i.putExtra(Intent.EXTRA_TEXT,sAux);
             startActivity(Intent.createChooser(i,"Choose one"));
