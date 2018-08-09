@@ -30,7 +30,7 @@ public class ThirdFloor extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_third_floor, container, false);
 
-        MapActivity.floatingActionButton4.setImageResource(R.drawable.ic_1);
+        MapActivity.floatingActionButton4.setImageResource(R.drawable.ic_3);
 
 
 

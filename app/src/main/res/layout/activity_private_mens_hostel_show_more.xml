@@ -160,7 +160,7 @@
                         android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
                         android:textSize="16sp"
                         android:textColor="#000505"
-                        android:onClick="headerClick1"
+                        android:onClick="headerClick2"
                         android:text="hello header"
                         android:gravity="center_vertical"
                         android:layout_width="match_parent"

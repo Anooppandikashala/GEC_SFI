@@ -129,4 +129,17 @@ public class PrivateMensHostelShowMore extends AppCompatActivity {
             view2.setVisibility(View.GONE);
         }
     }
+    public void headerClick2(View view) {
+
+        if(c3 == false){
+            c3=true;
+            t6.setVisibility(TextView.VISIBLE);
+            view3.setVisibility(View.VISIBLE);
+        }
+        else {
+            c3=false;
+            t6.setVisibility(TextView.GONE);
+            view3.setVisibility(View.GONE);
+        }
+    }
 }
