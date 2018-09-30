@@ -63,6 +63,8 @@ public class HomeActivity extends AppCompatActivity {
 
 
 
+
+
         if(!session.isLoggedIn()) {
 
 
@@ -92,14 +94,26 @@ public class HomeActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        this.finish();
-        Intent intent= new Intent(Intent.ACTION_MAIN);
-        intent.addCategory(Intent.CATEGORY_HOME);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(intent);
-        finish();
-        System.exit(0);
 
+        int x=0;
+
+        x = viewPager.getCurrentItem();
+
+        System.out.println(x);
+
+
+        if(x != 1){
+            viewPager.setCurrentItem(1,true);
+        }
+        else {
+            this.finish();
+            Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.addCategory(Intent.CATEGORY_HOME);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+            finish();
+            System.exit(0);
+        }
         //super.onBackPressed();
     }
 

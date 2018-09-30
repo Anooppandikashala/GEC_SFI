@@ -118,7 +118,7 @@
                         android:layout_width="match_parent"
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/robotoregular"
-                        android:text="Tea : 6 Rs\nSnacks : 6 Rs\nMeals(Veg) : 20 Rs\nMeals(non) : 30 Rs\nNechor : 30 Rs\nChicken : 40 Rs"
+                        android:text="Tea : 6 Rs\nSnacks : 6 Rs\nMeals(Veg) : 20 Rs\nMeals(non) : 30 Rs\nGhee Rice : 30 Rs\nChicken : 40 Rs"
                         android:textSize="12sp"
                         android:gravity="center"
                         android:layout_height="wrap_content" />

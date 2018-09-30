@@ -18,6 +18,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Notifications extends AppCompatActivity {
 
@@ -93,6 +94,9 @@ public class Notifications extends AppCompatActivity {
                     //progressDialog.dismiss();
                     error.setVisibility(TextView.GONE);
                 }
+
+                Collections.reverse(data);
+
                 adapter.notifyDataSetChanged();
 
                 /*listDataHeader.add(key);

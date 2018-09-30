@@ -219,7 +219,8 @@
         <activity
             android:name=".MapActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ScholarshipShowMore"></activity>
+        <activity android:name=".ScholarshipShowMore" />
+        <activity android:name=".PrivacyPolicy"></activity>
     </application>
 
 </manifest>

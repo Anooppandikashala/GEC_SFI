@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +33,10 @@ public class InfoFragment extends Fragment {
         TextView fb2 =view.findViewById(R.id.fblink2);
         TextView fb3 =view.findViewById(R.id.fblink3);
         TextView fb4 =view.findViewById(R.id.fblink4);
+
+        TextView privacy =view.findViewById(R.id.privacy);
+
+        privacy.setText(Html.fromHtml("<u>Privacy Policy</u>"));
 
 
 
@@ -76,6 +81,16 @@ public class InfoFragment extends Fragment {
             public void onClick(View v) {
 
                 goToUrl("https://www.instagram.com/gecpalakkad/");
+
+            }
+        });
+
+        privacy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent =new Intent(getContext(), PrivacyPolicy.class);
+                startActivity(intent);
 
             }
         });

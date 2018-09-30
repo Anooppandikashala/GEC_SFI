@@ -25,6 +25,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -175,6 +176,8 @@ public class News extends Fragment{
                     upload.setKey(postSnapshot.getKey());
                     mUploads.add(upload);
                 }
+
+                Collections.reverse(mUploads);
 
                 mAdapter.notifyDataSetChanged();
 

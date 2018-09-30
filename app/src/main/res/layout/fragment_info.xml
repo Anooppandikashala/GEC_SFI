@@ -14,7 +14,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
             android:layout_height="200dp">
 
             <ImageView
@@ -23,13 +24,26 @@
                 android:src="@drawable/ic_g_capp_logo"
                 android:layout_height="wrap_content" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/robotoregular"
+                android:layout_marginTop="-25dp"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:id="@+id/version"
+                android:textColor="#000000"
+                android:text="Version 3.0"
+                android:layout_height="wrap_content" />
+
+
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="vertical"
             android:padding="10dp"
-            android:layout_margin="30dp"
+            android:layout_margin="20dp"
             android:layout_height="wrap_content">
 
             <TextView
@@ -112,11 +126,39 @@
                 android:id="@+id/fblink4"
                 android:layout_marginTop="10dp"
                 android:textColor="#070cf5"
-                android:layout_marginBottom="30dp"
                 android:text="https://www.instagram.com/gecpalakkad/"
                 android:layout_height="wrap_content" />
 
 
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/privacy"
+
+                android:layout_marginTop="10dp"
+                android:textColor="#29292b"
+                android:text="Privacy Policy"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:id="@+id/copyright"
+                android:textColor="#000000"
+                android:text="Copyright \u00a9 gec_palakkad"
+                android:layout_height="wrap_content" />
 
 
         </LinearLayout>
