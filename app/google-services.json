@@ -15,8 +15,12 @@
       },
       "oauth_client": [
         {
-          "client_id": "78609381503-7dpbh5h3jmrrksh5qq1g3coesf1j533b.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "78609381503-cp99ogbmn0tjvp6dmpdruc1v3ea4ikj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "anoop.myprojects.gec_sfi",
+            "certificate_hash": "a792f2d080dbab7dada65725de2318c9b66072c1"
+          }
         },
         {
           "client_id": "78609381503-7dpbh5h3jmrrksh5qq1g3coesf1j533b.apps.googleusercontent.com",
@@ -33,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78609381503-7dpbh5h3jmrrksh5qq1g3coesf1j533b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

@@ -1,8 +1,6 @@
 <resources>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="title_activity_navigation">Navigation</string>
-
-
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="College">Our College</string>
     <string name="Colleges">College</string>
@@ -35,7 +33,7 @@
     <string name="skpRoute">Sreekrishnapuram Route</string>>
     <string name="HospitalNumbers">Hospital Numbers</string>
     <string name="GecSreekrishnapuram">Gec Sreekrishnapuram</string>
-    <string name="version">Version  1.0</string>
+    <string name="versions">Version  3.5</string>
     <string name="ToPalakkad">To \n Palakkad</string>
     <string name="Palakkad">Palakkad</string>
     <string name="Shornur">Shornur</string>

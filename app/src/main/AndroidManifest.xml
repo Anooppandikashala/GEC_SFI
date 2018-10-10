@@ -220,7 +220,9 @@
             android:name=".MapActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".ScholarshipShowMore" />
-        <activity android:name=".PrivacyPolicy"></activity>
+        <activity android:name=".PrivacyPolicy" />
+        <activity android:name=".GoogleSignin" />
+        <activity android:name=".Profile"></activity>
     </application>
 
 </manifest>

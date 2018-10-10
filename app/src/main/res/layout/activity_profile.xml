@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#453677"
+    tools:context="anoop.myprojects.gec_sfi.Profile">
+
+    <View
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#d6546733"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="GEC Palakkad"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="WELCOME "
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"/>
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/btnbackcse"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="SIGN OUT"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

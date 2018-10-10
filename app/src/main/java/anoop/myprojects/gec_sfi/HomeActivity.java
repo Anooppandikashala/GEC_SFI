@@ -2,10 +2,12 @@ package anoop.myprojects.gec_sfi;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -106,13 +108,55 @@ public class HomeActivity extends AppCompatActivity {
             viewPager.setCurrentItem(1,true);
         }
         else {
-            this.finish();
+
             Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.addCategory(Intent.CATEGORY_HOME);
+            startActivity(intent);
+
+            /*Intent intent = new Intent(Intent.ACTION_MAIN);
             intent.addCategory(Intent.CATEGORY_HOME);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
             finish();
-            System.exit(0);
+            System.exit(0);*/
+            /*android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(HomeActivity.this);
+            builder.setMessage("Do you want to exit ?").setNegativeButton("No", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    dialog.dismiss();
+                    //finish();
+                }
+            });
+            builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface arg0, int arg1) {
+                    Intent intent = new Intent(Intent.ACTION_MAIN);
+                    intent.addCategory(Intent.CATEGORY_HOME);
+                    startActivity(intent);
+                }
+            });
+
+            builder.show();
+            */
+
+            /*
+            final AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
+            builder.setCancelable(false);
+            builder.setMessage("Do you want to exit?");
+            final AlertDialog dialog = builder.create();
+            dialog.setButton(DialogInterface.BUTTON_POSITIVE, "Yes", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    Intent intent = new Intent(Intent.ACTION_MAIN);
+                    intent.addCategory(Intent.CATEGORY_HOME);
+                    startActivity(intent);
+                }
+            });
+            dialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Cancel", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialog.dismiss();
+                }
+            });
+            dialog.show();*/
         }
         //super.onBackPressed();
     }

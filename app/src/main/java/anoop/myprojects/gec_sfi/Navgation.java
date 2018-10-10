@@ -247,10 +247,25 @@ public class Navgation extends AppCompatActivity {
 
                         break;
                     case R.id.nav_credit :
-                        actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorAccent));
+                        actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.black));
                         navigationView.setCheckedItem(R.id.nav_credit);
                         fragmentTransaction=getSupportFragmentManager().beginTransaction();
                         fragmentTransaction.replace(R.id.main_container,new Credit());
+
+                        fragmentTransaction.commit();
+                        getSupportActionBar().setTitle(" ");
+                        drawerLayout.closeDrawers();
+
+                        //x=checkNavigationMenuItem();
+                        //////System.out.println("x="+x);
+
+                        break;
+
+                    case R.id.nav_profile :
+                        actionBarDrawerToggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorAccent));
+                        navigationView.setCheckedItem(R.id.nav_credit);
+                        fragmentTransaction=getSupportFragmentManager().beginTransaction();
+                        fragmentTransaction.replace(R.id.main_container,new UserProfile());
                         fragmentTransaction.commit();
                         getSupportActionBar().setTitle(" ");
                         drawerLayout.closeDrawers();

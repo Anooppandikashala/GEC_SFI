@@ -33,7 +33,7 @@
                 android:textStyle="normal"
                 android:id="@+id/version"
                 android:textColor="#000000"
-                android:text="Version 3.0"
+                android:text="@string/versions"
                 android:layout_height="wrap_content" />
 
 
