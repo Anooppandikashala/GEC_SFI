@@ -36,6 +36,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
             android:capitalize="words"
+            android:visibility="gone"
             android:fontFamily="@font/robotoregular"
             android:text="GEC Palakkad"
             android:textColor="#ffffff"

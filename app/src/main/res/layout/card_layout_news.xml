@@ -54,7 +54,7 @@
                         android:layout_width="0dp"
                         android:layout_weight="3.5"
                         android:layout_gravity="center"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:src="@mipmap/ic_launcher_round"
                         android:tag="image_tag" />
 
@@ -81,7 +81,11 @@
                 android:id="@+id/textViewVersion"
                 android:layout_width="match_parent"
                 android:gravity="center"
+                android:autoLink="all"
                 android:textStyle="normal"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColorLink="#2f6699"
                 android:textIsSelectable="true"
                 android:fontFamily="@font/robotoregular"
                 android:layout_height="wrap_content"

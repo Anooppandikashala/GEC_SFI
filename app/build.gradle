@@ -6,7 +6,7 @@ android {
         applicationId "anoop.myprojects.gec_sfi"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 6
+        versionCode 8
         versionName "4"
         //multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

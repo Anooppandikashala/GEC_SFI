@@ -184,7 +184,7 @@
                 android:fontFamily="@font/robotoregular"
                 android:textStyle="normal"
                 android:background="@drawable/btnbackcseblue"
-                android:text="Line Bus"/>
+                android:text="Private Bus"/>
 
 
 

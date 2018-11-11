@@ -1,6 +1,8 @@
 package anoop.myprojects.gec_sfi;
 
+import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
+import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -57,6 +59,8 @@ public class CustomAdapterNotification extends RecyclerView.Adapter<CustomAdapte
         textViewName.setText(dataSet.get(listPosition).getName());
         textViewid.setText(String.valueOf(dataSet.get(listPosition).getId()));
         textViewVersion.setText(dataSet.get(listPosition).getVersion());
+        Linkify.addLinks(textViewVersion, Linkify.PHONE_NUMBERS|Linkify.WEB_URLS);
+        textViewVersion.setLinkTextColor(Color.parseColor("#2f6699"));
         //imageView.setImageResource(dataSet.get(listPosition).getImage());
     }
 

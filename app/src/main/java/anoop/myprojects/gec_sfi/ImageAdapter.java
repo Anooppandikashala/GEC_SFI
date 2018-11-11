@@ -1,7 +1,9 @@
 package anoop.myprojects.gec_sfi;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
+import android.text.util.Linkify;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -40,6 +42,8 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
         Upload uploadCurrent = mUploads.get(position);
         holder.textViewName.setText(uploadCurrent.getName());
         holder.textViewDesc.setText(uploadCurrent.getmDesc());
+        Linkify.addLinks(holder.textViewDesc, Linkify.PHONE_NUMBERS|Linkify.WEB_URLS);
+        holder.textViewDesc.setLinkTextColor(Color.parseColor("#2f6699"));
         Picasso.with(mContext)
                 .load(uploadCurrent.getImageUrl())
                 .placeholder(R.mipmap.ic_launcher)
