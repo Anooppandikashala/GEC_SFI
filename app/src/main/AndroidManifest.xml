@@ -16,7 +16,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@mipmap/ic_launcher" />
+            android:resource="@mipmap/ic_launcher_new" />
         <!--
              Set color used with incoming notification messages. This is used when no color is set for the incoming
              notification message. See README(https://goo.gl/6BKBk7) for more.
@@ -219,10 +219,16 @@
         <activity
             android:name=".MapActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ScholarshipShowMore" />
-        <activity android:name=".PrivacyPolicy" />
-        <activity android:name=".GoogleSignin" />
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".ScholarshipShowMore"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PrivacyPolicy"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".GoogleSignin"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Profile"
+            android:screenOrientation="portrait">
+
+        </activity>
     </application>
 
 </manifest>
