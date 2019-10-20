@@ -1,5 +1,7 @@
-# GEC_SFI
-Android Application for GEC Palakkad.
+# GEC MATE
+The Ultimate College Android App for GEC Palakkad.
+Developed By SFI GEC. 
+Contribute to this project.
 
 ## Google Play
 
