@@ -56,22 +56,22 @@
             android:name=".CollegeBus"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Bus1"
+            android:name=".bus.Bus1"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Bus2"
+            android:name=".bus.Bus2"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Bus3"
+            android:name=".bus.Bus3"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Bus4"
+            android:name=".bus.Bus4"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Bus5"
+            android:name=".bus.Bus5"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Bus6"
+            android:name=".bus.Bus6"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Linebuses"

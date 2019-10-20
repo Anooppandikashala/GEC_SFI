@@ -1,4 +1,4 @@
-package anoop.myprojects.gec_sfi;
+package anoop.myprojects.gec_sfi.bus;
 
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +12,11 @@ import android.widget.Spinner;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Bus5 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+import anoop.myprojects.gec_sfi.Clg_to_MKD;
+import anoop.myprojects.gec_sfi.Mkd_to_Clg;
+import anoop.myprojects.gec_sfi.R;
+
+public class Bus1 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     Spinner spinnerbus1;
     FragmentTransaction fragmentTransaction;
@@ -20,7 +24,7 @@ public class Bus5 extends AppCompatActivity implements AdapterView.OnItemSelecte
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bus5);
+        setContentView(R.layout.activity_bus1);
 
         ImageView back;
 
@@ -29,20 +33,15 @@ public class Bus5 extends AppCompatActivity implements AdapterView.OnItemSelecte
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Bus5.super.onBackPressed();
+                Bus1.super.onBackPressed();
             }
         });
-
-
-
-
-
-        spinnerbus1 = (Spinner) findViewById(R.id.spinnerbus5);
-        spinnerbus1.setOnItemSelectedListener(Bus5.this);
+        spinnerbus1 = (Spinner) findViewById(R.id.spinnerbus1);
+        spinnerbus1.setOnItemSelectedListener(Bus1.this);
 
         List<String> categories = new ArrayList<String>();
         categories.add("Towards College");
-        categories.add("Towards Cherpulassery");
+        categories.add("Towards Mannarkkad");
 
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
 
@@ -61,18 +60,18 @@ public class Bus5 extends AppCompatActivity implements AdapterView.OnItemSelecte
             case 0 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-                CPY_to_clg ldf = new CPY_to_clg();
+                Mkd_to_Clg ldf = new Mkd_to_Clg();
 
-                fragmentTransaction.replace(R.id.main_container_bus5,ldf);
+                fragmentTransaction.replace(R.id.main_container_bus1,ldf);
                 fragmentTransaction.commit();
                 break;
 
             case 1 :
                 fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-                Clg_to_CPY ldf1 = new Clg_to_CPY();
+                Clg_to_MKD ldf1 = new Clg_to_MKD();
 
-                fragmentTransaction.replace(R.id.main_container_bus5,ldf1);
+                fragmentTransaction.replace(R.id.main_container_bus1,ldf1);
                 fragmentTransaction.commit();
 
                 break;
@@ -87,9 +86,9 @@ public class Bus5 extends AppCompatActivity implements AdapterView.OnItemSelecte
 
         fragmentTransaction=getSupportFragmentManager().beginTransaction();
 
-        CPY_to_clg ldf = new CPY_to_clg();
+        Mkd_to_Clg ldf = new Mkd_to_Clg();
 
-        fragmentTransaction.add(R.id.main_container_bus5,ldf);
+        fragmentTransaction.add(R.id.main_container_bus1,ldf);
         fragmentTransaction.commit();
 
     }

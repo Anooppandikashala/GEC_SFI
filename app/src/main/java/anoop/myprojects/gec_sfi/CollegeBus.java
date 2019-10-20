@@ -6,6 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import anoop.myprojects.gec_sfi.bus.Bus1;
+import anoop.myprojects.gec_sfi.bus.Bus2;
+import anoop.myprojects.gec_sfi.bus.Bus3;
+import anoop.myprojects.gec_sfi.bus.Bus4;
+import anoop.myprojects.gec_sfi.bus.Bus5;
+import anoop.myprojects.gec_sfi.bus.Bus6;
+
 public class CollegeBus extends AppCompatActivity {
 
     @Override
@@ -28,14 +35,14 @@ public class CollegeBus extends AppCompatActivity {
 
     public void busOne(View view){
 
-        Intent intent = new Intent(CollegeBus.this,Bus1.class);
+        Intent intent = new Intent(CollegeBus.this, Bus1.class);
         startActivity(intent);
 
 
 
     }
     public void busTwo(View view){
-        Intent intent = new Intent(CollegeBus.this,Bus2.class);
+        Intent intent = new Intent(CollegeBus.this, Bus2.class);
         startActivity(intent);
 
 
@@ -43,7 +50,7 @@ public class CollegeBus extends AppCompatActivity {
     }
     public void busThree(View view){
 
-        Intent intent = new Intent(CollegeBus.this,Bus3.class);
+        Intent intent = new Intent(CollegeBus.this, Bus3.class);
         startActivity(intent);
 
 
@@ -51,7 +58,7 @@ public class CollegeBus extends AppCompatActivity {
     }
     public void busFour(View view){
 
-        Intent intent = new Intent(CollegeBus.this,Bus4.class);
+        Intent intent = new Intent(CollegeBus.this, Bus4.class);
         startActivity(intent);
 
 
@@ -59,7 +66,7 @@ public class CollegeBus extends AppCompatActivity {
     }
     public void busFive(View view){
 
-        Intent intent = new Intent(CollegeBus.this,Bus5.class);
+        Intent intent = new Intent(CollegeBus.this, Bus5.class);
         startActivity(intent);
 
 
@@ -67,7 +74,7 @@ public class CollegeBus extends AppCompatActivity {
     }
     public void busSix(View view){
 
-        Intent intent = new Intent(CollegeBus.this,Bus6.class);
+        Intent intent = new Intent(CollegeBus.this, Bus6.class);
         startActivity(intent);
 
 
