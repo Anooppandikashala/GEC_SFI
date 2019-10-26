@@ -1,4 +1,4 @@
-package anoop.myprojects.gec_sfi;
+package anoop.myprojects.gec_sfi.bus;
 
 
 import android.content.Intent;
@@ -8,6 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import anoop.myprojects.gec_sfi.CollegeBus;
+import anoop.myprojects.gec_sfi.Linebuses;
+import anoop.myprojects.gec_sfi.R;
 
 
 /**
@@ -35,7 +39,7 @@ public class BusTime extends Fragment {
        tvclg.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-               Intent intent = new Intent(getContext(),CollegeBus.class);
+               Intent intent = new Intent(getContext(), CollegeBus.class);
                startActivity(intent);
 
            }
@@ -45,7 +49,7 @@ public class BusTime extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getContext(),Linebuses.class);
+                Intent intent = new Intent(getContext(), Linebuses.class);
                 startActivity(intent);
 
 
