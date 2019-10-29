@@ -12,8 +12,8 @@ import android.widget.Spinner;
 import java.util.ArrayList;
 import java.util.List;
 
-import anoop.myprojects.gec_sfi.Clg_to_PKD;
-import anoop.myprojects.gec_sfi.PKD_to_clg;
+import anoop.myprojects.gec_sfi.bus_routes.Clg_to_PKD;
+import anoop.myprojects.gec_sfi.bus_routes.PKD_to_clg;
 import anoop.myprojects.gec_sfi.R;
 
 public class Bus4 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {

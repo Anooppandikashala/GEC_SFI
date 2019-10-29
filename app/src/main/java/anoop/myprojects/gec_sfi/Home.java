@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import anoop.myprojects.gec_sfi.bus.Bustime;
+import anoop.myprojects.gec_sfi.enquiry.TrainTimes;
+import anoop.myprojects.gec_sfi.view_page_adapters.ViewPagerAdapter;
 
 
 /**

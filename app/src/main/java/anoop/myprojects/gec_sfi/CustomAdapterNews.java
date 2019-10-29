@@ -12,6 +12,8 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
+import anoop.myprojects.gec_sfi.data_models.DataModelNews;
+
 /**
  * Created by anoop on 6/15/18.
  */

@@ -9,8 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import anoop.myprojects.gec_sfi.CollegeBus;
-import anoop.myprojects.gec_sfi.Linebuses;
 import anoop.myprojects.gec_sfi.R;
 
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="anoop.myprojects.gec_sfi.Linebuses">
+    tools:context="anoop.myprojects.gec_sfi.bus.Linebuses">
 
     <LinearLayout
         android:layout_width="match_parent"

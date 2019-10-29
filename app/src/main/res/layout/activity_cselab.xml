@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:scrollbars="vertical"
-    tools:context="anoop.myprojects.gec_sfi.CSELab">
+    tools:context="anoop.myprojects.gec_sfi.labs.CSELab">
 
 
     <LinearLayout

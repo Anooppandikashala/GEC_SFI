@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
-    tools:context="anoop.myprojects.gec_sfi.Dance_show_more">
+    tools:context="anoop.myprojects.gec_sfi.clubs.Dance_show_more">
 
     <ScrollView
         android:layout_width="match_parent"

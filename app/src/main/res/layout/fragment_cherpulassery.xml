@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="anoop.myprojects.gec_sfi.Cherpulassery">
+    tools:context="anoop.myprojects.gec_sfi.bus_routes.Cherpulassery">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView

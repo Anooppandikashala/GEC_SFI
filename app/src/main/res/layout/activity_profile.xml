@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#453677"
-    tools:context="anoop.myprojects.gec_sfi.Profile">
+    tools:context="anoop.myprojects.gec_sfi.others.Profile">
 
     <View
         android:id="@+id/imageView"

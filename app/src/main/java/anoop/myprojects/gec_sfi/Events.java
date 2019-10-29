@@ -1,15 +1,10 @@
 package anoop.myprojects.gec_sfi;
 
 import android.annotation.SuppressLint;
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.drawable.Drawable;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -19,7 +14,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
+
+import anoop.myprojects.gec_sfi.events.AnnualSportsMeet;
+import anoop.myprojects.gec_sfi.events.Daksha;
+import anoop.myprojects.gec_sfi.events.GCL;
+import anoop.myprojects.gec_sfi.events.Gpl;
+import anoop.myprojects.gec_sfi.events.Invento;
+import anoop.myprojects.gec_sfi.events.Sarang;
+import anoop.myprojects.gec_sfi.events.SummerFestCricket;
+import anoop.myprojects.gec_sfi.events.YearWiseCricket;
+import anoop.myprojects.gec_sfi.events.YearWiseFootball;
+import anoop.myprojects.gec_sfi.events.pme;
+import anoop.myprojects.gec_sfi.view_page_adapters.ViewPagerAdapterNew;
 
 
 public class Events extends Fragment {

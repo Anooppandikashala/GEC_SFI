@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="anoop.myprojects.gec_sfi.LineBus_skp">
+    tools:context="anoop.myprojects.gec_sfi.bus_routes.LineBus_skp">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView

@@ -12,9 +12,9 @@ import android.widget.Spinner;
 import java.util.ArrayList;
 import java.util.List;
 
-import anoop.myprojects.gec_sfi.Clg_to_SHR;
+import anoop.myprojects.gec_sfi.bus_routes.Clg_to_SHR;
 import anoop.myprojects.gec_sfi.R;
-import anoop.myprojects.gec_sfi.SHR_to_clg;
+import anoop.myprojects.gec_sfi.bus_routes.SHR_to_clg;
 
 public class Bus6 extends AppCompatActivity  implements AdapterView.OnItemSelectedListener {
 

@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="anoop.myprojects.gec_sfi.FragmentAchievements">
+    tools:context="anoop.myprojects.gec_sfi.others.FragmentAchievements">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout

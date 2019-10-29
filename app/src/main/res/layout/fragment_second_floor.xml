@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_gravity="center"
 
-    tools:context="anoop.myprojects.gec_sfi.SecondFloor">
+    tools:context="anoop.myprojects.gec_sfi.maps.SecondFloor">
 
 
 

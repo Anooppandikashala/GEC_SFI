@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/activity_home"
     android:background="#ffffff"
-    tools:context="anoop.myprojects.gec_sfi.HomeActivity">
+    tools:context="anoop.myprojects.gec_sfi.home.HomeActivity">
 
 
 

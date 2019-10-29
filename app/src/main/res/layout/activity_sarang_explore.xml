@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="anoop.myprojects.gec_sfi.SarangExplore">
+    tools:context="anoop.myprojects.gec_sfi.events.SarangExplore">
 
     <LinearLayout
         android:layout_width="match_parent"

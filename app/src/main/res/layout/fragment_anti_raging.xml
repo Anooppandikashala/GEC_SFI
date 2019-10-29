@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
-    tools:context="anoop.myprojects.gec_sfi.AntiRaging">
+    tools:context="anoop.myprojects.gec_sfi.sfi_gec.AntiRaging">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout

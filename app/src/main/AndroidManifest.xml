@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".FireLearn"
+        android:name=".firebase.FireLearn"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_new"
         android:label="@string/app_name"
@@ -44,16 +44,16 @@
             android:name=".Navgation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".home.HomeActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GPL_Explore"
+            android:name=".events.GPL_Explore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CollegeBus"
+            android:name=".bus.CollegeBus"
             android:screenOrientation="portrait" />
         <activity
             android:name=".bus.Bus1"
@@ -74,133 +74,133 @@
             android:name=".bus.Bus6"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Linebuses"
+            android:name=".bus.Linebuses"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Music_Show_More"
+            android:name=".clubs.Music_Show_More"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Dance_show_more"
+            android:name=".clubs.Dance_show_more"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Drama_show_more"
+            android:name=".clubs.Drama_show_more"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Media_show_more"
+            android:name=".clubs.Media_show_more"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Design_show_more"
+            android:name=".clubs.Design_show_more"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Beutification"
+            android:name=".clubs.Beutification"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Sports_show_more"
+            android:name=".clubs.Sports_show_more"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".NSS"
+            android:name=".student_activity.NSS"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Ieee"
+            android:name=".student_activity.Ieee"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CSELab"
+            android:name=".labs.CSELab"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ECELab"
+            android:name=".labs.ECELab"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MELab"
+            android:name=".labs.MELab"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ITLab"
+            android:name=".labs.ITLab"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".EEELab"
+            android:name=".labs.EEELab"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GeneralLab"
+            android:name=".labs.GeneralLab"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PrivateMensHostelShowMore"
+            android:name=".facilities.PrivateMensHostelShowMore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PrivateWomensHostelShowMore"
+            android:name=".facilities.PrivateWomensHostelShowMore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LHShowMore"
+            android:name=".facilities.LHShowMore"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Notifications"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".InventoExplore"
+            android:name=".events.InventoExplore"
             android:screenOrientation="portrait" />
 
-        <service android:name=".MyFirebaseInstanceIdService">
+        <service android:name=".firebase.MyFirebaseInstanceIdService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-        <service android:name=".FcmMessagingService">
+        <service android:name=".firebase.FcmMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
         <activity
-            android:name=".AchievementsShowMore"
+            android:name=".others.AchievementsShowMore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SarangExplore"
+            android:name=".events.SarangExplore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PmeExplore"
+            android:name=".events.PmeExplore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SummerfestExplore"
+            android:name=".events.SummerfestExplore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".YearWiseCricketExplore"
+            android:name=".events.YearWiseCricketExplore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".YearWiseFootballExplore"
+            android:name=".events.YearWiseFootballExplore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GCLExplore"
+            android:name=".events.GCLExplore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".DakshaExplore"
+            android:name=".events.DakshaExplore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AnnualSportMeetExplore"
+            android:name=".events.AnnualSportMeetExplore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LibraryShowMore"
+            android:name=".facilities.LibraryShowMore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GymShowmore"
+            android:name=".facilities.GymShowmore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CanteenShowMore"
+            android:name=".facilities.CanteenShowMore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".DormetryShowMore"
+            android:name=".facilities.DormetryShowMore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CCFShowmore"
+            android:name=".facilities.CCFShowmore"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Iedc"
+            android:name=".student_activity.Iedc"
             android:screenOrientation="portrait" />
 
-        <service android:name=".MyFirebaseMessagingService">
+        <service android:name=".firebase.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
         <service
-            android:name=".MyJobService"
+            android:name=".firebase.MyJobService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
@@ -208,24 +208,24 @@
         </service>
 
         <activity
-            android:name=".MapHome"
+            android:name=".maps.MapHome"
             android:screenOrientation="portrait" />
         <activity
             android:name=".WorkshopDesc"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LHandDormetry"
+            android:name=".facilities.LHandDormetry"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MapActivity"
+            android:name=".maps.MapActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ScholarshipShowMore"
+        <activity android:name=".enquiry.ScholarshipShowMore"
             android:screenOrientation="portrait"/>
-        <activity android:name=".PrivacyPolicy"
+        <activity android:name=".others.PrivacyPolicy"
             android:screenOrientation="portrait"/>
         <activity android:name=".GoogleSignin"
             android:screenOrientation="portrait"/>
-        <activity android:name=".Profile"
+        <activity android:name=".others.Profile"
             android:screenOrientation="portrait">
 
         </activity>

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="anoop.myprojects.gec_sfi.Union_members">
+    tools:context="anoop.myprojects.gec_sfi.sfi_gec.Union_members">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout

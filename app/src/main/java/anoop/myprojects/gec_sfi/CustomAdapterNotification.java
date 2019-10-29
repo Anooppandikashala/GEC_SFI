@@ -6,10 +6,11 @@ import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import anoop.myprojects.gec_sfi.data_models.DataModelNotification;
 
 /**
  * Created by anoop on 6/15/18.

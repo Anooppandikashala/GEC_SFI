@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
-    tools:context="anoop.myprojects.gec_sfi.Iedc">
+    tools:context="anoop.myprojects.gec_sfi.student_activity.Iedc">
 
     <LinearLayout
         android:layout_width="match_parent"

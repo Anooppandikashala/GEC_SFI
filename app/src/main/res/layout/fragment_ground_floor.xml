@@ -5,7 +5,7 @@
     android:background="#ffffff"
     android:layout_height="match_parent"
 
-    tools:context="anoop.myprojects.gec_sfi.GroundFloor">
+    tools:context="anoop.myprojects.gec_sfi.maps.GroundFloor">
 
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout

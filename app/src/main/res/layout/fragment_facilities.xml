@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="anoop.myprojects.gec_sfi.Facilities">
+    tools:context="anoop.myprojects.gec_sfi.facilities.Facilities">
 
     <!-- TODO: Update blank fragment layout -->
     <android.support.v4.view.ViewPager

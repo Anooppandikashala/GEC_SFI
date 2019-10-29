@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="anoop.myprojects.gec_sfi.Enquiry">
+    tools:context="anoop.myprojects.gec_sfi.enquiry.Enquiry">
 
     <!-- TODO: Update blank fragment layout
     android:background="@android:color/transparent"
