@@ -1,9 +1,11 @@
-package anoop.myprojects.gec_sfi.firebase;
+package anoop.myprojects.gec_sfi;
 
 import android.util.Log;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
+import com.google.firebase.messaging.FirebaseMessagingService;
+import com.google.firebase.messaging.RemoteMessage;
 
 import static android.support.constraint.Constraints.TAG;
 
@@ -28,7 +30,6 @@ public class MyFirebaseInstanceIdService extends FirebaseInstanceIdService {
 
 
     }*/
-
 
     @Override
     public void onTokenRefresh() {

@@ -1,4 +1,4 @@
-package anoop.myprojects.gec_sfi.firebase;
+package anoop.myprojects.gec_sfi;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -16,9 +16,6 @@ import com.firebase.jobdispatcher.GooglePlayDriver;
 import com.firebase.jobdispatcher.Job;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
-
-import anoop.myprojects.gec_sfi.MainActivity;
-import anoop.myprojects.gec_sfi.R;
 
 /**
  * Created by anoop on 6/26/18.
