@@ -1,4 +1,4 @@
-package anoop.myprojects.gec_sfi.others;
+package anoop.myprojects.gec_sfi.home;
 
 
 import android.os.Bundle;

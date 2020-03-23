@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import anoop.myprojects.gec_sfi.adapters.CustomAdapter;
 import anoop.myprojects.gec_sfi.data_models.DataModel;
 
 
@@ -28,7 +29,7 @@ public class EventList extends Fragment {
     private RecyclerView.LayoutManager layoutManager;
     private static RecyclerView recyclerView;
     private static ArrayList<DataModel> data;
-    static View.OnClickListener myOnClickListener;
+    public static View.OnClickListener myOnClickListener;
     private static ArrayList<Integer> removedItems;
     Activity activity;
 

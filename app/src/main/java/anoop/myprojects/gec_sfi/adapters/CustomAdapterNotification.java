@@ -1,4 +1,4 @@
-package anoop.myprojects.gec_sfi;
+package anoop.myprojects.gec_sfi.adapters;
 
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import anoop.myprojects.gec_sfi.EventList;
+import anoop.myprojects.gec_sfi.R;
 import anoop.myprojects.gec_sfi.data_models.DataModelNotification;
 
 /**

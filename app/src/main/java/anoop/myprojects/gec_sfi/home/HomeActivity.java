@@ -10,8 +10,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import anoop.myprojects.gec_sfi.others.FragmentAchievements;
-import anoop.myprojects.gec_sfi.News;
 import anoop.myprojects.gec_sfi.R;
 import anoop.myprojects.gec_sfi.SessionManager;
 import anoop.myprojects.gec_sfi.StartUpGuideLineFragment;
@@ -61,9 +59,6 @@ public class HomeActivity extends AppCompatActivity {
 
 
         if(!session.isLoggedIn()) {
-
-
-
 
             linearLayout.setVisibility(RelativeLayout.VISIBLE);
             fragmentTransaction = getSupportFragmentManager().beginTransaction().addToBackStack("hello");

@@ -1,4 +1,4 @@
-package anoop.myprojects.gec_sfi;
+package anoop.myprojects.gec_sfi.adapters;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.support.v4.content.res.ResourcesCompat;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import java.util.HashMap;
 import java.util.List;
+
+import anoop.myprojects.gec_sfi.R;
 
 /**
  * Created by anoop on 8/15/17.

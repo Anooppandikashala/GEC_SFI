@@ -1,4 +1,4 @@
-package anoop.myprojects.gec_sfi;
+package anoop.myprojects.gec_sfi.adapters;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -16,6 +16,9 @@ import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
+
+import anoop.myprojects.gec_sfi.R;
+import anoop.myprojects.gec_sfi.Upload;
 
 /**
  * Created by anoop on 7/5/18.

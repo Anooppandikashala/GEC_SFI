@@ -1,4 +1,4 @@
-package anoop.myprojects.gec_sfi;
+package anoop.myprojects.gec_sfi.home;
 
 
 import android.os.Bundle;
@@ -26,6 +26,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import anoop.myprojects.gec_sfi.R;
+import anoop.myprojects.gec_sfi.Upload;
+import anoop.myprojects.gec_sfi.adapters.CustomAdapterNews;
+import anoop.myprojects.gec_sfi.adapters.ImageAdapter;
 import anoop.myprojects.gec_sfi.data_models.DataModelNews;
 
 

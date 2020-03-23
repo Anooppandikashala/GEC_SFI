@@ -20,6 +20,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import anoop.myprojects.gec_sfi.adapters.CustomAdapterNotification;
 import anoop.myprojects.gec_sfi.data_models.DataModelNotification;
 
 public class Notifications extends AppCompatActivity {
